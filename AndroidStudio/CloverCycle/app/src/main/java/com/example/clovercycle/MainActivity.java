@@ -40,9 +40,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    User newUser = new User("VitorColley", "1234", "AIB1234", "D1 2222", 1);
 
-    //Log In method
+
+    User newUser = new User("VitorColley", "1234",  "D1 2222", 1);
+     //Log In method
     public void LogIn(String userName, String password){
         //set validation message to invisible in case there were other attempts
         findViewById(R.id.invalidPassword).setVisibility(View.INVISIBLE);

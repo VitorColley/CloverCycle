@@ -1,19 +1,13 @@
 package com.example.clovercycle;
 
 public class User {
-    private String userName, password, bankDetails, address;
+    private String userName, password, address;
     private int userId;
-
-    public User() {
-
-    }
-
-    public User(String userName, String password, String bankDetails, String address, int userId) {
-        this.userName = "Oisin McC";
-        this.password = "password";
-        this.bankDetails = "BOIE11D";
-        this.address = "2 The Links,Donabate,Co.Dublin, K36F437";
-        this.userId = 6;
+    public User(String userName, String password, String address, int userId) {
+        this.userName = userName;
+        this.password = password;
+        this.address = address;
+        this.userId = userId;
     }
 
     public String getUserName() {
@@ -33,15 +27,6 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-
-    public String getBankDetails() {
-        return bankDetails;
-    }
-
-    public void setBankDetails(String bankDetails) {
-        this.bankDetails = bankDetails;
-    }
-
     public String getAddress() {
         return address;
     }
