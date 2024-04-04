@@ -4,7 +4,7 @@
             "outputFile": "com.example.clovercycle.app-mergeDebugResources-53:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\conor\\Documents\\GitHub\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\conor\\Desktop\\GitHub\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
