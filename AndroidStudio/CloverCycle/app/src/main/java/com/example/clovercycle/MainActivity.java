@@ -40,33 +40,38 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    User newUser = new User("VitorColley", "1234", "AIB1234", "D1 2222", 1);
 
-    //Log In method
-    public void LogIn(String userName, String password){
+
+    User newUser = new User("VitorColley", "1234",  "D1 2222", 1);
+     //Log In method
+    public void LogIn(String userName, String password) {
         //set validation message to invisible in case there were other attempts
         findViewById(R.id.invalidPassword).setVisibility(View.INVISIBLE);
         findViewById(R.id.invalidUser).setVisibility(View.INVISIBLE);
 
         //check username
-        if(userName.equalsIgnoreCase(newUser.getUserName())){
+        if (userName.equalsIgnoreCase(newUser.getUserName())) {
             //check password
-            if(password.equalsIgnoreCase(newUser.getPassword())){
+            if (password.equalsIgnoreCase(newUser.getPassword())) {
                 //move to next activity
-                //source reference for linking activities: https://www.youtube.com/watch?v=dm-jan0YORg&ab_channel=WithSam
                 Intent intent = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(intent);
-            }
-            //return validation message
-            else{
+            } else {
+                //return validation message for invalid password
                 findViewById(R.id.invalidPassword).setVisibility(View.VISIBLE);
             }
+        } else {
+            //checks if username contains "#", this is a collectors id
+            if (userName.contains("#")) {
+                //redirect to a new GUI
+                //Change MapsActivity to link to collectorUI
+                Intent intent = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(intent);
+            } else {
+                //return validation message for invalid username
+                findViewById(R.id.invalidUser).setVisibility(View.VISIBLE);
+            }
         }
-        //return validation message
-        else{
-            findViewById(R.id.invalidUser).setVisibility(View.VISIBLE);
-        }
-
     }
 
 }
