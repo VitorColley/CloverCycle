@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
 
     User newUser = new User("VitorColley", "1234",  "D1 2222", 1);
      //Log In method
-    public void LogIn(String userName, String password){
+    public void LogIn(String userName, String password) {
         //set validation message to invisible in case there were other attempts
         findViewById(R.id.invalidPassword).setVisibility(View.INVISIBLE);
         findViewById(R.id.invalidUser).setVisibility(View.INVISIBLE);
 
         //check username
-        if(userName.equalsIgnoreCase(newUser.getUserName())) {
+        if (userName.equalsIgnoreCase(newUser.getUserName())) {
             //check password
             if (password.equalsIgnoreCase(newUser.getPassword())) {
                 //move to next activity
@@ -64,9 +64,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         //return validation message
-        else{
+        else {
             findViewById(R.id.invalidUser).setVisibility(View.VISIBLE);
         }
+
 
     }
 
