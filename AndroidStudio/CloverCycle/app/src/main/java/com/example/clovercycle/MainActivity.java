@@ -50,16 +50,16 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.invalidUser).setVisibility(View.INVISIBLE);
 
         //check username
-        if(userName.equalsIgnoreCase(newUser.getUserName())){
+        if(userName.equalsIgnoreCase(newUser.getUserName())) {
             //check password
-            if(password.equalsIgnoreCase(newUser.getPassword())){
+            if (password.equalsIgnoreCase(newUser.getPassword())) {
                 //move to next activity
                 //source reference for linking activities: https://www.youtube.com/watch?v=dm-jan0YORg&ab_channel=WithSam
                 Intent intent = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(intent);
             }
             //return validation message
-            else{
+            else {
                 findViewById(R.id.invalidPassword).setVisibility(View.VISIBLE);
             }
         }
