@@ -45,29 +45,29 @@ public class MainActivity extends AppCompatActivity {
     User newUser = new User("VitorColley", "1234",  "D1 2222", 1);
      //Log In method
     public void LogIn(String userName, String password) {
-        // Set validation message to invisible in case there were other attempts
+        //set validation message to invisible in case there were other attempts
         findViewById(R.id.invalidPassword).setVisibility(View.INVISIBLE);
         findViewById(R.id.invalidUser).setVisibility(View.INVISIBLE);
 
-        // Check username
+        //check username
         if (userName.equalsIgnoreCase(newUser.getUserName())) {
-            // Check password
+            //check password
             if (password.equalsIgnoreCase(newUser.getPassword())) {
-                // Move to next activity
+                //move to next activity
                 Intent intent = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(intent);
             } else {
-                // Return validation message for invalid password
+                //return validation message for invalid password
                 findViewById(R.id.invalidPassword).setVisibility(View.VISIBLE);
             }
         } else {
-            // Check if username contains "#"
+            //checks if username contains "#", this is a collectors id
             if (userName.contains("#")) {
-                // Redirect to a new GUI
+                //redirect to a new GUI
                 Intent intent = new Intent(MainActivity.this, CollectorUI.class);
                 startActivity(intent);
             } else {
-                // Return validation message for invalid username
+                //return validation message for invalid username
                 findViewById(R.id.invalidUser).setVisibility(View.VISIBLE);
             }
         }
