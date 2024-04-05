@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.content.ContentValues;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Call database to onCreate method
+        dbHelper = new DatabaseSqlite(this);
+        // we use this to call the method fillDatabase on creation of the activity
+        fillDatabase();
 
         //source reference for getting user input: https://www.youtube.com/watch?v=V0AETAjxqLI&ab_channel=John%27sAndroidStudioTutorials
         //link text fields to variables
@@ -51,26 +56,40 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.invalidPassword).setVisibility(View.INVISIBLE);
         findViewById(R.id.invalidUser).setVisibility(View.INVISIBLE);
 
-        // Query the database to check if the entered username and password match
+        // this updated version use function cursor to check for both user and collectors columns
         SQLiteDatabase db = dbHelper.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT * FROM users WHERE user_name=? AND password=?", new String[]{userName, password});
+        Cursor userCursor = db.rawQuery("SELECT * FROM users WHERE user_name=? AND password=?", new String[]{userName, password});
+        Cursor collectorCursor = db.rawQuery("SELECT * FROM collectors WHERE user_name=? AND password=?", new String[]{userName, password});
 
-        if (cursor.moveToFirst()) {
+        if (userCursor.moveToFirst() || collectorCursor.moveToFirst()) {
             // User authenticated, move to next activity
-            Intent intent;
-            if (userName.contains("#")) {
-                // Redirect to collector UI
-                intent = new Intent(MainActivity.this, Collector.class);
-            } else {
-                // change adetqualtiy
-                intent = new Intent(MainActivity.this, MapsActivity.class);
-            }
+            Intent intent = new Intent(MainActivity.this, MapsActivity.class);
             startActivity(intent);
         } else {
-            // username nnd password cant be found
+            // Username and password can't be found
             findViewById(R.id.invalidPassword).setVisibility(View.VISIBLE);
         }
 
-        cursor.close();
+        userCursor.close();
+        collectorCursor.close();
+
+    }
+    // method to add data manually to database
+    private void fillDatabase() {
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+        // inset data as we wish
+        values.put("user_name", "gus");
+        values.put("password", "gus");
+        db.insert("users", null, values);
+
+        values.clear();
+
+        values.put("user_name", "gus");
+        values.put("password", "gus");
+        db.insert("collectors", null, values);
+
+        db.close();
     }
 }

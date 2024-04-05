@@ -25,6 +25,8 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String KEY_PASSWORD = "password";
     private static final String KEY_ADDRESS = "address";
 
+
+    // we only have 2 tables so far but we can create as necessary
     private static final String CREATE_TABLE_USERS = "CREATE TABLE " + TABLE_USERS +
             "(" + KEY_ID + " INTEGER PRIMARY KEY," +
             KEY_USER_NAME + " TEXT," +
