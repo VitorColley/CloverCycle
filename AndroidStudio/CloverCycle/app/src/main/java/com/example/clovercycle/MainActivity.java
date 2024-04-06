@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
     //Create Variables:
     String userName, password;
-    Button logInBtn;
+    Button logInBtn, registerBtn;
     EditText userNameInput, passwordInput;
 
     DatabaseSqlite dbHelper;
@@ -46,6 +46,15 @@ public class MainActivity extends AppCompatActivity {
                 LogIn(userName, password);
             }
         });
+        //create event listener for register
+        registerBtn = (Button) findViewById(R.id.registerBtn);
+        registerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //send to register activity when button is pressed
+                Register();
+            }
+        });
 
 
     }
@@ -73,6 +82,10 @@ public class MainActivity extends AppCompatActivity {
         userCursor.close();
         collectorCursor.close();
 
+    }
+    public void Register(){
+        Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+        startActivity(intent);
     }
     // method to add data manually to database
     private void fillDatabase() {
