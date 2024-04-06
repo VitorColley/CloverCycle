@@ -25,19 +25,26 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String KEY_PASSWORD = "password";
     private static final String KEY_ADDRESS = "address";
 
+    private static final String KEY_EMAIL ="email";
+
 
     // we only have 2 tables so far but we can create as necessary
     private static final String CREATE_TABLE_USERS = "CREATE TABLE " + TABLE_USERS +
             "(" + KEY_ID + " INTEGER PRIMARY KEY," +
+            //we add a space and a comma to  represent how the data will look
             KEY_USER_NAME + " TEXT," +
             KEY_PASSWORD + " TEXT," +
-            KEY_ADDRESS + " TEXT)";
+            KEY_ADDRESS + " TEXT,"+
+            KEY_EMAIL + " TEXT)";
+
+
 
     private static final String CREATE_TABLE_COLLECTORS = "CREATE TABLE " + TABLE_COLLECTORS +
             "(" + KEY_ID + " INTEGER PRIMARY KEY," +
             KEY_USER_NAME + " TEXT," +
             KEY_PASSWORD + " TEXT," +
-            KEY_ADDRESS + " TEXT)";
+            KEY_ADDRESS + " TEXT,"+
+            KEY_EMAIL + " TEXT)";
 
     public DatabaseSqlite(Context context) {
         super(context, DB_NAME, null, DATABASE_VERSION);
