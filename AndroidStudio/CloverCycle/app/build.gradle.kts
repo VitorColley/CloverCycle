@@ -45,6 +45,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.sqlite:sqlite:2.4.0")
     configurations.implementation{
         exclude("kotlin-stdlib-1.8.20", "org.jetbrains.kotlin:kotlin-stdlib:1.8.20");
         exclude("kotlin-stdlib-jdk7-1.6.21", "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21");

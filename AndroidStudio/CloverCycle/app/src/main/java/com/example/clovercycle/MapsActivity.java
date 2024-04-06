@@ -33,8 +33,7 @@ import com.mapbox.maps.plugin.locationcomponent.OnIndicatorPositionChangedListen
 
 public class MapsActivity extends AppCompatActivity {
     MapView mapView;
-    private double LATITUDE = ;
-    private double LONGITUDE = ;
+
     FloatingActionButton floatingActionButton;
 
 
@@ -120,31 +119,6 @@ public class MapsActivity extends AppCompatActivity {
                     }
                 });
             }
-        });
-    }
-    private void getUserLocation() {
-        //https://stackoverflow.com/questions/59847769/set-marker-to-current-location-in-android-using-mapbox-sdk-v8-6-1
-        //hardcoded latitude and longitude for the user's address i.e User.java class
-        double userLatitude = 53.4808; //example latitude
-        double userLongitude = -2.2426; //example longitude
-
-        //creates  a Point object representing the user's location
-        //puulls from the gardcoded lat and long above
-        Point userLocation = Point.fromLngLat(userLongitude, userLatitude);
-
-        //adds a marker at the user's location on the map
-        //it also retreives the current map style
-        mapView.getMapboxMap().getStyle(style -> {
-            //adds a SymbolLayer to the map style to display the marker
-            style.addImage("user-marker-image", BitmapFactory.decodeResource(getResources(), R.drawable.marker_icon)); // Replace R.drawable.marker_icon with your marker icon resource
-            style.addSource(new GeoJsonSource("user-marker-source", Feature.fromGeometry(userLocation)));
-            style.addLayer(new SymbolLayer("user-marker-layer", "user-marker-source")
-                    .withProperties(
-                            iconImage("user-marker-image"),
-                            iconSize(1.5f),
-                            iconAllowOverlap(true),
-                            iconIgnorePlacement(true)
-                    ));
         });
     }
     //method name is self explanatory
