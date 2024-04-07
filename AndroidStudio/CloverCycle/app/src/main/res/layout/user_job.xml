@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="263dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012"
+        app:srcCompat="@drawable/clovercycle"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name:"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/addressTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Address:"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="353dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/eirTxt"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Eircode:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+        <EditText
+        android:id="@+id/amountTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Amount:"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="487dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="209dp"
+        android:layout_height="47dp"
+        android:text="Post My Job"
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="#159B33"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <Button
+        android:id="@+id/menuBtn"
+        android:layout_width="212dp"
+        android:layout_height="45dp"
+        android:text="Main Menu"
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="#159B33"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="638dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

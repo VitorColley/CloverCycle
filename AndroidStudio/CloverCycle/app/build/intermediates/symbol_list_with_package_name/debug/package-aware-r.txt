@@ -3451,6 +3451,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button
+id button3
+id button4
+id button5
 id buttonPanel
 id button_first
 id button_second
@@ -3531,6 +3535,10 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextNumber
+id editTextText
+id editTextText2
+id editTextText3
 id edit_query
 id elastic
 id embed
@@ -3598,6 +3606,14 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id job1
+id job2
+id job3
+id job4
+id job5
+id job6
+id job7
+id job8
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3762,6 +3778,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollViewLayout
 id scrollable
 id search_badge
 id search_bar
@@ -4099,6 +4116,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout user_job
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
