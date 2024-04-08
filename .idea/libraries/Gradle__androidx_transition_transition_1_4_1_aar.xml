@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.transition:transition:1.4.1@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/transforms-3/98165d5248c48bbf057d24bd82334778/transformed/transition-1.4.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/transforms-3/98165d5248c48bbf057d24bd82334778/transformed/transition-1.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/CloverCyclePrototype/caches/transforms-3/98165d5248c48bbf057d24bd82334778/transformed/transition-1.4.1/res" />
+      <root url="file://$USER_HOME$/Downloads/CloverCyclePrototype/caches/transforms-3/98165d5248c48bbf057d24bd82334778/transformed/transition-1.4.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/modules-2/files-2.1/androidx.transition/transition/1.4.1/975f706c6c0892d0dfaa416cf04f469cfb0a4343/transition-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
