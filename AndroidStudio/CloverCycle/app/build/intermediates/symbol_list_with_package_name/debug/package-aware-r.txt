@@ -3421,6 +3421,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address
 id addressInputTf
 id addressLbl
 id addressTxt
@@ -3432,6 +3433,7 @@ id all
 id allStates
 id all_glyphs_rasterized_locally
 id always
+id amount
 id amountInput
 id androidx_window_activity_scope
 id animateToEnd
@@ -3699,6 +3701,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id nameTxt
 id nav_controller_view_tag
 id nav_graph

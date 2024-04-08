@@ -28,7 +28,11 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String KEY_ADDRESS = "address";
 
     private static final String KEY_EMAIL ="email";
-    private static final String KEY_JOBS = "jobs";
+    private static final String KEY_AMOUNT = "amount";
+
+    private static final String KEY_NAME ="name";
+
+
 
 
     // we only have 2 tables so far but we can create as necessary
@@ -51,9 +55,9 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
 
     private static final String CREATE_TABLE_JOBS = "CREATE TABLE " + TABLE_JOBS +
             "(" + KEY_ID + " INTEGER PRIMARY KEY," +
-            KEY_USER_NAME + " TEXT," +
-            KEY_EMAIL + " TEXT,"+
-            KEY_JOBS + " TEXT)";
+            KEY_NAME + " TEXT," +
+            KEY_ADDRESS + " TEXT," +
+            KEY_AMOUNT + " TEXT)";
 
     public DatabaseSqlite(Context context) {
         super(context, DB_NAME, null, DATABASE_VERSION);

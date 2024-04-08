@@ -3420,6 +3420,7 @@ int id action_text 0x7f08004a
 int id actions 0x7f08004b
 int id activity_chooser_view_content 0x7f08004c
 int id add 0x7f08004d
+int id address 0x7f080251
 int id addressInputTf 0x7f08004e
 int id addressLbl 0x7f08004f
 int id addressTxt 0x7f080050
@@ -3431,6 +3432,7 @@ int id all 0x7f080055
 int id allStates 0x7f080056
 int id all_glyphs_rasterized_locally 0x7f080057
 int id always 0x7f080058
+int id amount 0x7f080252
 int id amountInput 0x7f080059
 int id androidx_window_activity_scope 0x7f08005a
 int id animateToEnd 0x7f08005b
@@ -3698,6 +3700,7 @@ int id mtrl_picker_text_input_range_start 0x7f080160
 int id mtrl_picker_title_text 0x7f080161
 int id mtrl_view_tag_bottom_padding 0x7f080162
 int id multiply 0x7f080163
+int id name 0x7f080253
 int id nameTxt 0x7f080164
 int id nav_controller_view_tag 0x7f080165
 int id nav_graph 0x7f080166

@@ -14,9 +14,11 @@ id RegisterActivityComponent
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id address
 id addressInputTf
 id addressLbl
 id addressTxt
+id amount
 id amountInput
 id button
 id button3
@@ -42,6 +44,7 @@ id jobBtn
 id logInBtn
 id mapView
 id menuBtn
+id name
 id nameTxt
 id nav_graph
 id passTf

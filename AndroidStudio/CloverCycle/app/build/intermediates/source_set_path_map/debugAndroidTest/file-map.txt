@@ -1,0 +1,7 @@
+com.example.clovercycle.test.app-annotation-experimental-1.3.0-0 C:\Users\conor\.gradle\caches\transforms-3\c6a23d0a3bb837adc6dda479eef37228\transformed\annotation-experimental-1.3.0\res
+com.example.clovercycle.test.app-core-1.5.0-1 C:\Users\conor\.gradle\caches\transforms-3\d9b752a9ecb3b6702e67bc117085e11b\transformed\core-1.5.0\res
+com.example.clovercycle.test.app-sqlite-2.4.0-2 C:\Users\conor\.gradle\caches\transforms-3\da9d67ecc56ab6cd1d77c7d772071b18\transformed\sqlite-2.4.0\res
+com.example.clovercycle.test.app-androidTest-3 C:\Users\conor\StudioProjects\CloverCycle\AndroidStudio\CloverCycle\app\build\generated\res\resValues\androidTest\debug
+com.example.clovercycle.test.app-mergeDebugAndroidTestResources-4 C:\Users\conor\StudioProjects\CloverCycle\AndroidStudio\CloverCycle\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.clovercycle.test.app-mergeDebugAndroidTestResources-5 C:\Users\conor\StudioProjects\CloverCycle\AndroidStudio\CloverCycle\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.clovercycle.test.app-merged_res-6 C:\Users\conor\StudioProjects\CloverCycle\AndroidStudio\CloverCycle\app\build\intermediates\merged_res\debugAndroidTest

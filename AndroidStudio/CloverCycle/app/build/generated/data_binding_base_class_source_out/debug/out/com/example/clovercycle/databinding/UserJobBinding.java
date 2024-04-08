@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,7 +23,13 @@ public final class UserJobBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView address;
+
+  @NonNull
   public final EditText addressTxt;
+
+  @NonNull
+  public final TextView amount;
 
   @NonNull
   public final EditText amountInput;
@@ -37,20 +44,27 @@ public final class UserJobBinding implements ViewBinding {
   public final Button menuBtn;
 
   @NonNull
+  public final TextView name;
+
+  @NonNull
   public final EditText nameTxt;
 
   @NonNull
   public final Button paymentsBtn;
 
-  private UserJobBinding(@NonNull ConstraintLayout rootView, @NonNull EditText addressTxt,
-      @NonNull EditText amountInput, @NonNull ImageView imageView2, @NonNull Button jobBtn,
-      @NonNull Button menuBtn, @NonNull EditText nameTxt, @NonNull Button paymentsBtn) {
+  private UserJobBinding(@NonNull ConstraintLayout rootView, @NonNull TextView address,
+      @NonNull EditText addressTxt, @NonNull TextView amount, @NonNull EditText amountInput,
+      @NonNull ImageView imageView2, @NonNull Button jobBtn, @NonNull Button menuBtn,
+      @NonNull TextView name, @NonNull EditText nameTxt, @NonNull Button paymentsBtn) {
     this.rootView = rootView;
+    this.address = address;
     this.addressTxt = addressTxt;
+    this.amount = amount;
     this.amountInput = amountInput;
     this.imageView2 = imageView2;
     this.jobBtn = jobBtn;
     this.menuBtn = menuBtn;
+    this.name = name;
     this.nameTxt = nameTxt;
     this.paymentsBtn = paymentsBtn;
   }
@@ -82,9 +96,21 @@ public final class UserJobBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.address;
+      TextView address = ViewBindings.findChildViewById(rootView, id);
+      if (address == null) {
+        break missingId;
+      }
+
       id = R.id.addressTxt;
       EditText addressTxt = ViewBindings.findChildViewById(rootView, id);
       if (addressTxt == null) {
+        break missingId;
+      }
+
+      id = R.id.amount;
+      TextView amount = ViewBindings.findChildViewById(rootView, id);
+      if (amount == null) {
         break missingId;
       }
 
@@ -112,6 +138,12 @@ public final class UserJobBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.name;
+      TextView name = ViewBindings.findChildViewById(rootView, id);
+      if (name == null) {
+        break missingId;
+      }
+
       id = R.id.nameTxt;
       EditText nameTxt = ViewBindings.findChildViewById(rootView, id);
       if (nameTxt == null) {
@@ -124,8 +156,8 @@ public final class UserJobBinding implements ViewBinding {
         break missingId;
       }
 
-      return new UserJobBinding((ConstraintLayout) rootView, addressTxt, amountInput, imageView2,
-          jobBtn, menuBtn, nameTxt, paymentsBtn);
+      return new UserJobBinding((ConstraintLayout) rootView, address, addressTxt, amount,
+          amountInput, imageView2, jobBtn, menuBtn, name, nameTxt, paymentsBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
