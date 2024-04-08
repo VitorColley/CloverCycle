@@ -96,6 +96,7 @@ string previous
 string second_fragment_label
 string title_activity_home
 string title_activity_maps
+string title_activity_payments
 string title_activity_register
 style Base.Theme.CloverCycle
 style Theme.CloverCycle

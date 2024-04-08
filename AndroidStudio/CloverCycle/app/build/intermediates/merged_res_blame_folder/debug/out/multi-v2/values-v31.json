@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.clovercycle.app-mergeDebugResources-53:/values-v31/values-v31.xml",
+            "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-v31/values-v31.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-v31\\values-v31.xml",

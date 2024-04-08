@@ -59,7 +59,17 @@ public class UserJobActivity extends AppCompatActivity {
             }
         });
 
-    }
+        Button paymentsBtn;
+
+            paymentsBtn = findViewById(R.id.paymentsBtn);
+            paymentsBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    goToPaymentsActivity();
+                }
+            });
+        }
+
 
     private void postJob() {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
@@ -93,6 +103,11 @@ public class UserJobActivity extends AppCompatActivity {
         intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent1);
         finish();
+    }
+
+    private void goToPaymentsActivity() {
+        Intent intent = new Intent(UserJobActivity.this, PaymentActivity.class);
+        startActivity(intent);
     }
 
 

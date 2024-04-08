@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.clovercycle.app-mergeDebugResources-53:/values-v21/values-v21.xml",
+            "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v21\\values-v21.xml",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\96baab0690a73f6e0ff5dcf4e4ff74d2\\transformed\\core-1.9.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\bfcb9b21a43a098b05da512c8a202a49\\transformed\\core-1.10.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
