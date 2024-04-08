@@ -40,8 +40,13 @@
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register" />
         <activity
+            android:name=".UserJobActivity"
+            android:exported="true"
+            android:label="UserJobActicity" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

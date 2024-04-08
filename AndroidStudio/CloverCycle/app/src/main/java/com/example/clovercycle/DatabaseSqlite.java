@@ -19,6 +19,8 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
 
     private static final String TABLE_USERS = "users";
     private static final String TABLE_COLLECTORS = "collectors";
+    private static final String TABLE_JOBS = "jobs";
+
 
     private static final String KEY_ID = "id";
     private static final String KEY_USER_NAME = "user_name";
@@ -26,6 +28,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String KEY_ADDRESS = "address";
 
     private static final String KEY_EMAIL ="email";
+    private static final String KEY_JOBS = "jobs";
 
 
     // we only have 2 tables so far but we can create as necessary
@@ -46,6 +49,12 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
             KEY_ADDRESS + " TEXT,"+
             KEY_EMAIL + " TEXT)";
 
+    private static final String CREATE_TABLE_JOBS = "CREATE TABLE " + TABLE_JOBS +
+            "(" + KEY_ID + " INTEGER PRIMARY KEY," +
+            KEY_USER_NAME + " TEXT," +
+            KEY_EMAIL + " TEXT,"+
+            KEY_JOBS + " TEXT)";
+
     public DatabaseSqlite(Context context) {
         super(context, DB_NAME, null, DATABASE_VERSION);
     }
@@ -54,12 +63,14 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         // creating required tables
         db.execSQL(CREATE_TABLE_USERS);
         db.execSQL(CREATE_TABLE_COLLECTORS);
+        db.execSQL(CREATE_TABLE_JOBS);
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // on upgrade drop older tables
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_COLLECTORS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_JOBS);
 
         // create new tables
         onCreate(db);

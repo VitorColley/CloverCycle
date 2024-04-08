@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.base:common:0.8.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/transforms-3/8371a80605363f86cb4b1582a6855af1/transformed/common-0.8.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Downloads/CloverCyclePrototype/caches/transforms-3/8371a80605363f86cb4b1582a6855af1/transformed/common-0.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8371a80605363f86cb4b1582a6855af1/transformed/common-0.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8371a80605363f86cb4b1582a6855af1/transformed/common-0.8.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/modules-2/files-2.1/com.mapbox.base/common/0.8.0/50a2ce81272fb544605027130427b01145115b63/common-0.8.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.base/common/0.8.0/50a2ce81272fb544605027130427b01145115b63/common-0.8.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/modules-2/files-2.1/com.mapbox.base/common/0.8.0/234ac1bedeb048fcc8c7d84f6927045125254ecd/common-0.8.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.base/common/0.8.0/234ac1bedeb048fcc8c7d84f6927045125254ecd/common-0.8.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.plugin:maps-overlay:11.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/transforms-3/5e74b861aa459bb81febbef4d8ab0717/transformed/maps-overlay-11.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Downloads/CloverCyclePrototype/caches/transforms-3/5e74b861aa459bb81febbef4d8ab0717/transformed/maps-overlay-11.2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5e74b861aa459bb81febbef4d8ab0717/transformed/maps-overlay-11.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5e74b861aa459bb81febbef4d8ab0717/transformed/maps-overlay-11.2.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/modules-2/files-2.1/com.mapbox.plugin/maps-overlay/11.2.1/5b461c72d9d01f6bbeea936071a363db07d8d64e/maps-overlay-11.2.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-overlay/11.2.1/5b461c72d9d01f6bbeea936071a363db07d8d64e/maps-overlay-11.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/Downloads/CloverCyclePrototype/caches/modules-2/files-2.1/com.mapbox.plugin/maps-overlay/11.2.1/91264818daba2ab05941fff1ff406817d76885c9/maps-overlay-11.2.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-overlay/11.2.1/91264818daba2ab05941fff1ff406817d76885c9/maps-overlay-11.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

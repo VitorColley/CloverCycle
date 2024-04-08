@@ -3423,6 +3423,7 @@ id activity_chooser_view_content
 id add
 id addressInputTf
 id addressLbl
+id addressTxt
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3431,6 +3432,7 @@ id all
 id allStates
 id all_glyphs_rasterized_locally
 id always
+id amountInput
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
@@ -3454,9 +3456,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button4
-id button5
-id button6
+id button
+id button3
 id buttonPanel
 id button_first
 id button_second
@@ -3538,9 +3539,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editTextText
-id editTextText2
-id editTextText3
 id edit_query
 id elastic
 id emailInputTf
@@ -3600,6 +3598,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3610,6 +3609,15 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id job1
+id job2
+id job3
+id job4
+id job5
+id job6
+id job7
+id job8
+id jobBtn
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3656,6 +3664,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menuBtn
 id message
 id middle
 id mini
@@ -3690,6 +3699,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameTxt
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
@@ -3745,6 +3755,7 @@ id passwordLbl
 id password_toggle
 id path
 id pathRelative
+id paymentsBtn
 id peekHeight
 id percent
 id pin
@@ -3780,6 +3791,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollViewLayout
 id scrollable
 id search_badge
 id search_bar

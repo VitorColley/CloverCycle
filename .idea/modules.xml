@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudio.CloverCycle.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudio.CloverCycle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/CloverCycle.iml" filepath="$PROJECT_DIR$/.idea/CloverCycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.main.iml" />

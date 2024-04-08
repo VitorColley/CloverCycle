@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -44,9 +43,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextView emailLbl;
 
   @NonNull
-  public final ImageView imageView;
-
-  @NonNull
   public final EditText passwordInputTf;
 
   @NonNull
@@ -80,12 +76,11 @@ public final class ActivityRegisterBinding implements ViewBinding {
       @NonNull ConstraintLayout RegisterActivityComponent, @NonNull EditText addressInputTf,
       @NonNull TextView addressLbl, @NonNull RadioButton collectorRb,
       @NonNull TextInputEditText emailInputTf, @NonNull TextView emailLbl,
-      @NonNull ImageView imageView, @NonNull EditText passwordInputTf,
-      @NonNull TextView passwordLbl, @NonNull Button registerButtonBtn,
-      @NonNull RadioGroup registerGroup, @NonNull TextView textView2,
-      @NonNull TextInputEditText userNameInputTf, @NonNull TextView userNameLbl,
-      @NonNull RadioButton userRb, @NonNull EditText verifyPasswordInputTf,
-      @NonNull TextView verifyPasswordLbl) {
+      @NonNull EditText passwordInputTf, @NonNull TextView passwordLbl,
+      @NonNull Button registerButtonBtn, @NonNull RadioGroup registerGroup,
+      @NonNull TextView textView2, @NonNull TextInputEditText userNameInputTf,
+      @NonNull TextView userNameLbl, @NonNull RadioButton userRb,
+      @NonNull EditText verifyPasswordInputTf, @NonNull TextView verifyPasswordLbl) {
     this.rootView = rootView;
     this.RegisterActivityComponent = RegisterActivityComponent;
     this.addressInputTf = addressInputTf;
@@ -93,7 +88,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
     this.collectorRb = collectorRb;
     this.emailInputTf = emailInputTf;
     this.emailLbl = emailLbl;
-    this.imageView = imageView;
     this.passwordInputTf = passwordInputTf;
     this.passwordLbl = passwordLbl;
     this.registerButtonBtn = registerButtonBtn;
@@ -165,12 +159,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
-      if (imageView == null) {
-        break missingId;
-      }
-
       id = R.id.passwordInputTf;
       EditText passwordInputTf = ViewBindings.findChildViewById(rootView, id);
       if (passwordInputTf == null) {
@@ -232,9 +220,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       return new ActivityRegisterBinding((ConstraintLayout) rootView, RegisterActivityComponent,
-          addressInputTf, addressLbl, collectorRb, emailInputTf, emailLbl, imageView,
-          passwordInputTf, passwordLbl, registerButtonBtn, registerGroup, textView2,
-          userNameInputTf, userNameLbl, userRb, verifyPasswordInputTf, verifyPasswordLbl);
+          addressInputTf, addressLbl, collectorRb, emailInputTf, emailLbl, passwordInputTf,
+          passwordLbl, registerButtonBtn, registerGroup, textView2, userNameInputTf, userNameLbl,
+          userRb, verifyPasswordInputTf, verifyPasswordLbl);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

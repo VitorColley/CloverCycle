@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,33 +22,37 @@ public final class UserJobBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button4;
+  public final EditText addressTxt;
 
   @NonNull
-  public final Button button5;
+  public final EditText amountInput;
 
   @NonNull
-  public final Button button6;
+  public final ImageView imageView2;
 
   @NonNull
-  public final EditText editTextText;
+  public final Button jobBtn;
 
   @NonNull
-  public final EditText editTextText2;
+  public final Button menuBtn;
 
   @NonNull
-  public final EditText editTextText3;
+  public final EditText nameTxt;
 
-  private UserJobBinding(@NonNull ConstraintLayout rootView, @NonNull Button button4,
-      @NonNull Button button5, @NonNull Button button6, @NonNull EditText editTextText,
-      @NonNull EditText editTextText2, @NonNull EditText editTextText3) {
+  @NonNull
+  public final Button paymentsBtn;
+
+  private UserJobBinding(@NonNull ConstraintLayout rootView, @NonNull EditText addressTxt,
+      @NonNull EditText amountInput, @NonNull ImageView imageView2, @NonNull Button jobBtn,
+      @NonNull Button menuBtn, @NonNull EditText nameTxt, @NonNull Button paymentsBtn) {
     this.rootView = rootView;
-    this.button4 = button4;
-    this.button5 = button5;
-    this.button6 = button6;
-    this.editTextText = editTextText;
-    this.editTextText2 = editTextText2;
-    this.editTextText3 = editTextText3;
+    this.addressTxt = addressTxt;
+    this.amountInput = amountInput;
+    this.imageView2 = imageView2;
+    this.jobBtn = jobBtn;
+    this.menuBtn = menuBtn;
+    this.nameTxt = nameTxt;
+    this.paymentsBtn = paymentsBtn;
   }
 
   @Override
@@ -77,44 +82,50 @@ public final class UserJobBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
+      id = R.id.addressTxt;
+      EditText addressTxt = ViewBindings.findChildViewById(rootView, id);
+      if (addressTxt == null) {
         break missingId;
       }
 
-      id = R.id.button5;
-      Button button5 = ViewBindings.findChildViewById(rootView, id);
-      if (button5 == null) {
+      id = R.id.amountInput;
+      EditText amountInput = ViewBindings.findChildViewById(rootView, id);
+      if (amountInput == null) {
         break missingId;
       }
 
-      id = R.id.button6;
-      Button button6 = ViewBindings.findChildViewById(rootView, id);
-      if (button6 == null) {
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
         break missingId;
       }
 
-      id = R.id.editTextText;
-      EditText editTextText = ViewBindings.findChildViewById(rootView, id);
-      if (editTextText == null) {
+      id = R.id.jobBtn;
+      Button jobBtn = ViewBindings.findChildViewById(rootView, id);
+      if (jobBtn == null) {
         break missingId;
       }
 
-      id = R.id.editTextText2;
-      EditText editTextText2 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextText2 == null) {
+      id = R.id.menuBtn;
+      Button menuBtn = ViewBindings.findChildViewById(rootView, id);
+      if (menuBtn == null) {
         break missingId;
       }
 
-      id = R.id.editTextText3;
-      EditText editTextText3 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextText3 == null) {
+      id = R.id.nameTxt;
+      EditText nameTxt = ViewBindings.findChildViewById(rootView, id);
+      if (nameTxt == null) {
         break missingId;
       }
 
-      return new UserJobBinding((ConstraintLayout) rootView, button4, button5, button6,
-          editTextText, editTextText2, editTextText3);
+      id = R.id.paymentsBtn;
+      Button paymentsBtn = ViewBindings.findChildViewById(rootView, id);
+      if (paymentsBtn == null) {
+        break missingId;
+      }
+
+      return new UserJobBinding((ConstraintLayout) rootView, addressTxt, amountInput, imageView2,
+          jobBtn, menuBtn, nameTxt, paymentsBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

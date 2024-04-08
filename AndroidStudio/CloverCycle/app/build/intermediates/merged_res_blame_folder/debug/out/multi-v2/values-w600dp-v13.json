@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.clovercycle.app-mergeDebugResources-2:/values-w600dp-v13/values-w600dp-v13.xml",
+            "outputFile": "com.example.clovercycle.app-mergeDebugResources-53:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

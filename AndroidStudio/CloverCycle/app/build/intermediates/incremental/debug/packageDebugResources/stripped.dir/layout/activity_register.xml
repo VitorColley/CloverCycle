@@ -5,40 +5,13 @@
     android:id="@+id/RegisterActivityComponent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/clovercycle"
     tools:context=".RegisterActivity">
 
-    <Button
-        android:id="@+id/registerButtonBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#0B2A1A"
-        android:onClick="Register"
-        android:text="Register"
-        android:textColor="#1CA83C"
-        android:textColorHighlight="#0A291A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.941"
-        tools:ignore="DuplicateIds,MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="192dp"
-        android:layout_height="142dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/clovercycle"
-        tools:ignore="MissingConstraints" />
 
     <ScrollView
-        android:layout_width="398dp"
-        android:layout_height="489dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -49,7 +22,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/emailLbl"
@@ -57,8 +30,7 @@
                 android:layout_height="39dp"
                 android:text="Please enter your Email:"
                 android:textColor="#0A291A"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds,MissingConstraints" />
+                android:textSize="20sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailInputTf"
@@ -66,8 +38,7 @@
                 android:layout_height="49dp"
                 android:background="#159B33"
                 android:inputType="text"
-                android:textColor="#0A291A"
-                tools:ignore="SpeakableTextPresentCheck" />
+                android:textColor="#0A291A" />
 
             <TextView
                 android:id="@+id/userNameLbl"
@@ -75,8 +46,7 @@
                 android:layout_height="39dp"
                 android:text="Please enter a Username:"
                 android:textColor="#0A291A"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds,MissingConstraints" />
+                android:textSize="20sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/userNameInputTf"
@@ -84,8 +54,7 @@
                 android:layout_height="49dp"
                 android:background="#159B33"
                 android:inputType="text"
-                android:textColor="#0A291A"
-                tools:ignore="SpeakableTextPresentCheck" />
+                android:textColor="#0A291A" />
 
             <TextView
                 android:id="@+id/passwordLbl"
@@ -94,8 +63,7 @@
                 android:layout_marginBottom="24dp"
                 android:text="Please enter a Password:"
                 android:textColor="#0C2C1F"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds,MissingConstraints" />
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/passwordInputTf"
@@ -105,8 +73,7 @@
                 android:backgroundTint="#169D37"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:textColor="#0A291A"
-                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+                android:textColor="#0A291A" />
 
             <TextView
                 android:id="@+id/verifyPasswordLbl"
@@ -115,8 +82,7 @@
                 android:layout_marginBottom="24dp"
                 android:text="Confirm Password:"
                 android:textColor="#0C2C1F"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds,MissingConstraints" />
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/verifyPasswordInputTf"
@@ -126,8 +92,7 @@
                 android:backgroundTint="#169D37"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:textColor="#0A291A"
-                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+                android:textColor="#0A291A" />
 
             <TextView
                 android:id="@+id/addressLbl"
@@ -136,8 +101,7 @@
                 android:layout_marginBottom="24dp"
                 android:text="Please enter your Eircode:"
                 android:textColor="#0C2C1F"
-                android:textSize="20sp"
-                tools:ignore="DuplicateIds,MissingConstraints" />
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/addressInputTf"
@@ -147,8 +111,7 @@
                 android:backgroundTint="#169D37"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:textColor="#0A291A"
-                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+                android:textColor="#0A291A" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -161,14 +124,13 @@
             <RadioGroup
                 android:id="@+id/registerGroup"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="wrap_content">
 
                 <RadioButton
                     android:id="@+id/userRb"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="false"
-                    android:clickable="false"
                     android:text="User" />
 
                 <RadioButton
@@ -177,7 +139,21 @@
                     android:layout_height="wrap_content"
                     android:text="Collector" />
 
+
             </RadioGroup>
+
+            <Button
+                android:id="@+id/registerButtonBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0B2A1A"
+                android:onClick="Register"
+                android:text="Register"
+                android:textColor="#1CA83C"
+                android:textColorHighlight="#0A291A"
+                tools:ignore="DuplicateIds,MissingConstraints"
+                tools:layout_editor_absoluteX="139dp"
+                tools:layout_editor_absoluteY="678dp" />
 
         </LinearLayout>
     </ScrollView>

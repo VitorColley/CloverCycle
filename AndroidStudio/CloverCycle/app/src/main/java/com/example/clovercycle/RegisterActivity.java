@@ -50,6 +50,12 @@ public class RegisterActivity extends AppCompatActivity {
                 address = addressInput.getText().toString();
                 email = emailInput.getText().toString();
 
+                // if statement to show invalid password message if the method isValidPassword is activated.
+                if (!isValidPassword(password)) {
+                    passwordInput.setError("Password must have 8 character and 1 special character");
+                    return;
+                }
+
                 // call method to handle registration
                 if(userRb.isChecked()){
                     registerUser();
@@ -59,6 +65,11 @@ public class RegisterActivity extends AppCompatActivity {
 
             }
         });
+    }
+    // method to validate password if its >= 8 characters and has any of the special characters on it.
+    private boolean isValidPassword(String password) {
+        // method to valid
+        return password.length() >= 8 && password.matches(".*[!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?].*");
     }
 
     // method to handle collector registration

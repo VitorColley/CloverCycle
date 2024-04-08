@@ -1,60 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/nameTxt"
+        android:layout_width="227dp"
+        android:layout_height="76dp"
         android:ems="10"
         android:inputType="text"
         android:text="Name:"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="291dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="251dp" />
 
     <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/addressTxt"
+        android:layout_width="225dp"
+        android:layout_height="76dp"
         android:ems="10"
         android:inputType="text"
         android:text="Address:"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="365dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="340dp" />
 
     <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/amountInput"
+        android:layout_width="225dp"
+        android:layout_height="76dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Eircode:"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="445dp" />
+        android:text="Amount:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="432dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/jobBtn"
         android:layout_width="182dp"
-        android:layout_height="52dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="556dp" />
+        android:layout_height="53dp"
+        android:backgroundTint="#159B33"
+        android:text="Post My Job"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="516dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/menuBtn"
         android:layout_width="182dp"
-        android:layout_height="52dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="644dp" />
+        android:layout_height="53dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#159B33"
+        android:text="Log Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/paymentsBtn"
         android:layout_width="182dp"
-        android:layout_height="52dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="734dp" />
+        android:layout_height="53dp"
+        android:backgroundTint="#159B33"
+        android:text="My Payments"
+        app:layout_constraintBottom_toTopOf="@+id/menuBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jobBtn"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="208dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toTopOf="@+id/nameTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription= "profile" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

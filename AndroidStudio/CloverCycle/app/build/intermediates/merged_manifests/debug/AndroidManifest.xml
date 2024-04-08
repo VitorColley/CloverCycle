@@ -72,6 +72,10 @@
             android:name="com.example.clovercycle.RegisterActivity"
             android:label="@string/title_activity_register" />
         <activity
+            android:name="com.example.clovercycle.UserJobActivity"
+            android:exported="true"
+            android:label="UserJobActicity" />
+        <activity
             android:name="com.example.clovercycle.MainActivity"
             android:exported="true" >
             <intent-filter>

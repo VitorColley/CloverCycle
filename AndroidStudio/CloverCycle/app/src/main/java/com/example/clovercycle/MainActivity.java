@@ -1,6 +1,6 @@
 package com.example.clovercycle;
 
-import android.content.Intent;
+import   android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -72,11 +72,14 @@ public class MainActivity extends AppCompatActivity {
         Cursor userCursor = db.rawQuery("SELECT * FROM users WHERE user_name=? AND password=?", new String[]{userName, password});
         Cursor collectorCursor = db.rawQuery("SELECT * FROM collectors WHERE user_name=? AND password=?", new String[]{userName, password});
 
-        if (userCursor.moveToFirst() || collectorCursor.moveToFirst()) {
+        if (userCursor.moveToFirst()) {
             // User authenticated, move to next activity
+            Intent intent = new Intent(MainActivity.this, UserJobActivity.class);
+            startActivity(intent);
+        } else if (collectorCursor.moveToFirst()){
             Intent intent = new Intent(MainActivity.this, MapsActivity.class);
             startActivity(intent);
-        } else {
+        }else {
             // Username and password can't be found
             findViewById(R.id.invalidPassword).setVisibility(View.VISIBLE);
         }
@@ -85,25 +88,29 @@ public class MainActivity extends AppCompatActivity {
         collectorCursor.close();
 
     }
+
     public void Register(){
+        //this is how you call from one activity to another
         Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
         startActivity(intent);
     }
     // method to add data manually to database
     private void fillDatabase() {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
-        ContentValues values = new ContentValues();
+        ContentValues userValues = new ContentValues();
+        ContentValues collectorValues = new ContentValues();
 
         // inset data as we wish
-        values.put("user_name", "gus");
-        values.put("password", "gus");
-        db.insert("users", null, values);
+        //were gonna use this to insert data for users
+        userValues.put("user_name", "gus");
+        userValues.put("password", "gus");
+        db.insert("users", null, userValues);
 
-        values.clear();
 
-        values.put("user_name", "gus");
-        values.put("password", "gus");
-        db.insert("collectors", null, values);
+        //insert data for collectors
+        collectorValues.put("user_name", "conor");
+        collectorValues.put("password", "conor");
+        db.insert("collectors", null, collectorValues);
 
         db.close();
     }
