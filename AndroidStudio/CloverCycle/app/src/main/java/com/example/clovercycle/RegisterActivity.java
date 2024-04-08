@@ -18,13 +18,11 @@ public class RegisterActivity extends AppCompatActivity {
     EditText addressInput;
     EditText emailInput;
     Button registerButton;
-    RadioButton userRb = findViewById(R.id.userRb);
-    RadioButton collectorRb = findViewById(R.id.collectorRb);
+    RadioButton userRb;
+    RadioButton collectorRb;
 
-    String userName, password, address, email, passValidation;
+    String userName, password, address, email;
 
-
-    // Declare DatabaseSqlite dbHelper
     DatabaseSqlite dbHelper;
 
     @Override
@@ -41,6 +39,8 @@ public class RegisterActivity extends AppCompatActivity {
         addressInput = findViewById(R.id.addressInputTf);
         emailInput = findViewById(R.id.emailInputTf);
         registerButton = findViewById(R.id.registerButtonBtn);
+        userRb = findViewById(R.id.userRb);
+        collectorRb = findViewById(R.id.collectorRb);
 
         // set click listener for registration button (make sure to get all variables named properly for buttons)
         registerButton.setOnClickListener(new View.OnClickListener() {

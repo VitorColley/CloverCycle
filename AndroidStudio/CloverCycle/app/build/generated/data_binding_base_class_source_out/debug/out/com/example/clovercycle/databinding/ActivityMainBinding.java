@@ -45,6 +45,12 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView password;
 
   @NonNull
+  public final Button registerBtn;
+
+  @NonNull
+  public final TextView registerLbl;
+
+  @NonNull
   public final TextView userName;
 
   @NonNull
@@ -56,7 +62,8 @@ public final class ActivityMainBinding implements ViewBinding {
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout MainActivityComponent, @NonNull ImageView imageView,
       @NonNull TextView invalidPassword, @NonNull TextView invalidUser, @NonNull Button logInBtn,
-      @NonNull EditText passTf, @NonNull TextView password, @NonNull TextView userName,
+      @NonNull EditText passTf, @NonNull TextView password, @NonNull Button registerBtn,
+      @NonNull TextView registerLbl, @NonNull TextView userName,
       @NonNull TextInputEditText userNameTf, @NonNull TextView welcome) {
     this.rootView = rootView;
     this.MainActivityComponent = MainActivityComponent;
@@ -66,6 +73,8 @@ public final class ActivityMainBinding implements ViewBinding {
     this.logInBtn = logInBtn;
     this.passTf = passTf;
     this.password = password;
+    this.registerBtn = registerBtn;
+    this.registerLbl = registerLbl;
     this.userName = userName;
     this.userNameTf = userNameTf;
     this.welcome = welcome;
@@ -136,6 +145,18 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.registerBtn;
+      Button registerBtn = ViewBindings.findChildViewById(rootView, id);
+      if (registerBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.registerLbl;
+      TextView registerLbl = ViewBindings.findChildViewById(rootView, id);
+      if (registerLbl == null) {
+        break missingId;
+      }
+
       id = R.id.userName;
       TextView userName = ViewBindings.findChildViewById(rootView, id);
       if (userName == null) {
@@ -155,7 +176,8 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, MainActivityComponent, imageView,
-          invalidPassword, invalidUser, logInBtn, passTf, password, userName, userNameTf, welcome);
+          invalidPassword, invalidUser, logInBtn, passTf, password, registerBtn, registerLbl,
+          userName, userNameTf, welcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

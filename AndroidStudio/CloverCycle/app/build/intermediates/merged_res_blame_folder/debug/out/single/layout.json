@@ -1,22 +1,26 @@
 [
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-54:/layout/activity_maps.xml",
-        "source": "com.example.clovercycle.app-main-57:/layout/activity_maps.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/fragment_second.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\conor\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-54:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\conor\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-57:\\layout\\fragment_first.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\conor\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-54:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\conor\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-57:\\layout\\fragment_second.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/user_job.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/user_job.xml"
     },
     {
-        "merged": "C:\\Users\\conor\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-54:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\conor\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-57:\\layout\\activity_main.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/fragment_first.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\conor\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-54:\\layout\\activity_maps.xml",
-        "source": "C:\\Users\\conor\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-57:\\layout\\activity_maps.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/activity_maps.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/activity_register.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/activity_register.xml"
     }
 ]

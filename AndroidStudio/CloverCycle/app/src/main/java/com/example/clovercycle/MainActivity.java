@@ -61,9 +61,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void LogIn(String userName, String password) {
+        /*
         // Set validation message to invisible in case there were other attempts
         findViewById(R.id.invalidPassword).setVisibility(View.INVISIBLE);
         findViewById(R.id.invalidUser).setVisibility(View.INVISIBLE);
+         */
 
         // this updated version use function cursor to check for both user and collectors columns
         SQLiteDatabase db = dbHelper.getReadableDatabase();

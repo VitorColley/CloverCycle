@@ -48,6 +48,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_register">Register</string>
     <style name="Base.Theme.CloverCycle" parent="Theme.Material3.DayNight.NoActionBar">
         
         

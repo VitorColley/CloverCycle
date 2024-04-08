@@ -3353,6 +3353,7 @@ id META
 id MainActivityComponent
 id MapsActivityComponent
 id NO_DEBUG
+id RegisterActivityComponent
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3420,6 +3421,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addressInputTf
+id addressLbl
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3451,6 +3454,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button4
+id button5
+id button6
 id buttonPanel
 id button_first
 id button_second
@@ -3476,6 +3482,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id collectorRb
 id composeView
 id compress
 id confirm_button
@@ -3531,8 +3538,13 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextText
+id editTextText2
+id editTextText3
 id edit_query
 id elastic
+id emailInputTf
+id emailLbl
 id embed
 id end
 id endToStart
@@ -3728,6 +3740,8 @@ id parentRelative
 id parent_matrix
 id passTf
 id password
+id passwordInputTf
+id passwordLbl
 id password_toggle
 id path
 id pathRelative
@@ -3742,6 +3756,10 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerBtn
+id registerButtonBtn
+id registerGroup
+id registerLbl
 id report_drawn
 id reverseSawtooth
 id right
@@ -3840,6 +3858,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3877,7 +3896,12 @@ id up
 id upwards
 id useLogo
 id userName
+id userNameInputTf
+id userNameLbl
 id userNameTf
+id userRb
+id verifyPasswordInputTf
+id verifyPasswordLbl
 id vertical
 id vertical_only
 id view_offset_helper
@@ -4019,6 +4043,7 @@ layout abc_tooltip
 layout activity_dummy
 layout activity_main
 layout activity_maps
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4099,6 +4124,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout user_job
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
@@ -4308,6 +4334,7 @@ string side_sheet_behavior
 string status_bar_notification_info_overflow
 string title_activity_home
 string title_activity_maps
+string title_activity_register
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
