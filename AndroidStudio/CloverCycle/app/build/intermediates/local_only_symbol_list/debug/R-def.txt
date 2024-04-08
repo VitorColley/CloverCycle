@@ -24,9 +24,13 @@ id button
 id button3
 id button_first
 id button_second
+id cardNUM
+id cardNumTXT
 id collectorRb
 id emailInputTf
 id emailLbl
+id errorTXT
+id expiryNUM
 id focusLocation
 id imageView
 id imageView2
@@ -44,6 +48,7 @@ id jobBtn
 id logInBtn
 id mapView
 id menuBtn
+id monthTXT
 id name
 id nameTxt
 id nav_graph
@@ -51,11 +56,13 @@ id passTf
 id password
 id passwordInputTf
 id passwordLbl
+id paymentBTN
 id paymentsBtn
 id registerBtn
 id registerButtonBtn
 id registerGroup
 id registerLbl
+id saveDetailsSWITCH
 id scrollView
 id scrollViewLayout
 id textView2
@@ -71,6 +78,7 @@ id verifyPasswordLbl
 id welcome
 layout activity_main
 layout activity_maps
+layout activity_payment
 layout activity_register
 layout fragment_first
 layout fragment_second

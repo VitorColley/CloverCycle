@@ -1,6 +1,6 @@
 package com.example.clovercycle;
 
-import static com.example.clovercycle.DatabaseSqlite.KEY_NAME;
+//import static com.example.clovercycle.DatabaseSqlite.KEY_NAME;
 
 import android.content.ContentValues;
 import android.content.Intent;

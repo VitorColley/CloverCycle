@@ -1,13 +1,8 @@
 package com.example.clovercycle;
 
-import android.database.Cursor;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase;
 import android.content.Context;
-import android.content.ContentValues;
-
-import java.util.ArrayList;
-
 
 public class DatabaseSqlite extends SQLiteOpenHelper {
 
@@ -19,7 +14,8 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     // we give a name to our Database
     private static final String DB_NAME = "clovercycle_db";
     //database version
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
+
 
 
     private static final String TABLE_USERS = "users";
@@ -30,12 +26,20 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String KEY_ID = "id";
     private static final String KEY_USER_NAME = "user_name";
     private static final String KEY_PASSWORD = "password";
-    public static final String KEY_ADDRESS = "address";
+    private static final String KEY_ADDRESS = "address";
 
     private static final String KEY_EMAIL ="email";
-    private static final String KEY_AMOUNT = "amount";
+    private static final String KEY_JOBS = "jobs";
 
-    public static final String KEY_NAME ="name";
+    private static final String TABLE_PAYMENT_INFO = "PaymentInfo";
+    private static final String KEY_CARD_NUMBER = "cardNumber";
+    private static final String KEY_EXPIRY_DATE = "expiryDate";
+
+    // new table for simulated payment functions
+    private static final String CREATE_TABLE_PAYMENT_INFO = "CREATE TABLE " + TABLE_PAYMENT_INFO +
+            "(" + KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
+            KEY_CARD_NUMBER + " TEXT," +
+            KEY_EXPIRY_DATE + " TEXT)";
 
 
 
@@ -59,21 +63,20 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
 
     private static final String CREATE_TABLE_JOBS = "CREATE TABLE " + TABLE_JOBS +
             "(" + KEY_ID + " INTEGER PRIMARY KEY," +
-            KEY_NAME + " TEXT," +
-            KEY_ADDRESS + " TEXT," +
-            KEY_AMOUNT + " TEXT)";
+            KEY_USER_NAME + " TEXT," +
+            KEY_EMAIL + " TEXT,"+
+            KEY_JOBS + " TEXT)";
 
     public DatabaseSqlite(Context context) {
         super(context, DB_NAME, null, DATABASE_VERSION);
     }
-
-
     @Override
     public void onCreate(SQLiteDatabase db) {
         // creating required tables
         db.execSQL(CREATE_TABLE_USERS);
         db.execSQL(CREATE_TABLE_COLLECTORS);
         db.execSQL(CREATE_TABLE_JOBS);
+        db.execSQL(CREATE_TABLE_PAYMENT_INFO);
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
@@ -81,25 +84,10 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_COLLECTORS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_JOBS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_PAYMENT_INFO);
 
         // create new tables
         onCreate(db);
-    }
-    public ArrayList<String> getJobs() {
-        SQLiteDatabase db = this.getReadableDatabase();
-        ArrayList<String> jobsList = new ArrayList<>();
-        Cursor cursor = db.rawQuery("SELECT " + KEY_NAME + " FROM " + TABLE_JOBS, null);
-
-        if (cursor.moveToFirst()) {
-            do {
-                String jobName = cursor.getString(cursor.getColumnIndex(KEY_NAME));
-                jobsList.add(jobName);
-            } while (cursor.moveToNext());
-        }
-
-        cursor.close();
-        db.close();
-        return jobsList;
     }
 
 

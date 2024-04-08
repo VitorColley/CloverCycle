@@ -24,6 +24,10 @@
         "source": "com.example.clovercycle.app-main-57:/drawable/clovercycle.jpeg"
     },
     {
+        "merged": "com.example.clovercycle.app-merged_res-55:/layout_activity_payment.xml.flat",
+        "source": "com.example.clovercycle.app-main-57:/layout/activity_payment.xml"
+    },
+    {
         "merged": "com.example.clovercycle.app-merged_res-55:/layout_activity_maps.xml.flat",
         "source": "com.example.clovercycle.app-main-57:/layout/activity_maps.xml"
     },

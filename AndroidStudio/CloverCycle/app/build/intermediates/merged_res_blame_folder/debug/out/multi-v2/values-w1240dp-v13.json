@@ -4,7 +4,7 @@
             "outputFile": "com.example.clovercycle.app-mergeDebugResources-53:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "C:\\Users\\mcgil\\Desktop\\College\\Semester 4\\clovercycle\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

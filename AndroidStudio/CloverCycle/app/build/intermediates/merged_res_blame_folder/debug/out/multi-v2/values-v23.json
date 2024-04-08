@@ -4,26 +4,7 @@
             "outputFile": "com.example.clovercycle.app-mergeDebugResources-53:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,5,9,13,16,19,22,25,28,32",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,271,413,574,784,991,1198,1401,1603,1868",
-                        "endLines": "4,8,12,15,18,21,24,27,31,35",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "266,408,569,779,986,1193,1396,1598,1863,2136"
-                    },
-                    "to": {
-                        "startLines": "59,62,66,70,73,76,79,82,85,89",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3709,3925,4067,4228,4438,4645,4852,5055,5257,5522",
-                        "endLines": "61,65,69,72,75,78,81,84,88,92",
-                        "endColumns": "10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "3920,4062,4223,4433,4640,4847,5050,5252,5517,5790"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "source": "C:\\Users\\mcgil\\Desktop\\College\\Semester 4\\clovercycle\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-v23\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,9,13,16,19,22,25,28,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,413,574,784,991,1198,1401,1603,1868",
+                        "endLines": "4,8,12,15,18,21,24,27,31,35",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,408,569,779,986,1193,1396,1598,1863,2136"
+                    },
+                    "to": {
+                        "startLines": "59,62,66,70,73,76,79,82,85,89",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3709,3925,4067,4228,4438,4645,4852,5055,5257,5522",
+                        "endLines": "61,65,69,72,75,78,81,84,88,92",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "3920,4062,4223,4433,4640,4847,5050,5252,5517,5790"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -53,7 +53,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\823ec798c60b38d71cf8d26a1b6e90a9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\823ec798c60b38d71cf8d26a1b6e90a9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

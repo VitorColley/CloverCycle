@@ -3466,6 +3466,8 @@ id button_second
 id cache_measures
 id callMeasure
 id cancel_button
+id cardNUM
+id cardNumTXT
 id carryVelocity
 id center
 id centerCrop
@@ -3550,9 +3552,11 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id errorTXT
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id expiryNUM
 id fade
 id fill
 id fill_horizontal
@@ -3670,6 +3674,7 @@ id menuBtn
 id message
 id middle
 id mini
+id monthTXT
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3758,6 +3763,7 @@ id passwordLbl
 id password_toggle
 id path
 id pathRelative
+id paymentBTN
 id paymentsBtn
 id peekHeight
 id percent
@@ -3785,6 +3791,7 @@ id rounded
 id row_index_key
 id rtl
 id satellite
+id saveDetailsSWITCH
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -4058,6 +4065,7 @@ layout abc_tooltip
 layout activity_dummy
 layout activity_main
 layout activity_maps
+layout activity_payment
 layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
