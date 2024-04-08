@@ -42,48 +42,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="666878b3-0049-4d6d-bf66-842efe4ca11c" name="Changes" comment="12:18 08/04/2024">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/DatabaseSqlite.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/DatabaseSqlite.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/UserJobActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/UserJobActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/UserJobActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/UserJobActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ActivityMainBinding.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ActivityMapsBinding.class.uniqueId19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ActivityRegisterBinding.class.uniqueId9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/DatabaseSqlite.class.uniqueId17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/FirstFragment$1.class.uniqueId13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/FirstFragment.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/FragmentFirstBinding.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/FragmentSecondBinding.class.uniqueId18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MainActivity$1.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MainActivity$2.class.uniqueId10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MainActivity.class.uniqueId11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MapsActivity$1.class.uniqueId8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MapsActivity$2.class.uniqueId15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MapsActivity$3.class.uniqueId6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MapsActivity$4.class.uniqueId14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MapsActivity$5$1.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MapsActivity$5.class.uniqueId20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MapsActivity.class.uniqueId23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RegisterActivity$1.class.uniqueId16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RegisterActivity.class.uniqueId12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/SecondFragment$1.class.uniqueId21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/SecondFragment.class.uniqueId24" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UserJobActivity$1.class.uniqueId22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UserJobActivity.class.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UserJobBinding.class.uniqueId7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/DatabaseSqlite.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/DatabaseSqlite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +52,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\conor\.android\avd\Pixel_3a_XL_API_34.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\mcgil\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/AndroidStudio/CloverCycle">
       <ProjectState />
