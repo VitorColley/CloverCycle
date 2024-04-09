@@ -6,6 +6,13 @@
     {
         "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\drawable\\ic_launcher_background.xml"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\xml\\data_extraction_rules.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\xml_data_extraction_rules.xml.flat",
@@ -16,8 +23,8 @@
         "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/layout_activity_maps.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_maps.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -98,6 +105,13 @@
     {
         "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_activity_payment.xml.flat",
         "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_payment.xml"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_main.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_activity_main.xml.flat",

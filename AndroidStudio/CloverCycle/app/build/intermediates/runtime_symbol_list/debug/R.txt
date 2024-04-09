@@ -3355,6 +3355,7 @@ int drawable tooltip_frame_light 0x7f07010f
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
+int id Button2 0x7f080263
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
 int id FirstFragment 0x7f080005

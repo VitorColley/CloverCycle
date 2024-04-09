@@ -14,6 +14,7 @@
         android:ems="10"
         android:inputType="text"
         android:text=""
+        android:textColor="#1CA83C"
         app:layout_constraintBottom_toTopOf="@+id/jobBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -78,6 +79,7 @@
         android:layout_marginBottom="72dp"
         android:ems="10"
         android:inputType="text"
+        android:textColor="#1CA83C"
         app:layout_constraintBottom_toTopOf="@+id/addressTxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -92,6 +94,7 @@
         android:ems="10"
         android:inputType="textPostalAddress"
         android:text=""
+        android:textColor="#1CA83C"
         app:layout_constraintBottom_toTopOf="@+id/amountInput"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
@@ -107,7 +110,6 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.27"
@@ -140,7 +142,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< Updated upstream
         app:layout_constraintVertical_bias="0.661"
+=======
+        app:layout_constraintVertical_bias="0.671"
+>>>>>>> Stashed changes
         tools:ignore="DuplicateIds,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

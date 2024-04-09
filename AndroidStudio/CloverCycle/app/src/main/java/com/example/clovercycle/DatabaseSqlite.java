@@ -22,7 +22,8 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     // we give a name to our Database
     private static final String DB_NAME = "clovercycle_db";
     //database version
-    private static final int DATABASE_VERSION = 2;
+    
+    private static final int DATABASE_VERSION = 5;
 
 
 
@@ -32,12 +33,13 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
 
 
     private static final String KEY_ID = "id";
-    private static final String KEY_USER_NAME = "user_name";
+    private static final String KEY_USER_NAME = "name";
     private static final String KEY_PASSWORD = "password";
     private static final String KEY_ADDRESS = "address";
 
     private static final String KEY_EMAIL ="email";
-    private static final String KEY_JOBS = "jobs";
+    private static final String KEY_AMOUNT = "amount";
+    private static final String KEY_JOBS = "job";
 
     private static final String TABLE_PAYMENT_INFO = "PaymentInfo";
     private static final String KEY_CARD_NUMBER = "cardNumber";
@@ -72,8 +74,15 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String CREATE_TABLE_JOBS = "CREATE TABLE " + TABLE_JOBS +
             "(" + KEY_ID + " INTEGER PRIMARY KEY," +
             KEY_USER_NAME + " TEXT," +
+<<<<<<< Updated upstream
             KEY_ADDRESS + " TEXT," +
             "amount REAL)";
+=======
+            KEY_EMAIL + " TEXT,"+
+            KEY_JOBS + " TEXT," +
+            KEY_ADDRESS + " TEXT," +
+            "amount INTEGER)";
+>>>>>>> Stashed changes
 
 
     public DatabaseSqlite(Context context) {
@@ -99,6 +108,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+<<<<<<< Updated upstream
     /**
      * Inserts a new job into the jobs table.
      * @param userName The name of the user creating the job.
@@ -150,5 +160,19 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         db.close();
         return jobList;
     }
+=======
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        // Drop the existing tables
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_COLLECTORS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_JOBS);
+
+        // Call onCreate to recreate the tables
+        onCreate(db);
+    }
+
+
+>>>>>>> Stashed changes
 
 }

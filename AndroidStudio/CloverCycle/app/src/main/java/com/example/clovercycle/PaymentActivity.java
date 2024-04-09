@@ -1,6 +1,7 @@
 package com.example.clovercycle;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
@@ -18,6 +19,7 @@ public class PaymentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_payment);
 
         Button submitPayment = findViewById(R.id.paymentBTN);
+        Button mainMenuButton = findViewById(R.id.Button2);
 
         submitPayment.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,7 +33,17 @@ public class PaymentActivity extends AppCompatActivity {
                 processPayment(cardNumber, expiryDate);
             }
         });
+
+        mainMenuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                logoutActivity();
+            }
+        });
+
+
     }
+
 
     private void processPayment(String cardNumber, String expiryDate) {
         // simulate network delay
@@ -61,5 +73,12 @@ public class PaymentActivity extends AppCompatActivity {
         } else {
             Toast.makeText(PaymentActivity.this, "Error Saving Payment Info", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void logoutActivity() {
+        Intent intent1 = new Intent(this, MainActivity.class);
+        intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent1);
+        finish();
     }
 }

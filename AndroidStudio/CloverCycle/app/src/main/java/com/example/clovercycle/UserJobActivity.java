@@ -85,7 +85,7 @@ public class UserJobActivity extends AppCompatActivity {
         jobs.put("address", address);
         jobs.put("amount", amount);
 
-        db.insert("users", null, jobs);
+        db.insert("jobs", null, jobs);
 
         db.close();
         //if result is not -1, this indicates a successful inserstion and will display toast message
