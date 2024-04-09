@@ -7,6 +7,7 @@ drawable baseline_location_on_24
 drawable clovercycle
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id Button2
 id FirstFragment
 id MainActivityComponent
 id MapsActivityComponent

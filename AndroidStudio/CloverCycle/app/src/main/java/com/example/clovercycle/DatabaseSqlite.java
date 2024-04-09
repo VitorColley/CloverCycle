@@ -14,22 +14,26 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     // we give a name to our Database
     private static final String DB_NAME = "clovercycle_db";
     //database version
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 6;
 
 
 
     private static final String TABLE_USERS = "users";
+
     private static final String TABLE_COLLECTORS = "collectors";
     private static final String TABLE_JOBS = "jobs";
 
 
     private static final String KEY_ID = "id";
     private static final String KEY_USER_NAME = "user_name";
+    private static final String KEY_NAME = "name";
+
     private static final String KEY_PASSWORD = "password";
     private static final String KEY_ADDRESS = "address";
 
     private static final String KEY_EMAIL ="email";
-    private static final String KEY_JOBS = "jobs";
+    private static final String KEY_AMOUNT = "amount";
+    private static final String KEY_JOBS = "job";
 
     private static final String TABLE_PAYMENT_INFO = "PaymentInfo";
     private static final String KEY_CARD_NUMBER = "cardNumber";
@@ -63,9 +67,12 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
 
     private static final String CREATE_TABLE_JOBS = "CREATE TABLE " + TABLE_JOBS +
             "(" + KEY_ID + " INTEGER PRIMARY KEY," +
-            KEY_USER_NAME + " TEXT," +
+            KEY_NAME + " TEXT," +
             KEY_EMAIL + " TEXT,"+
-            KEY_JOBS + " TEXT)";
+            KEY_JOBS + " TEXT," +
+            KEY_ADDRESS + " TEXT," +
+            "amount INTEGER)";
+
 
     public DatabaseSqlite(Context context) {
         super(context, DB_NAME, null, DATABASE_VERSION);
@@ -89,6 +96,18 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         // create new tables
         onCreate(db);
     }
+
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        // Drop the existing tables
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_COLLECTORS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_JOBS);
+
+        // Call onCreate to recreate the tables
+        onCreate(db);
+    }
+
 
 
 }

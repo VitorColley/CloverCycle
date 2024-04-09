@@ -24,6 +24,9 @@ public final class ActivityPaymentBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button Button2;
+
+  @NonNull
   public final ConstraintLayout MainActivityComponent;
 
   @NonNull
@@ -50,12 +53,13 @@ public final class ActivityPaymentBinding implements ViewBinding {
   @NonNull
   public final Switch saveDetailsSWITCH;
 
-  private ActivityPaymentBinding(@NonNull ConstraintLayout rootView,
+  private ActivityPaymentBinding(@NonNull ConstraintLayout rootView, @NonNull Button Button2,
       @NonNull ConstraintLayout MainActivityComponent, @NonNull EditText cardNUM,
       @NonNull TextView cardNumTXT, @NonNull TextView errorTXT, @NonNull EditText expiryNUM,
       @NonNull ImageView imageView, @NonNull TextView monthTXT, @NonNull Button paymentBTN,
       @NonNull Switch saveDetailsSWITCH) {
     this.rootView = rootView;
+    this.Button2 = Button2;
     this.MainActivityComponent = MainActivityComponent;
     this.cardNUM = cardNUM;
     this.cardNumTXT = cardNumTXT;
@@ -94,6 +98,12 @@ public final class ActivityPaymentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Button2;
+      Button Button2 = ViewBindings.findChildViewById(rootView, id);
+      if (Button2 == null) {
+        break missingId;
+      }
+
       ConstraintLayout MainActivityComponent = (ConstraintLayout) rootView;
 
       id = R.id.cardNUM;
@@ -144,8 +154,9 @@ public final class ActivityPaymentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPaymentBinding((ConstraintLayout) rootView, MainActivityComponent, cardNUM,
-          cardNumTXT, errorTXT, expiryNUM, imageView, monthTXT, paymentBTN, saveDetailsSWITCH);
+      return new ActivityPaymentBinding((ConstraintLayout) rootView, Button2, MainActivityComponent,
+          cardNUM, cardNumTXT, errorTXT, expiryNUM, imageView, monthTXT, paymentBTN,
+          saveDetailsSWITCH);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
