@@ -6,9 +6,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+<<<<<<< Updated upstream
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+=======
+import android.widget.ImageView;
+import android.widget.RadioButton;
+>>>>>>> Stashed changes
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -31,9 +36,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final EditText addressInputTf;
 
   @NonNull
+<<<<<<< Updated upstream
   public final TextView addressLbl;
 
   @NonNull
+=======
+>>>>>>> Stashed changes
   public final RadioButton collectorRb;
 
   @NonNull
@@ -61,6 +69,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextInputEditText userNameInputTf;
 
   @NonNull
+<<<<<<< Updated upstream
   public final TextView userNameLbl;
 
   @NonNull
@@ -81,10 +90,22 @@ public final class ActivityRegisterBinding implements ViewBinding {
       @NonNull TextView textView2, @NonNull TextInputEditText userNameInputTf,
       @NonNull TextView userNameLbl, @NonNull RadioButton userRb,
       @NonNull EditText verifyPasswordInputTf, @NonNull TextView verifyPasswordLbl) {
+=======
+  public final RadioButton userRb;
+
+  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
+      @NonNull EditText addressInputTf, @NonNull RadioButton collectorRb,
+      @NonNull TextInputEditText emailInputTf, @NonNull ImageView imageView,
+      @NonNull EditText passwordInputTf, @NonNull Button registerButtonBtn,
+      @NonNull TextInputEditText userNameInputTf, @NonNull RadioButton userRb) {
+>>>>>>> Stashed changes
     this.rootView = rootView;
     this.RegisterActivityComponent = RegisterActivityComponent;
     this.addressInputTf = addressInputTf;
+<<<<<<< Updated upstream
     this.addressLbl = addressLbl;
+=======
+>>>>>>> Stashed changes
     this.collectorRb = collectorRb;
     this.emailInputTf = emailInputTf;
     this.emailLbl = emailLbl;
@@ -94,10 +115,14 @@ public final class ActivityRegisterBinding implements ViewBinding {
     this.registerGroup = registerGroup;
     this.textView2 = textView2;
     this.userNameInputTf = userNameInputTf;
+<<<<<<< Updated upstream
     this.userNameLbl = userNameLbl;
     this.userRb = userRb;
     this.verifyPasswordInputTf = verifyPasswordInputTf;
     this.verifyPasswordLbl = verifyPasswordLbl;
+=======
+    this.userRb = userRb;
+>>>>>>> Stashed changes
   }
 
   @Override
@@ -135,12 +160,15 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< Updated upstream
       id = R.id.addressLbl;
       TextView addressLbl = ViewBindings.findChildViewById(rootView, id);
       if (addressLbl == null) {
         break missingId;
       }
 
+=======
+>>>>>>> Stashed changes
       id = R.id.collectorRb;
       RadioButton collectorRb = ViewBindings.findChildViewById(rootView, id);
       if (collectorRb == null) {
@@ -195,18 +223,22 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< Updated upstream
       id = R.id.userNameLbl;
       TextView userNameLbl = ViewBindings.findChildViewById(rootView, id);
       if (userNameLbl == null) {
         break missingId;
       }
 
+=======
+>>>>>>> Stashed changes
       id = R.id.userRb;
       RadioButton userRb = ViewBindings.findChildViewById(rootView, id);
       if (userRb == null) {
         break missingId;
       }
 
+<<<<<<< Updated upstream
       id = R.id.verifyPasswordInputTf;
       EditText verifyPasswordInputTf = ViewBindings.findChildViewById(rootView, id);
       if (verifyPasswordInputTf == null) {
@@ -223,6 +255,10 @@ public final class ActivityRegisterBinding implements ViewBinding {
           addressInputTf, addressLbl, collectorRb, emailInputTf, emailLbl, passwordInputTf,
           passwordLbl, registerButtonBtn, registerGroup, textView2, userNameInputTf, userNameLbl,
           userRb, verifyPasswordInputTf, verifyPasswordLbl);
+=======
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, addressInputTf, collectorRb,
+          emailInputTf, imageView, passwordInputTf, registerButtonBtn, userNameInputTf, userRb);
+>>>>>>> Stashed changes
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

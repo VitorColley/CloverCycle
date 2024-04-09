@@ -15,6 +15,10 @@
         android:inputType="text"
         android:text=""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        android:textColor="#1CA83C"
+>>>>>>> Stashed changes
 =======
         android:textColor="#1CA83C"
 >>>>>>> Stashed changes
@@ -76,7 +80,11 @@
         app:srcCompat="@drawable/clovercycle" />
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <EditText
+=======
+    <TextView
+>>>>>>> Stashed changes
 =======
     <TextView
 >>>>>>> Stashed changes
@@ -87,6 +95,10 @@
         android:ems="10"
         android:inputType="text"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        android:textColor="#1CA83C"
+>>>>>>> Stashed changes
 =======
         android:textColor="#1CA83C"
 >>>>>>> Stashed changes
@@ -105,6 +117,10 @@
         android:inputType="textPostalAddress"
         android:text=""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        android:textColor="#1CA83C"
+>>>>>>> Stashed changes
 =======
         android:textColor="#1CA83C"
 >>>>>>> Stashed changes
@@ -124,10 +140,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.342"
+=======
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27"
+>>>>>>> Stashed changes
 =======
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -148,7 +170,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         app:layout_constraintVertical_bias="0.538"
+=======
+        app:layout_constraintVertical_bias="0.487"
+>>>>>>> Stashed changes
 =======
         app:layout_constraintVertical_bias="0.487"
 >>>>>>> Stashed changes
@@ -167,7 +193,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         app:layout_constraintVertical_bias="0.701"
+=======
+        app:layout_constraintVertical_bias="0.671"
+>>>>>>> Stashed changes
 =======
         app:layout_constraintVertical_bias="0.671"
 >>>>>>> Stashed changes

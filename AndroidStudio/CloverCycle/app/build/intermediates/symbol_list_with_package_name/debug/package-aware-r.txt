@@ -3915,8 +3915,11 @@ id userNameInputTf
 id userNameLbl
 id userNameTf
 id userRb
+<<<<<<< Updated upstream
 id verifyPasswordInputTf
 id verifyPasswordLbl
+=======
+>>>>>>> Stashed changes
 id vertical
 id vertical_only
 id view_offset_helper

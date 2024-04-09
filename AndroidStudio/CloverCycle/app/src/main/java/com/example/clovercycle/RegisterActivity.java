@@ -1,5 +1,6 @@
 package com.example.clovercycle;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -25,6 +26,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     DatabaseSqlite dbHelper;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +34,8 @@ public class RegisterActivity extends AppCompatActivity {
 
         // we initiate the database
         dbHelper = new DatabaseSqlite(getApplicationContext());
+        userRb = findViewById(R.id.userRb);
+        collectorRb = findViewById(R.id.collectorRb);
 
         // well call those buttons and address their variables
         userNameInput = findViewById(R.id.userNameInputTf);

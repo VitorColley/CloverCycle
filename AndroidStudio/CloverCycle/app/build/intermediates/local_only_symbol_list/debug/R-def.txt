@@ -24,6 +24,11 @@ id button
 id button3
 id button_first
 id button_second
+<<<<<<< Updated upstream
+=======
+id cardNUM
+id cardNumTXT
+>>>>>>> Stashed changes
 id collectorRb
 id emailInputTf
 id emailLbl
@@ -66,8 +71,11 @@ id userNameInputTf
 id userNameLbl
 id userNameTf
 id userRb
+<<<<<<< Updated upstream
 id verifyPasswordInputTf
 id verifyPasswordLbl
+=======
+>>>>>>> Stashed changes
 id welcome
 layout activity_main
 layout activity_maps
