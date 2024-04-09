@@ -1,9 +1,19 @@
+<<<<<<< Updated upstream
 #Mon Apr 08 21:51:13 IST 2024
 base.0=C\:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
 base.3=C\:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 base.4=C\:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+=======
+#Tue Apr 09 23:02:03 IST 2024
+base.0=C\:\\Users\\conor\\Desktop\\GitHub\\CloverCycle\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\conor\\Desktop\\GitHub\\CloverCycle\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\conor\\Desktop\\GitHub\\CloverCycle\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=C\:\\Users\\conor\\Desktop\\GitHub\\CloverCycle\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.4=C\:\\Users\\conor\\Desktop\\GitHub\\CloverCycle\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.5=C\:\\Users\\conor\\Desktop\\GitHub\\CloverCycle\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+>>>>>>> Stashed changes
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=12/classes.dex
