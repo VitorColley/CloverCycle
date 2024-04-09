@@ -1,16 +1,8 @@
 package com.example.clovercycle;
 
-import android.annotation.SuppressLint;
-import android.content.ContentValues;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase;
 import android.content.Context;
-import com.example.clovercycle.Job;
-
-import java.util.ArrayList;
-import java.util.List;
-
 
 public class DatabaseSqlite extends SQLiteOpenHelper {
 
@@ -22,7 +14,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     // we give a name to our Database
     private static final String DB_NAME = "clovercycle_db";
     //database version
-    
+
     private static final int DATABASE_VERSION = 5;
 
 
@@ -74,15 +66,10 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String CREATE_TABLE_JOBS = "CREATE TABLE " + TABLE_JOBS +
             "(" + KEY_ID + " INTEGER PRIMARY KEY," +
             KEY_USER_NAME + " TEXT," +
-<<<<<<< Updated upstream
-            KEY_ADDRESS + " TEXT," +
-            "amount REAL)";
-=======
             KEY_EMAIL + " TEXT,"+
             KEY_JOBS + " TEXT," +
             KEY_ADDRESS + " TEXT," +
             "amount INTEGER)";
->>>>>>> Stashed changes
 
 
     public DatabaseSqlite(Context context) {
@@ -108,59 +95,6 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-<<<<<<< Updated upstream
-    /**
-     * Inserts a new job into the jobs table.
-     * @param userName The name of the user creating the job.
-     * @param address The address where the job is to be completed.
-     * @param amount The amount ready for collection for the job.
-     */
-    public void insertJob(String userName, String address, double amount) {
-        SQLiteDatabase db = this.getWritableDatabase();
-
-        ContentValues values = new ContentValues();
-        values.put(KEY_USER_NAME, userName);
-        values.put(KEY_ADDRESS, address);
-        values.put("amount", amount); // Assuming 'amount' column name
-
-
-
-        // Inserting Row
-        db.insert(TABLE_JOBS, null, values);
-        // Closing database connection
-        db.close();
-    }
-    /**
-     * Fetches all jobs from the database.
-     * @return A list of all jobs.
-     */
-    @SuppressLint("Range")
-    public List<Job> getAllJobs() {
-        List<Job> jobList = new ArrayList<>();
-        // select All Query
-        String selectQuery = "SELECT  * FROM " + TABLE_JOBS;
-
-        SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor = db.rawQuery(selectQuery, null);
-
-        // looping through all rows and adding to list
-        if (cursor.moveToFirst()) {
-            do {
-                Job job = new Job();
-                job.setId(cursor.getInt(cursor.getColumnIndex(KEY_ID)));
-                job.setUserName(cursor.getString(cursor.getColumnIndex(KEY_USER_NAME)));
-                job.setAddress(cursor.getString(cursor.getColumnIndex(KEY_ADDRESS)));
-                job.setAmount(cursor.getDouble(cursor.getColumnIndex("amount")));
-                // adding job to list
-                jobList.add(job);
-            } while (cursor.moveToNext());
-        }
-        // return job list
-        cursor.close();
-        db.close();
-        return jobList;
-    }
-=======
     @Override
     public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // Drop the existing tables
@@ -173,6 +107,5 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     }
 
 
->>>>>>> Stashed changes
 
 }
