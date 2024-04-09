@@ -1,106 +1,110 @@
 [
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/xml_backup_rules.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/layout_activity_payment.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_payment.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "com.example.clovercycle.app-merged_res-77:/layout_activity_maps.xml.flat",
         "source": "com.example.clovercycle.app-main-79:/layout/activity_maps.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/navigation_nav_graph.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/navigation/nav_graph.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/layout_fragment_first.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/layout/fragment_first.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_user_job.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\user_job.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\drawable_clovercycle.jpeg.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\drawable\\clovercycle.jpeg"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\drawable_baseline_location_on_24.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\drawable\\baseline_location_on_24.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/layout_fragment_second.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/layout/fragment_second.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/layout_activity_main.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_main.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\fragment_first.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/drawable_clovercycle.jpeg.flat",
-        "source": "com.example.clovercycle.app-main-79:/drawable/clovercycle.jpeg"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_maps.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\fragment_second.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/layout_activity_register.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_register.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/drawable_baseline_location_on_24.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/drawable/baseline_location_on_24.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_payment.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/layout_user_job.xml.flat",
-        "source": "com.example.clovercycle.app-main-79:/layout/user_job.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-merged_res-77:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.clovercycle.app-main-79:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-merged_res-77:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\mipmap-xxhdpi\\ic_launcher.webp"
     }
 ]

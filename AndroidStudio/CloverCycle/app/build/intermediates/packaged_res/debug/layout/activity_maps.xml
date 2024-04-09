@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/MapsActivityComponent"
+    android:id="@+id/jobsListView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
@@ -38,129 +38,11 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/job1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
-                android:textSize="16sp"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:visibility="visible"
-                android:text="orem ipsum dolor sit amet, consectetur adipiscing elit, "
-                android:textIsSelectable="true" />
 
-            <TextView
-                android:id="@+id/job2"
+            <ListView
+                android:id="@+id/actualListView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
-                android:textSize="16sp"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:visibility="visible"
-                android:text="orem ipsum dolor sit amet, consectetur adipiscing elit, "
-                android:textIsSelectable="true" />
-
-
-            <TextView
-                android:id="@+id/job3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
-                android:textSize="16sp"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:visibility="visible"
-                android:text="orem ipsum dolor sit amet, consectetur adipiscing elit, "
-                android:textIsSelectable="true" />
-
-            <TextView
-                android:id="@+id/job4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
-                android:textSize="16sp"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:visibility="visible"
-                android:text="orem ipsum dolor sit amet, consectetur adipiscing elit, "
-                android:textIsSelectable="true" />
-
-            <TextView
-                android:id="@+id/job5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
-                android:textSize="16sp"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:visibility="visible"
-                android:text="orem ipsum dolor sit amet, consectetur adipiscing elit, "
-                android:textIsSelectable="true" />
-            <TextView
-                android:id="@+id/job6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
-                android:textSize="16sp"
-                android:visibility="visible"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:text="orem ipsum dolor sit amet, consectetur adipiscing elit, "
-                android:textIsSelectable="true" />
-            <TextView
-                android:id="@+id/job7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
-                android:textSize="16sp"
-                android:visibility="visible"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:text="orem ipsum dolor sit amet, consectetur adipiscing elit, "
-                android:textIsSelectable="true" />
-            <TextView
-                android:id="@+id/job8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
-                android:textSize="16sp"
-                android:visibility="visible"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:text="orem ipsum dolor sit amet, consectetur adipiscing elit, "
-                android:textIsSelectable="true" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="265dp"
-                android:layout_height="60dp"
-                android:backgroundTint="#0B2A1A"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:text="Accept Job"
-                android:textSize="16sp"
-                android:visibility="visible" />
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="265dp"
-                android:layout_height="58dp"
-                android:backgroundTint="#0B2A1A"
-                android:textColor="#1CA83C"
-                android:textColorHighlight="#0A291A"
-                android:text="Main Menu"
-                android:textSize="16sp"
-                android:visibility="visible" />
+            android:layout_height="276dp" />
 
         </LinearLayout>
 

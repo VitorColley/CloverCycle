@@ -12,6 +12,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.view.View;
+import android.widget.Button;
+import com.example.clovercycle.Job;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -45,6 +49,7 @@ public class UserJobActivity extends AppCompatActivity {
                 logoutActivity();
             }
         });
+
 
         jobBtn.setOnClickListener(new View.OnClickListener() {
             @Override

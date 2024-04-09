@@ -3360,7 +3360,6 @@ int id FUNCTION 0x7f080004
 int id FirstFragment 0x7f080005
 int id META 0x7f080006
 int id MainActivityComponent 0x7f080007
-int id MapsActivityComponent 0x7f080008
 int id NO_DEBUG 0x7f080009
 int id RegisterActivityComponent 0x7f08000a
 int id SHIFT 0x7f08000b
@@ -3429,6 +3428,7 @@ int id action_mode_close_button 0x7f080049
 int id action_text 0x7f08004a
 int id actions 0x7f08004b
 int id activity_chooser_view_content 0x7f08004c
+int id actualListView 0x7f080264
 int id add 0x7f08004d
 int id address 0x7f08004e
 int id addressInputTf 0x7f08004f
@@ -3468,8 +3468,6 @@ int id bounce 0x7f080070
 int id bounceBoth 0x7f080071
 int id bounceEnd 0x7f080072
 int id bounceStart 0x7f080073
-int id button 0x7f080074
-int id button3 0x7f080075
 int id buttonPanel 0x7f080076
 int id button_first 0x7f080077
 int id button_second 0x7f080078
@@ -3630,15 +3628,8 @@ int id inward 0x7f080112
 int id is_pooling_container_tag 0x7f080113
 int id italic 0x7f080114
 int id item_touch_helper_previous_elevation 0x7f080115
-int id job1 0x7f080116
-int id job2 0x7f080117
-int id job3 0x7f080118
-int id job4 0x7f080119
-int id job5 0x7f08011a
-int id job6 0x7f08011b
-int id job7 0x7f08011c
-int id job8 0x7f08011d
 int id jobBtn 0x7f08011e
+int id jobsListView 0x7f080263
 int id jumpToEnd 0x7f08011f
 int id jumpToStart 0x7f080120
 int id labeled 0x7f080121

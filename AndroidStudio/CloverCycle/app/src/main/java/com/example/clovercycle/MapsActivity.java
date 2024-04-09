@@ -11,12 +11,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -30,9 +34,14 @@ import com.mapbox.maps.plugin.gestures.OnMoveListener;
 import com.mapbox.maps.plugin.locationcomponent.LocationComponentPlugin;
 import com.mapbox.maps.plugin.locationcomponent.OnIndicatorBearingChangedListener;
 import com.mapbox.maps.plugin.locationcomponent.OnIndicatorPositionChangedListener;
+import com.example.clovercycle.Job;
+
+import java.util.List;
+
 
 public class MapsActivity extends AppCompatActivity {
     MapView mapView;
+
 
     FloatingActionButton floatingActionButton;
 
@@ -85,6 +94,7 @@ public class MapsActivity extends AppCompatActivity {
         }
     };
 
+    private DatabaseSqlite dbHelper;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
@@ -120,6 +130,26 @@ public class MapsActivity extends AppCompatActivity {
                 });
             }
         });
+
+        dbHelper = new DatabaseSqlite(this);
+        List<Job> jobs = dbHelper.getAllJobs();
+
+        // Example: Display jobs in a ListView
+
+        @SuppressLint("WrongViewCast") ListView jobsListView = findViewById(R.id.jobsListView);
+        ArrayAdapter<Job> adapter = new ArrayAdapter<>(this,
+                android.R.layout.simple_list_item_1, jobs);
+        jobsListView.setAdapter(adapter);
+
+        // Set an item click listener to handle job selection
+        jobsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                                @Override
+                                                public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                                                    Job selectedJob = jobs.get(position);
+                                                    // Handle the selected job (e.g., display details or map location)
+                                                }
+        });
+
     }
     //method name is self explanatory
     private void getLastKnownLocation() {

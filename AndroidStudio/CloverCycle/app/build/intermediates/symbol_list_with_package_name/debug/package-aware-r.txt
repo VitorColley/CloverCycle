@@ -3361,7 +3361,6 @@ id FUNCTION
 id FirstFragment
 id META
 id MainActivityComponent
-id MapsActivityComponent
 id NO_DEBUG
 id RegisterActivityComponent
 id SHIFT
@@ -3430,6 +3429,7 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
+id actualListView
 id add
 id address
 id addressInputTf
@@ -3469,8 +3469,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
-id button3
 id buttonPanel
 id button_first
 id button_second
@@ -3631,15 +3629,8 @@ id inward
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
-id job1
-id job2
-id job3
-id job4
-id job5
-id job6
-id job7
-id job8
 id jobBtn
+id jobsListView
 id jumpToEnd
 id jumpToStart
 id labeled

@@ -4,11 +4,10 @@ package com.example.clovercycle.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -25,40 +24,13 @@ public final class ActivityMapsBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final RelativeLayout MapsActivityComponent;
-
-  @NonNull
-  public final Button button;
-
-  @NonNull
-  public final Button button3;
+  public final ListView actualListView;
 
   @NonNull
   public final FloatingActionButton focusLocation;
 
   @NonNull
-  public final TextView job1;
-
-  @NonNull
-  public final TextView job2;
-
-  @NonNull
-  public final TextView job3;
-
-  @NonNull
-  public final TextView job4;
-
-  @NonNull
-  public final TextView job5;
-
-  @NonNull
-  public final TextView job6;
-
-  @NonNull
-  public final TextView job7;
-
-  @NonNull
-  public final TextView job8;
+  public final RelativeLayout jobsListView;
 
   @NonNull
   public final MapView mapView;
@@ -69,26 +41,14 @@ public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
   public final LinearLayout scrollViewLayout;
 
-  private ActivityMapsBinding(@NonNull RelativeLayout rootView,
-      @NonNull RelativeLayout MapsActivityComponent, @NonNull Button button,
-      @NonNull Button button3, @NonNull FloatingActionButton focusLocation, @NonNull TextView job1,
-      @NonNull TextView job2, @NonNull TextView job3, @NonNull TextView job4,
-      @NonNull TextView job5, @NonNull TextView job6, @NonNull TextView job7,
-      @NonNull TextView job8, @NonNull MapView mapView, @NonNull ScrollView scrollView,
+  private ActivityMapsBinding(@NonNull RelativeLayout rootView, @NonNull ListView actualListView,
+      @NonNull FloatingActionButton focusLocation, @NonNull RelativeLayout jobsListView,
+      @NonNull MapView mapView, @NonNull ScrollView scrollView,
       @NonNull LinearLayout scrollViewLayout) {
     this.rootView = rootView;
-    this.MapsActivityComponent = MapsActivityComponent;
-    this.button = button;
-    this.button3 = button3;
+    this.actualListView = actualListView;
     this.focusLocation = focusLocation;
-    this.job1 = job1;
-    this.job2 = job2;
-    this.job3 = job3;
-    this.job4 = job4;
-    this.job5 = job5;
-    this.job6 = job6;
-    this.job7 = job7;
-    this.job8 = job8;
+    this.jobsListView = jobsListView;
     this.mapView = mapView;
     this.scrollView = scrollView;
     this.scrollViewLayout = scrollViewLayout;
@@ -121,17 +81,9 @@ public final class ActivityMapsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      RelativeLayout MapsActivityComponent = (RelativeLayout) rootView;
-
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
-        break missingId;
-      }
-
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
+      id = R.id.actualListView;
+      ListView actualListView = ViewBindings.findChildViewById(rootView, id);
+      if (actualListView == null) {
         break missingId;
       }
 
@@ -141,53 +93,7 @@ public final class ActivityMapsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.job1;
-      TextView job1 = ViewBindings.findChildViewById(rootView, id);
-      if (job1 == null) {
-        break missingId;
-      }
-
-      id = R.id.job2;
-      TextView job2 = ViewBindings.findChildViewById(rootView, id);
-      if (job2 == null) {
-        break missingId;
-      }
-
-      id = R.id.job3;
-      TextView job3 = ViewBindings.findChildViewById(rootView, id);
-      if (job3 == null) {
-        break missingId;
-      }
-
-      id = R.id.job4;
-      TextView job4 = ViewBindings.findChildViewById(rootView, id);
-      if (job4 == null) {
-        break missingId;
-      }
-
-      id = R.id.job5;
-      TextView job5 = ViewBindings.findChildViewById(rootView, id);
-      if (job5 == null) {
-        break missingId;
-      }
-
-      id = R.id.job6;
-      TextView job6 = ViewBindings.findChildViewById(rootView, id);
-      if (job6 == null) {
-        break missingId;
-      }
-
-      id = R.id.job7;
-      TextView job7 = ViewBindings.findChildViewById(rootView, id);
-      if (job7 == null) {
-        break missingId;
-      }
-
-      id = R.id.job8;
-      TextView job8 = ViewBindings.findChildViewById(rootView, id);
-      if (job8 == null) {
-        break missingId;
-      }
+      RelativeLayout jobsListView = (RelativeLayout) rootView;
 
       id = R.id.mapView;
       MapView mapView = ViewBindings.findChildViewById(rootView, id);
@@ -207,9 +113,8 @@ public final class ActivityMapsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMapsBinding((RelativeLayout) rootView, MapsActivityComponent, button,
-          button3, focusLocation, job1, job2, job3, job4, job5, job6, job7, job8, mapView,
-          scrollView, scrollViewLayout);
+      return new ActivityMapsBinding((RelativeLayout) rootView, actualListView, focusLocation,
+          jobsListView, mapView, scrollView, scrollViewLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
