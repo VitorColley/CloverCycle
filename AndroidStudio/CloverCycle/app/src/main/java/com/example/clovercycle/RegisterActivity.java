@@ -33,6 +33,9 @@ public class RegisterActivity extends AppCompatActivity {
         // we initiate the database
         dbHelper = new DatabaseSqlite(getApplicationContext());
 
+        userRb = findViewById(R.id.userRb);
+        collectorRb = findViewById(R.id.collectorRb);
+
         // well call those buttons and address their variables
         userNameInput = findViewById(R.id.userNameInputTf);
         passwordInput = findViewById(R.id.passwordInputTf);

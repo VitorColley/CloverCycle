@@ -112,7 +112,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27"
+        app:layout_constraintVertical_bias="0.311"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <TextView
@@ -127,7 +127,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.487"
+        app:layout_constraintVertical_bias="0.519"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <TextView
@@ -142,7 +142,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.671"
+        app:layout_constraintVertical_bias="0.703"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

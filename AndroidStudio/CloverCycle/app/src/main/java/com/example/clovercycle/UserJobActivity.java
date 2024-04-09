@@ -1,6 +1,13 @@
 package com.example.clovercycle;
 
-//import static com.example.clovercycle.DatabaseSqlite.KEY_NAME;
+import static com.example.clovercycle.DatabaseSqlite.KEY_NAME;
+
+
+
+import static com.example.clovercycle.R.id.nameTxt;
+import static com.example.clovercycle.R.id.userName;
+
+import android.annotation.SuppressLint;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -22,9 +29,13 @@ public class UserJobActivity extends AppCompatActivity {
     EditText amountInput;
     Button jobBtn;
     Button menuBtn;
+
     String name, address, amount;
     int result;
+
+    DatabaseSqlite dbHandler;
     DatabaseSqlite dbHelper;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +50,10 @@ public class UserJobActivity extends AppCompatActivity {
         jobBtn = findViewById(R.id.jobBtn);
         //create event listener
         menuBtn = (Button) findViewById(R.id.menuBtn);
+
+
+        dbHandler = new DatabaseSqlite(UserJobActivity.this);
+
         menuBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,53 +67,39 @@ public class UserJobActivity extends AppCompatActivity {
                 // Retrieve values from EditText fields
                 name = nameTxt.getText().toString();
                 address = addressTxt.getText().toString();
+
                 amount = amountInput.getText().toString();
 
-                // Call postJob method to insert data into database
-                postJob();
+                String amountString = amountInput.getText().toString(); //get the text from EditText as a String
+                int amountInt = Integer.parseInt(amountString); //parse the String to an int
+                amount = String.valueOf(Integer.parseInt(String.valueOf(amountInt))); //convert the int back to a String
+
+                // validating if the text fields are empty or not.
+                if (name.isEmpty() || address.isEmpty() || amountString.isEmpty()) {
+                    Toast.makeText(UserJobActivity.this, "Please enter all the data..", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+
+                // on below line we are calling a method to add new
+                // job to sqlite data and pass all our values to it.
+                dbHandler.addNewJob(name, address, String.valueOf(amount));
+
+                // after adding the data we are displaying a toast message.
+                Toast.makeText(UserJobActivity.this, "Jobs has been added.", Toast.LENGTH_SHORT).show();
+                nameTxt.setText("");
+                addressTxt.setText("");
             }
         });
 
         Button paymentsBtn;
-
-            paymentsBtn = findViewById(R.id.paymentsBtn);
-            paymentsBtn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    goToPaymentsActivity();
-                }
-            });
-        }
-
-
-    private void postJob() {
-        SQLiteDatabase db = dbHelper.getWritableDatabase();
-        ContentValues jobs = new ContentValues();
-
-        // inset data as we wish
-        jobs.put("name", name);
-        jobs.put("address", address);
-        jobs.put("amount", amount);
-
-        long result = db.insert("jobs", null, jobs);
-
-        db.close();
-        //if result is not -1, this indicates a successful inserstion and will display toast message
-        if (result != -1) {
-            //data insertion was successful
-
-            // display the inserted name and address in EditText fields
-           // EditText nameTxt = findViewById(R.id.nameTxt);
-           // nameTxt.setText(name);
-
-           // EditText addressTxt = findViewById(R.id.addressTxt);
-           // addressTxt.setText(address);
-            //toast is a android studio utility that allows to show messages
-            showToast("Job posted successfully");
-        } else {
-            //data insertion failed
-            showToast("Failed to post job");
-        }
+        paymentsBtn = findViewById(R.id.paymentsBtn);
+        paymentsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToPaymentsActivity();
+            }
+        });
     }
 
     private void showToast(String message) {

@@ -3364,7 +3364,6 @@ id META
 id MainActivityComponent
 id MapsActivityComponent
 id NO_DEBUG
-id RegisterActivityComponent
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3434,7 +3433,6 @@ id activity_chooser_view_content
 id add
 id address
 id addressInputTf
-id addressLbl
 id addressTxt
 id adjust_height
 id adjust_width
@@ -3560,7 +3558,6 @@ id edge
 id edit_query
 id elastic
 id emailInputTf
-id emailLbl
 id embed
 id end
 id endToStart
@@ -3776,7 +3773,6 @@ id parent_matrix
 id passTf
 id password
 id passwordInputTf
-id passwordLbl
 id password_toggle
 id path
 id pathRelative
@@ -3796,7 +3792,6 @@ id ratio
 id rectangles
 id registerBtn
 id registerButtonBtn
-id registerGroup
 id registerLbl
 id report_drawn
 id reverseSawtooth
@@ -3898,7 +3893,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3937,11 +3931,8 @@ id upwards
 id useLogo
 id userName
 id userNameInputTf
-id userNameLbl
 id userNameTf
 id userRb
-id verifyPasswordInputTf
-id verifyPasswordLbl
 id vertical
 id vertical_only
 id view_offset_helper
