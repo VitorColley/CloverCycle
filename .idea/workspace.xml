@@ -48,209 +48,12 @@
   <component name="ChangeListManager">
     <list default="true" id="666878b3-0049-4d6d-bf66-842efe4ca11c" name="Changes" comment="12:18 08/04/2024">
       <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/clovercycle/databinding/ActivityMapsBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/clovercycle/databinding/ActivityMapsBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/clovercycle/databinding/ActivityPaymentBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/clovercycle/databinding/ActivityPaymentBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_payment-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_payment-layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/user_job-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/user_job-layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_payment-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/data_binding_layout_info_type_package/debug/out/activity_payment-layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/data_binding_layout_info_type_package/debug/out/user_job-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/data_binding_layout_info_type_package/debug/out/user_job-layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-af/values-af.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-am/values-am.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-as/values-as.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-az/values-az.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-b+es+419/values-b+es+419.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-be/values-be.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bg/values-bg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bn/values-bn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bs/values-bs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-da/values-da.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-el/values-el.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-et/values-et.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-eu/values-eu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fa/values-fa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gl/values-gl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gu/values-gu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h320dp-port-v13/values-h320dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hi/values-hi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hr/values-hr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hu/values-hu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hy/values-hy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-in/values-in.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-is/values-is.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ka/values-ka.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kk/values-kk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-km/values-km.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kn/values-kn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ky/values-ky.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-land/values-land.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lo/values-lo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lt/values-lt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lv/values-lv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mk/values-mk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ml/values-ml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mn/values-mn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mr/values-mr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ms/values-ms.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-my/values-my.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nb/values-nb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ne/values-ne.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-or/values-or.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pa/values-pa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-port/values-port.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-si/values-si.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sl/values-sl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sq/values-sq.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sr/values-sr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sv/values-sv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sw/values-sw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ta/values-ta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-te/values-te.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-th/values-th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tl/values-tl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tr/values-tr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ur/values-ur.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uz/values-uz.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v16/values-v16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v17/values-v17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v18/values-v18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v22/values-v22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v23/values-v23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v24/values-v24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v25/values-v25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v26/values-v26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v28/values-v28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v31/values-v31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v34/values-v34.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-vi/values-vi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w1240dp-v13/values-w1240dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w400dp-port-v13/values-w400dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zu/values-zu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/activity_maps.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/activity_payment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/activity_register.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/fragment_first.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/fragment_second.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/user_job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/user_job.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-land/values-land.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-v23/values-v23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-w1240dp-v13/values-w1240dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_maps.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_payment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/activity_register.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/fragment_first.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/fragment_second.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/user_job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/user_job.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/DatabaseSqlite.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/DatabaseSqlite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/PaymentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/PaymentActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/PaymentActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/PaymentActivity$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/PaymentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/PaymentActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/databinding/ActivityPaymentBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/databinding/ActivityPaymentBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/merged_res/debug/layout_activity_payment.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/merged_res/debug/layout_activity_payment.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/merged_res/debug/layout_user_job.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/merged_res/debug/layout_user_job.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/packaged_res/debug/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/packaged_res/debug/layout/activity_payment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/packaged_res/debug/layout/user_job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/packaged_res/debug/layout/user_job.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/4ed55b6c20480e43af15202db43c7053ba418c39b552e1e7819b2103ed46fd83_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/4ed55b6c20480e43af15202db43c7053ba418c39b552e1e7819b2103ed46fd83_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/4ed55b6c20480e43af15202db43c7053ba418c39b552e1e7819b2103ed46fd83_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/4ed55b6c20480e43af15202db43c7053ba418c39b552e1e7819b2103ed46fd83_3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/4ed55b6c20480e43af15202db43c7053ba418c39b552e1e7819b2103ed46fd83_4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/4ed55b6c20480e43af15202db43c7053ba418c39b552e1e7819b2103ed46fd83_5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/4ed55b6c20480e43af15202db43c7053ba418c39b552e1e7819b2103ed46fd83_6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/4ed55b6c20480e43af15202db43c7053ba418c39b552e1e7819b2103ed46fd83_7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/DatabaseSqlite.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/DatabaseSqlite.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/PaymentActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/PaymentActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/PaymentActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/PaymentActivity$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/PaymentActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/PaymentActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/UserJobActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/UserJobActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/databinding/ActivityPaymentBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/project_dex_archive/debug/out/com/example/clovercycle/databinding/ActivityPaymentBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/DatabaseSqlite.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/DatabaseSqlite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/PaymentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/PaymentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/res/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/res/layout/activity_payment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/res/layout/user_job.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/res/layout/user_job.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +63,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[adb-28201JEGR27542-7pI4BI._adb-tls-connect._tcp]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\conor\.android\avd\Pixel_3a_XL_API_34.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/AndroidStudio/CloverCycle">
       <ProjectState />
@@ -347,26 +150,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DEBUGGABLE_DEVICE&quot;: &quot;Pixel_3a_API_34_extension_level_7_x86_64 [emulator-5554]&quot;,
-    &quot;DEBUGGABLE_PROCESS&quot;: &quot;com.example.clovercycle&quot;,
-    &quot;DEBUGGER_ID&quot;: &quot;Auto&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SHOW_ALL_PROCESSES&quot;: &quot;false&quot;,
-    &quot;android-custom-viewC:/Users/mcgil/AppData/Local/Android/Sdk/sources/android-34/android/view/View.java_SELECTED&quot;: &quot;View&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mcgil/Desktop/College/Semester 4/clovercycle/CloverCycle&quot;,
-    &quot;recommended.upgrade.do.not.ask.for.project&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DEBUGGABLE_DEVICE": "Pixel_3a_API_34_extension_level_7_x86_64 [emulator-5554]",
+    "DEBUGGABLE_PROCESS": "com.example.clovercycle",
+    "DEBUGGER_ID": "Auto",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHOW_ALL_PROCESSES": "false",
+    "android-custom-viewC:/Users/mcgil/AppData/Local/Android/Sdk/sources/android-34/android/view/View.java_SELECTED": "View",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "oisin-payment-test",
+    "last_opened_file_path": "C:/Users/mcgil/Desktop/College/Semester 4/clovercycle/CloverCycle",
+    "recommended.upgrade.do.not.ask.for.project": "true",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="android.template.-1316731602">
       <recent name="com.example.clovercycle" />
@@ -797,29 +600,5 @@
     <MESSAGE value="Test1" />
     <MESSAGE value="12:18 08/04/2024" />
     <option name="LAST_COMMIT_MESSAGE" value="12:18 08/04/2024" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/DatabaseSqlite.java</url>
-          <line>16</line>
-          <properties field="DATABASE_VERSION" class="com.example.clovercycle.DatabaseSqlite" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/DatabaseSqlite.java</url>
-          <line>34</line>
-          <properties field="KEY_AMOUNT" class="com.example.clovercycle.DatabaseSqlite" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/DatabaseSqlite.java</url>
-          <line>27</line>
-          <properties field="KEY_USER_NAME" class="com.example.clovercycle.DatabaseSqlite" />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

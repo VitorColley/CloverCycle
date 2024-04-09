@@ -80,12 +80,19 @@ public class UserJobActivity extends AppCompatActivity {
         jobs.put("address", address);
         jobs.put("amount", amount);
 
-        db.insert("jobs", null, jobs);
+        long result = db.insert("jobs", null, jobs);
 
         db.close();
         //if result is not -1, this indicates a successful inserstion and will display toast message
         if (result != -1) {
             //data insertion was successful
+
+            // display the inserted name and address in EditText fields
+           // EditText nameTxt = findViewById(R.id.nameTxt);
+           // nameTxt.setText(name);
+
+           // EditText addressTxt = findViewById(R.id.addressTxt);
+           // addressTxt.setText(address);
             //toast is a android studio utility that allows to show messages
             showToast("Job posted successfully");
         } else {
