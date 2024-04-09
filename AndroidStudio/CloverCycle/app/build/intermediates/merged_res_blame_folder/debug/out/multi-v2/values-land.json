@@ -33,7 +33,11 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\conor\\StudioProjects\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-land\\dimens.xml",
+=======
+                    "source": "C:\\Users\\mcgil\\Desktop\\College\\Semester 4\\clovercycle2\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-land\\dimens.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
