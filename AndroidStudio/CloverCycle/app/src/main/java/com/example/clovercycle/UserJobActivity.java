@@ -3,7 +3,7 @@ package com.example.clovercycle;
 import static com.example.clovercycle.DatabaseSqlite.KEY_NAME;
 
 
-
+import static com.example.clovercycle.R.id.button;
 import static com.example.clovercycle.R.id.nameTxt;
 import static com.example.clovercycle.R.id.userName;
 
@@ -29,7 +29,7 @@ public class UserJobActivity extends AppCompatActivity {
     EditText amountInput;
     Button jobBtn;
     Button menuBtn;
-
+    Button myjobs;
     String name, address, amount;
     int result;
 
@@ -50,20 +50,29 @@ public class UserJobActivity extends AppCompatActivity {
         jobBtn = findViewById(R.id.jobBtn);
         //create event listener
         menuBtn = (Button) findViewById(R.id.menuBtn);
+        myjobs = (Button) findViewById(R.id.myjobs);
 
 
         dbHandler = new DatabaseSqlite(UserJobActivity.this);
+        //event listener for my jobs btn
+        myjobs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
 
+                myJobActivity();
+
+            }
+            });
         menuBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 logoutActivity();
             }
         });
-
         jobBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //https://www.geeksforgeeks.org/how-to-read-data-from-sqlite-database-in-android/
                 // Retrieve values from EditText fields
                 name = nameTxt.getText().toString();
                 address = addressTxt.getText().toString();
@@ -83,12 +92,13 @@ public class UserJobActivity extends AppCompatActivity {
 
                 // on below line we are calling a method to add new
                 // job to sqlite data and pass all our values to it.
-                dbHandler.addNewJob(name, address, String.valueOf(amount));
+                dbHandler.addNewJob(name, address, amount);
 
                 // after adding the data we are displaying a toast message.
                 Toast.makeText(UserJobActivity.this, "Jobs has been added.", Toast.LENGTH_SHORT).show();
                 nameTxt.setText("");
                 addressTxt.setText("");
+                amountInput.setText("");
             }
         });
 
@@ -104,6 +114,12 @@ public class UserJobActivity extends AppCompatActivity {
 
     private void showToast(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+    }
+    public void myJobActivity(){
+        Intent intent2 = new Intent(this, ViewJobs.class);
+        intent2.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent2);
+        finish();
     }
 
     public void logoutActivity() {

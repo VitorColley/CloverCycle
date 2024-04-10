@@ -25,7 +25,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
 
 
 
-    private static final int DATABASE_VERSION = 8;
+    private static final int DATABASE_VERSION = 9;
 
 
 
@@ -108,22 +108,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         // create new tables
         onCreate(db);
     }
-    public ArrayList<String> getJobs() {
-        SQLiteDatabase db = this.getReadableDatabase();
-        ArrayList<String> jobsList = new ArrayList<>();
-        Cursor cursor = db.rawQuery("SELECT " + KEY_NAME + " FROM " + TABLE_JOBS, null);
 
-        if (cursor.moveToFirst()) {
-            do {
-                @SuppressLint("Range") String jobName = cursor.getString(cursor.getColumnIndex(KEY_NAME));
-                jobsList.add(jobName);
-            } while (cursor.moveToNext());
-        }
-
-        cursor.close();
-        db.close();
-        return jobsList;
-    }
     // this method is use to add new course to our sqlite database.
     public void addNewJob(String name, String address, String amount) {
 
@@ -148,7 +133,23 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         // database after adding database.
         db.close();
     }
-    public ArrayList<JobsModal> readCourses()
+    public ArrayList<String> getJobs() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ArrayList<String> jobsList = new ArrayList<>();
+        Cursor cursor = db.rawQuery("SELECT " + KEY_NAME + " FROM " + TABLE_JOBS, null);
+
+        if (cursor.moveToFirst()) {
+            do {
+                @SuppressLint("Range") String jobName = cursor.getString(cursor.getColumnIndex(KEY_NAME));
+                jobsList.add(jobName);
+            } while (cursor.moveToNext());
+        }
+
+        cursor.close();
+        db.close();
+        return jobsList;
+    }
+    public ArrayList<JobsModal> readJobs()
     {
         // on below line we are creating a
         // database for reading our database.

@@ -44,6 +44,9 @@ public final class UserJobBinding implements ViewBinding {
   public final Button menuBtn;
 
   @NonNull
+  public final Button myjobs;
+
+  @NonNull
   public final TextView name;
 
   @NonNull
@@ -55,7 +58,8 @@ public final class UserJobBinding implements ViewBinding {
   private UserJobBinding(@NonNull ConstraintLayout rootView, @NonNull TextView address,
       @NonNull EditText addressTxt, @NonNull TextView amount, @NonNull EditText amountInput,
       @NonNull ImageView imageView2, @NonNull Button jobBtn, @NonNull Button menuBtn,
-      @NonNull TextView name, @NonNull EditText nameTxt, @NonNull Button paymentsBtn) {
+      @NonNull Button myjobs, @NonNull TextView name, @NonNull EditText nameTxt,
+      @NonNull Button paymentsBtn) {
     this.rootView = rootView;
     this.address = address;
     this.addressTxt = addressTxt;
@@ -64,6 +68,7 @@ public final class UserJobBinding implements ViewBinding {
     this.imageView2 = imageView2;
     this.jobBtn = jobBtn;
     this.menuBtn = menuBtn;
+    this.myjobs = myjobs;
     this.name = name;
     this.nameTxt = nameTxt;
     this.paymentsBtn = paymentsBtn;
@@ -138,6 +143,12 @@ public final class UserJobBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.myjobs;
+      Button myjobs = ViewBindings.findChildViewById(rootView, id);
+      if (myjobs == null) {
+        break missingId;
+      }
+
       id = R.id.name;
       TextView name = ViewBindings.findChildViewById(rootView, id);
       if (name == null) {
@@ -157,7 +168,7 @@ public final class UserJobBinding implements ViewBinding {
       }
 
       return new UserJobBinding((ConstraintLayout) rootView, address, addressTxt, amount,
-          amountInput, imageView2, jobBtn, menuBtn, name, nameTxt, paymentsBtn);
+          amountInput, imageView2, jobBtn, menuBtn, myjobs, name, nameTxt, paymentsBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

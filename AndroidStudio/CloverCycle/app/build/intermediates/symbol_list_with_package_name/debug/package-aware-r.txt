@@ -3433,6 +3433,8 @@ id activity_chooser_view_content
 id add
 id address
 id addressInputTf
+id addressLabelTv
+id addressTv
 id addressTxt
 id adjust_height
 id adjust_width
@@ -3444,6 +3446,8 @@ id all_glyphs_rasterized_locally
 id always
 id amount
 id amountInput
+id amountLabelTv
+id amountTV
 id androidx_compose_ui_view_composition_context
 id androidx_window_activity_scope
 id animateToEnd
@@ -3610,6 +3614,7 @@ id hybrid
 id icon
 id icon_group
 id icon_only
+id idRVJobs
 id ideographs_rasterized_locally
 id ifRoom
 id ignore
@@ -3720,7 +3725,10 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id myjobs
 id name
+id nameLabelTv
+id nameTv
 id nameTxt
 id nav_controller_view_tag
 id nav_graph
@@ -4095,6 +4103,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
 layout fragment_second
+layout list_jobs
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

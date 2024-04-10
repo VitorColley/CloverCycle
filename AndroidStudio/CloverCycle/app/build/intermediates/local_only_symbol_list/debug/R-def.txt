@@ -16,9 +16,13 @@ id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id address
 id addressInputTf
+id addressLabelTv
+id addressTv
 id addressTxt
 id amount
 id amountInput
+id amountLabelTv
+id amountTV
 id button
 id button3
 id button_first
@@ -30,6 +34,7 @@ id emailInputTf
 id errorTXT
 id expiryNUM
 id focusLocation
+id idRVJobs
 id imageView
 id imageView2
 id invalidPassword
@@ -47,7 +52,10 @@ id logInBtn
 id mapView
 id menuBtn
 id monthTXT
+id myjobs
 id name
+id nameLabelTv
+id nameTv
 id nameTxt
 id nav_graph
 id passTf
@@ -74,6 +82,7 @@ layout activity_payment
 layout activity_register
 layout fragment_first
 layout fragment_second
+layout list_jobs
 layout user_job
 mipmap ic_launcher
 mipmap ic_launcher_round

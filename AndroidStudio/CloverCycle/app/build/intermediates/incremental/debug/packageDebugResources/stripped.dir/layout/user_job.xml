@@ -10,95 +10,97 @@
         android:id="@+id/amountInput"
         android:layout_width="209dp"
         android:layout_height="67dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
         android:text=""
         android:textColor="#1CA83C"
-        app:layout_constraintBottom_toTopOf="@+id/jobBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amount"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/jobBtn"
         android:layout_width="182dp"
         android:layout_height="53dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#0B2A1A"
         android:text="Post My Job"
         android:textColor="#1CA83C"
         android:textColorHighlight="#0A291A"
-        app:layout_constraintBottom_toTopOf="@+id/paymentsBtn"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/myjobs"
+        app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountInput"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/menuBtn"
         android:layout_width="182dp"
         android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#0B2A1A"
         android:text="Log Out"
         android:textColor="#1CA83C"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/myjobs" />
 
     <Button
         android:id="@+id/paymentsBtn"
         android:layout_width="182dp"
         android:layout_height="53dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#0B2A1A"
-        android:textColor="#1CA83C"
-        android:textColorHighlight="#0A291A"
         android:text="My Payments"
 
-        app:layout_constraintBottom_toTopOf="@+id/menuBtn"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#1CA83C"
+        android:textColorHighlight="#0A291A"
+        app:layout_constraintEnd_toStartOf="@+id/menuBtn"
+        app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jobBtn"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="208dp"
         android:layout_height="192dp"
-        android:layout_marginBottom="96dp"
 
         android:contentDescription="profile"
-        app:layout_constraintBottom_toTopOf="@+id/nameTxt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/clovercycle" />
+        app:srcCompat="@drawable/clovercycle"
+        tools:layout_editor_absoluteY="3dp" />
 
     <EditText
         android:id="@+id/nameTxt"
         android:layout_width="207dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="text"
         android:textColor="#1CA83C"
-        app:layout_constraintBottom_toTopOf="@+id/addressTxt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/addressTxt"
         android:layout_width="206dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPostalAddress"
         android:text=""
         android:textColor="#1CA83C"
-        app:layout_constraintBottom_toTopOf="@+id/amountInput"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -108,41 +110,48 @@
         android:text="Name:"
         android:textColor="#0A291A"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <TextView
         android:id="@+id/address"
         android:layout_width="101dp"
         android:layout_height="22dp"
-        android:layout_marginBottom="24dp"
-        android:text="Address:"
+        android:text="Eircode:"
         android:textColor="#0C2C1F"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.519"
+        app:layout_constraintTop_toBottomOf="@+id/nameTxt"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <TextView
         android:id="@+id/amount"
-        android:layout_width="101dp"
+        android:layout_width="119dp"
         android:layout_height="22dp"
-        android:layout_marginBottom="24dp"
-        android:text="Amount:"
+        android:layout_marginTop="36dp"
+        android:text="Amount(Bags):"
         android:textColor="#0C2C1F"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703"
+        app:layout_constraintTop_toBottomOf="@+id/addressTxt"
         tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <Button
+        android:id="@+id/myjobs"
+        android:layout_width="182dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#0B2A1A"
+        android:text="My Jobs"
+        android:textColor="#1CA83C"
+        android:textColorHighlight="#0A291A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountInput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

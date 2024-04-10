@@ -16,7 +16,7 @@
         android:theme="@style/Theme.CloverCycle"
         tools:targetApi="31">
         <activity
-            android:name=".PaymentsActivity"
+            android:name=".PaymentActivity"
             android:exported="false"
             android:label="@string/title_activity_payments"
             android:theme="@style/Theme.CloverCycle" />
@@ -46,7 +46,9 @@
             android:name=".UserJobActivity"
             android:exported="true"
             android:label="UserJobActicity" />
-        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ViewJobs"
+            android:exported="true"
+            android:label="ViewJobs"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

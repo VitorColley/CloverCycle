@@ -49,7 +49,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.CloverCycle" >
         <activity
-            android:name="com.example.clovercycle.PaymentsActivity"
+            android:name="com.example.clovercycle.PaymentActivity"
             android:exported="false"
             android:label="@string/title_activity_payments"
             android:theme="@style/Theme.CloverCycle" />
@@ -79,7 +79,10 @@
             android:name="com.example.clovercycle.UserJobActivity"
             android:exported="true"
             android:label="UserJobActicity" />
-        <activity android:name="com.example.clovercycle.PaymentActivity" />
+        <activity
+            android:name="com.example.clovercycle.ViewJobs"
+            android:exported="true"
+            android:label="ViewJobs" />
         <activity
             android:name="com.example.clovercycle.MainActivity"
             android:exported="true" >

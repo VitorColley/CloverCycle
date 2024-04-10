@@ -76,7 +76,7 @@ public class PaymentActivity extends AppCompatActivity {
     }
 
     public void logoutActivity() {
-        Intent intent1 = new Intent(this, MainActivity.class);
+        Intent intent1 = new Intent(this, UserJobActivity.class);
         intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent1);
         finish();
