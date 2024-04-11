@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudio.CloverCycle.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudio.CloverCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

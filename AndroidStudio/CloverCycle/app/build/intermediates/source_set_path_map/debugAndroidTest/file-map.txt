@@ -1,0 +1,36 @@
+com.example.clovercycle.test.app-ui-geometry-release-0 C:\Users\mcgil\.gradle\caches\transforms-3\032b1da1ae6bc46a70f0f6a96554cce0\transformed\ui-geometry-release\res
+com.example.clovercycle.test.app-ui-graphics-release-1 C:\Users\mcgil\.gradle\caches\transforms-3\1025bc6272958704df90a9507fbb0430\transformed\ui-graphics-release\res
+com.example.clovercycle.test.app-lifecycle-viewmodel-ktx-2.7.0-2 C:\Users\mcgil\.gradle\caches\transforms-3\11b413c1c97a96fe641ad662355aaa4e\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.example.clovercycle.test.app-ui-test-junit4-release-3 C:\Users\mcgil\.gradle\caches\transforms-3\17aa3dd901dc62a14dd798f15e283f88\transformed\ui-test-junit4-release\res
+com.example.clovercycle.test.app-ui-util-release-4 C:\Users\mcgil\.gradle\caches\transforms-3\1c8de8e6440880994e2ce3b1a50109ae\transformed\ui-util-release\res
+com.example.clovercycle.test.app-emoji2-1.4.0-5 C:\Users\mcgil\.gradle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\res
+com.example.clovercycle.test.app-lifecycle-viewmodel-2.7.0-6 C:\Users\mcgil\.gradle\caches\transforms-3\2420238f96da2d9178f6f4c7f82fdf9f\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.clovercycle.test.app-lifecycle-livedata-core-2.7.0-7 C:\Users\mcgil\.gradle\caches\transforms-3\29fc55ae2a71e0c49dc4a07611cc3fb2\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.clovercycle.test.app-runtime-release-8 C:\Users\mcgil\.gradle\caches\transforms-3\49635e9a7b2dc5ce6b0c511bf1113267\transformed\runtime-release\res
+com.example.clovercycle.test.app-activity-ktx-1.8.2-9 C:\Users\mcgil\.gradle\caches\transforms-3\4fa21a534b7f0b9535a4e72de04af666\transformed\activity-ktx-1.8.2\res
+com.example.clovercycle.test.app-lifecycle-viewmodel-savedstate-2.7.0-10 C:\Users\mcgil\.gradle\caches\transforms-3\55157378298d106c76f66940467b1da9\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.clovercycle.test.app-ui-unit-release-11 C:\Users\mcgil\.gradle\caches\transforms-3\582643b1f009a4b53f4b56e7d5a395b6\transformed\ui-unit-release\res
+com.example.clovercycle.test.app-ui-test-release-12 C:\Users\mcgil\.gradle\caches\transforms-3\67b76d5875a251c04724e9f5e58e3719\transformed\ui-test-release\res
+com.example.clovercycle.test.app-lifecycle-process-2.7.0-13 C:\Users\mcgil\.gradle\caches\transforms-3\69338957c3cb779651f1d2cb7df18b67\transformed\lifecycle-process-2.7.0\res
+com.example.clovercycle.test.app-savedstate-ktx-1.2.1-14 C:\Users\mcgil\.gradle\caches\transforms-3\720924a341163bb0873a43bca957c6e0\transformed\savedstate-ktx-1.2.1\res
+com.example.clovercycle.test.app-core-ktx-1.10.0-15 C:\Users\mcgil\.gradle\caches\transforms-3\735fb16619a05331cab7f57da449e675\transformed\core-ktx-1.10.0\res
+com.example.clovercycle.test.app-profileinstaller-1.3.0-16 C:\Users\mcgil\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\res
+com.example.clovercycle.test.app-core-runtime-2.2.0-17 C:\Users\mcgil\.gradle\caches\transforms-3\7c337f785431defc2daf5e333cca89ac\transformed\core-runtime-2.2.0\res
+com.example.clovercycle.test.app-activity-compose-1.8.2-18 C:\Users\mcgil\.gradle\caches\transforms-3\866690b77e9402538789254b403a3a95\transformed\activity-compose-1.8.2\res
+com.example.clovercycle.test.app-runtime-saveable-release-19 C:\Users\mcgil\.gradle\caches\transforms-3\916dcb42eb0bcf66e7990530d26ca9b5\transformed\runtime-saveable-release\res
+com.example.clovercycle.test.app-customview-poolingcontainer-1.0.0-20 C:\Users\mcgil\.gradle\caches\transforms-3\9933410715145c6c014745c996bb86c4\transformed\customview-poolingcontainer-1.0.0\res
+com.example.clovercycle.test.app-activity-1.8.2-21 C:\Users\mcgil\.gradle\caches\transforms-3\a31a64b8daaca8346c704905531e5e35\transformed\activity-1.8.2\res
+com.example.clovercycle.test.app-savedstate-1.2.1-22 C:\Users\mcgil\.gradle\caches\transforms-3\a6d322a37302467d666ffcc554446db9\transformed\savedstate-1.2.1\res
+com.example.clovercycle.test.app-core-1.10.0-23 C:\Users\mcgil\.gradle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\res
+com.example.clovercycle.test.app-startup-runtime-1.1.1-24 C:\Users\mcgil\.gradle\caches\transforms-3\c28fb61cf55b17219ea2c0560fa89046\transformed\startup-runtime-1.1.1\res
+com.example.clovercycle.test.app-ui-release-25 C:\Users\mcgil\.gradle\caches\transforms-3\c4c7c71ac12554f5a8bcc0a3cbadcbf1\transformed\ui-release\res
+com.example.clovercycle.test.app-annotation-experimental-1.3.0-26 C:\Users\mcgil\.gradle\caches\transforms-3\c6a23d0a3bb837adc6dda479eef37228\transformed\annotation-experimental-1.3.0\res
+com.example.clovercycle.test.app-core-1.5.0-27 C:\Users\mcgil\.gradle\caches\transforms-3\d9b752a9ecb3b6702e67bc117085e11b\transformed\core-1.5.0\res
+com.example.clovercycle.test.app-sqlite-2.4.0-28 C:\Users\mcgil\.gradle\caches\transforms-3\da9d67ecc56ab6cd1d77c7d772071b18\transformed\sqlite-2.4.0\res
+com.example.clovercycle.test.app-ui-text-release-29 C:\Users\mcgil\.gradle\caches\transforms-3\dbdf7217d1c537f0311048bebb3b370c\transformed\ui-text-release\res
+com.example.clovercycle.test.app-lifecycle-runtime-ktx-2.7.0-30 C:\Users\mcgil\.gradle\caches\transforms-3\dc21516f7c2997518f77d503a5e31c52\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.example.clovercycle.test.app-lifecycle-runtime-2.7.0-31 C:\Users\mcgil\.gradle\caches\transforms-3\f7a75919e6c7d2f73a9cda81c30b9b4d\transformed\lifecycle-runtime-2.7.0\res
+com.example.clovercycle.test.app-androidTest-32 C:\Users\mcgil\Desktop\College\Semester 4\clover6\CloverCycle\AndroidStudio\CloverCycle\app\build\generated\res\resValues\androidTest\debug
+com.example.clovercycle.test.app-mergeDebugAndroidTestResources-33 C:\Users\mcgil\Desktop\College\Semester 4\clover6\CloverCycle\AndroidStudio\CloverCycle\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.clovercycle.test.app-mergeDebugAndroidTestResources-34 C:\Users\mcgil\Desktop\College\Semester 4\clover6\CloverCycle\AndroidStudio\CloverCycle\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.clovercycle.test.app-merged_res-35 C:\Users\mcgil\Desktop\College\Semester 4\clover6\CloverCycle\AndroidStudio\CloverCycle\app\build\intermediates\merged_res\debugAndroidTest
