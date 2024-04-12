@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.example.clovercycle.app-mergeDebugResources-2:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

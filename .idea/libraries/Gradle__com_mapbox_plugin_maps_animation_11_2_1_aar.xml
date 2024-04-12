@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.plugin:maps-animation:11.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b37c32f839393c6bbdcc2c066391afe8/transformed/maps-animation-11.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b37c32f839393c6bbdcc2c066391afe8/transformed/maps-animation-11.2.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/caches/transforms-3/b37c32f839393c6bbdcc2c066391afe8/transformed/maps-animation-11.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/b37c32f839393c6bbdcc2c066391afe8/transformed/maps-animation-11.2.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-animation/11.2.1/dfce9bc1f856266fc7da2c6aa4331348d442c3f2/maps-animation-11.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.plugin/maps-animation/11.2.1/dfce9bc1f856266fc7da2c6aa4331348d442c3f2/maps-animation-11.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-animation/11.2.1/39a838034872754a13f7387acf94aa9596f3b4b6/maps-animation-11.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.plugin/maps-animation/11.2.1/39a838034872754a13f7387acf94aa9596f3b4b6/maps-animation-11.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

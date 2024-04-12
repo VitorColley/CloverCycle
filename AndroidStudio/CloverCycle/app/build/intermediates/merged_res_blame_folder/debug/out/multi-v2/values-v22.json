@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-v22/values-v22.xml",
+            "outputFile": "com.example.clovercycle.app-mergeDebugResources-2:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

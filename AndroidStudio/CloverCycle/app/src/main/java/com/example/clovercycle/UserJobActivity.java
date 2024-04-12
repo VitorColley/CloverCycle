@@ -1,18 +1,6 @@
 package com.example.clovercycle;
 
-import static com.example.clovercycle.DatabaseSqlite.KEY_NAME;
-
-
-import static com.example.clovercycle.R.id.button;
-import static com.example.clovercycle.R.id.nameTxt;
-import static com.example.clovercycle.R.id.userName;
-
-import android.annotation.SuppressLint;
-
-import android.content.ContentValues;
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

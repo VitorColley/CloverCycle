@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.foundation:foundation-layout-android:1.5.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1455268fad1f385455a02b3c29dfc605/transformed/foundation-layout-release/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1455268fad1f385455a02b3c29dfc605/transformed/foundation-layout-release/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1455268fad1f385455a02b3c29dfc605/transformed/foundation-layout-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/1455268fad1f385455a02b3c29dfc605/transformed/foundation-layout-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/caches/transforms-3/1455268fad1f385455a02b3c29dfc605/transformed/foundation-layout-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/1455268fad1f385455a02b3c29dfc605/transformed/foundation-layout-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.foundation/foundation-layout-android/1.5.0/4bd5aa4d918bae83f524ff533ea60a418af7749c/foundation-layout-android-1.5.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/androidx.compose.foundation/foundation-layout-android/1.5.0/4bd5aa4d918bae83f524ff533ea60a418af7749c/foundation-layout-android-1.5.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

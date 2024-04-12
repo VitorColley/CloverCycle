@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.extension:maps-style:11.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6230bfa6b1c297258b34641a8272bb53/transformed/maps-style-11.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6230bfa6b1c297258b34641a8272bb53/transformed/maps-style-11.2.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/6230bfa6b1c297258b34641a8272bb53/transformed/maps-style-11.2.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/caches/transforms-3/6230bfa6b1c297258b34641a8272bb53/transformed/maps-style-11.2.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.extension/maps-style/11.2.1/caf3acf3ec002fa6da161317a17181f42d2feade/maps-style-11.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.extension/maps-style/11.2.1/caf3acf3ec002fa6da161317a17181f42d2feade/maps-style-11.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.extension/maps-style/11.2.1/4ef944cd3aee8b950f94ac52cfa600b80cac1f00/maps-style-11.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.extension/maps-style/11.2.1/4ef944cd3aee8b950f94ac52cfa600b80cac1f00/maps-style-11.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
