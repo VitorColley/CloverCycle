@@ -2,10 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/RegisterActivityComponent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/clovercycle"
     tools:context=".RegisterActivity">
 
 
@@ -14,18 +12,24 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.586">
+        app:layout_constraintVertical_bias="0.493">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                app:srcCompat="@drawable/clovercycle"
+                tools:ignore="MissingConstraints" />
+
             <TextView
-                android:id="@+id/emailLbl"
                 android:layout_width="wrap_content"
                 android:layout_height="39dp"
                 android:text="Please enter your Email:"
@@ -34,14 +38,13 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailInputTf"
-                android:layout_width="354dp"
+                android:layout_width="match_parent"
                 android:layout_height="49dp"
                 android:background="#159B33"
-                android:inputType="text"
+                android:inputType="text|textEmailAddress"
                 android:textColor="#0A291A" />
 
             <TextView
-                android:id="@+id/userNameLbl"
                 android:layout_width="wrap_content"
                 android:layout_height="39dp"
                 android:text="Please enter a Username:"
@@ -50,14 +53,13 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/userNameInputTf"
-                android:layout_width="354dp"
+                android:layout_width="match_parent"
                 android:layout_height="49dp"
                 android:background="#159B33"
                 android:inputType="text"
                 android:textColor="#0A291A" />
 
             <TextView
-                android:id="@+id/passwordLbl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
@@ -67,7 +69,7 @@
 
             <EditText
                 android:id="@+id/passwordInputTf"
-                android:layout_width="361dp"
+                android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="#159D36"
                 android:backgroundTint="#169D37"
@@ -76,26 +78,6 @@
                 android:textColor="#0A291A" />
 
             <TextView
-                android:id="@+id/verifyPasswordLbl"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:text="Confirm Password:"
-                android:textColor="#0C2C1F"
-                android:textSize="20sp" />
-
-            <EditText
-                android:id="@+id/verifyPasswordInputTf"
-                android:layout_width="361dp"
-                android:layout_height="48dp"
-                android:background="#159D36"
-                android:backgroundTint="#169D37"
-                android:ems="10"
-                android:inputType="textPassword"
-                android:textColor="#0A291A" />
-
-            <TextView
-                android:id="@+id/addressLbl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
@@ -105,16 +87,15 @@
 
             <EditText
                 android:id="@+id/addressInputTf"
-                android:layout_width="361dp"
+                android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="#159D36"
                 android:backgroundTint="#169D37"
                 android:ems="10"
-                android:inputType="textPassword"
+                android:inputType="text"
                 android:textColor="#0A291A" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="33dp"
                 android:text="Register as a:"
@@ -122,7 +103,6 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-                android:id="@+id/registerGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 

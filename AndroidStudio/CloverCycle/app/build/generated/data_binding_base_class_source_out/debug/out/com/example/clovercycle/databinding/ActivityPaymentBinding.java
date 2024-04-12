@@ -26,6 +26,9 @@ public final class ActivityPaymentBinding implements ViewBinding {
   public final Button Button2;
 
   @NonNull
+  public final Button HistoryButton;
+
+  @NonNull
   public final ConstraintLayout MainActivityComponent;
 
   @NonNull
@@ -46,15 +49,13 @@ public final class ActivityPaymentBinding implements ViewBinding {
   @NonNull
   public final Button paymentBTN;
 
-  @NonNull
-  public final Button viewHistoryButton;
-
   private ActivityPaymentBinding(@NonNull ConstraintLayout rootView, @NonNull Button Button2,
-      @NonNull ConstraintLayout MainActivityComponent, @NonNull EditText cardNUM,
-      @NonNull TextView cardNumTXT, @NonNull EditText expiryNUM, @NonNull ImageView imageView,
-      @NonNull TextView monthTXT, @NonNull Button paymentBTN, @NonNull Button viewHistoryButton) {
+      @NonNull Button HistoryButton, @NonNull ConstraintLayout MainActivityComponent,
+      @NonNull EditText cardNUM, @NonNull TextView cardNumTXT, @NonNull EditText expiryNUM,
+      @NonNull ImageView imageView, @NonNull TextView monthTXT, @NonNull Button paymentBTN) {
     this.rootView = rootView;
     this.Button2 = Button2;
+    this.HistoryButton = HistoryButton;
     this.MainActivityComponent = MainActivityComponent;
     this.cardNUM = cardNUM;
     this.cardNumTXT = cardNumTXT;
@@ -62,7 +63,6 @@ public final class ActivityPaymentBinding implements ViewBinding {
     this.imageView = imageView;
     this.monthTXT = monthTXT;
     this.paymentBTN = paymentBTN;
-    this.viewHistoryButton = viewHistoryButton;
   }
 
   @Override
@@ -95,6 +95,12 @@ public final class ActivityPaymentBinding implements ViewBinding {
       id = R.id.Button2;
       Button Button2 = ViewBindings.findChildViewById(rootView, id);
       if (Button2 == null) {
+        break missingId;
+      }
+
+      id = R.id.HistoryButton;
+      Button HistoryButton = ViewBindings.findChildViewById(rootView, id);
+      if (HistoryButton == null) {
         break missingId;
       }
 
@@ -136,14 +142,8 @@ public final class ActivityPaymentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.viewHistoryButton;
-      Button viewHistoryButton = ViewBindings.findChildViewById(rootView, id);
-      if (viewHistoryButton == null) {
-        break missingId;
-      }
-
-      return new ActivityPaymentBinding((ConstraintLayout) rootView, Button2, MainActivityComponent,
-          cardNUM, cardNumTXT, expiryNUM, imageView, monthTXT, paymentBTN, viewHistoryButton);
+      return new ActivityPaymentBinding((ConstraintLayout) rootView, Button2, HistoryButton,
+          MainActivityComponent, cardNUM, cardNumTXT, expiryNUM, imageView, monthTXT, paymentBTN);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

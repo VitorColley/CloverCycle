@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="amountTV" type="id" />
+    <item name="amountLabelTv" type="id" />
+    <item name="addressTv" type="id" />
+    <item name="addressLabelTv" type="id" />
+    <item name="nameTv" type="id" />
+    <item name="nameLabelTv" type="id" />
+    <item name="idRVJobs" type="id" />
+    <item name="button8" type="id" />
+</resources>

@@ -24,7 +24,7 @@ public class PaymentActivity extends AppCompatActivity {
 
         Button submitPayment = findViewById(R.id.paymentBTN);
         Button mainMenuButton = findViewById(R.id.Button2);
-        Button viewHistoryButton = findViewById(R.id.viewHistoryButton);
+        Button viewHistoryButton = findViewById(R.id.HistoryButton);
 
         submitPayment.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -45,6 +45,9 @@
     </string>
     <string name="title_activity_register">Register</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_payment">PaymentsActivity</string>
+    <string name="title_activity_payment_History">PaymentsHistoryActivity</string>
     <string name="mapbox_access_token">sk.eyJ1IjoiY2xvdmVyY3ljbGUiLCJhIjoiY2x0eWZjeGVzMGZteDJtcWY5czJmeTQ5eCJ9.1aDkY5iVHsOxy0jfs4UETg</string>
     <string name="pointer">pointer</string>
+    <string name="title_activity_payments" />
 </resources>

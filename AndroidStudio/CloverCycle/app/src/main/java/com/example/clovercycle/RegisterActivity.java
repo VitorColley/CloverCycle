@@ -1,8 +1,8 @@
 package com.example.clovercycle;
 
-import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -26,7 +26,6 @@ public class RegisterActivity extends AppCompatActivity {
 
     DatabaseSqlite dbHelper;
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         // we initiate the database
         dbHelper = new DatabaseSqlite(getApplicationContext());
+
         userRb = findViewById(R.id.userRb);
         collectorRb = findViewById(R.id.collectorRb);
 
@@ -54,9 +54,26 @@ public class RegisterActivity extends AppCompatActivity {
                 address = addressInput.getText().toString();
                 email = emailInput.getText().toString();
 
+                //if username is valid
+                if(!isValidUsername(userName)){
+                    userNameInput.setError("That username is not available");
+                    return;
+                }
+                //if email is valid
+                if(!isValidEmail(email)){
+                    emailInput.setError("That email is already registered");
+                    return;
+                }
+
                 // if statement to show invalid password message if the method isValidPassword is activated.
                 if (!isValidPassword(password)) {
                     passwordInput.setError("Password must have 8 character and 1 special character");
+                    return;
+                }
+
+                //if address is valid
+                if(!isValidAddress(address)){
+                    addressInput.setError("Please enter a valid Eircode");
                     return;
                 }
 
@@ -70,10 +87,62 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
     }
+    //method to validate username
+    private boolean isValidUsername(String userName){
+
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        Cursor userCursor = db.rawQuery("SELECT * FROM users WHERE user_name=?", new String[]{userName});
+        Cursor collectorCursor = db.rawQuery("SELECT * FROM collectors WHERE user_name=?", new String[]{userName});
+
+        if (userCursor.moveToFirst()) {
+            //user with that username
+            userCursor.close();
+            collectorCursor.close();
+            return false;
+        }
+        if (collectorCursor.moveToFirst()){
+            //collector with that username
+            userCursor.close();
+            collectorCursor.close();
+            return false;
+        }
+        userCursor.close();
+        collectorCursor.close();
+        // Username available
+        return true;
+    }
+    //method to validate email
+    private boolean isValidEmail(String email){
+
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        Cursor userCursor = db.rawQuery("SELECT * FROM users WHERE email=?", new String[]{email});
+        Cursor collectorCursor = db.rawQuery("SELECT * FROM collectors WHERE email=?", new String[]{email});
+
+        if (userCursor.moveToFirst()) {
+            //user with that email
+            userCursor.close();
+            collectorCursor.close();
+            return false;
+        }
+        if (collectorCursor.moveToFirst()){
+            //collector with that email
+            userCursor.close();
+            collectorCursor.close();
+            return false;
+        }
+        userCursor.close();
+        collectorCursor.close();
+        // email available
+        return true;
+    }
     // method to validate password if its >= 8 characters and has any of the special characters on it.
     private boolean isValidPassword(String password) {
         // method to valid
         return password.length() >= 8 && password.matches(".*[!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?].*");
+    }
+    //method to validate address
+    private boolean isValidAddress(String address){
+        return address.length() == 7;
     }
 
     // method to handle collector registration
@@ -92,7 +161,7 @@ public class RegisterActivity extends AppCompatActivity {
         db.close();
 
         // send to mapsActivity once registration is complete
-        Intent intent = new Intent(RegisterActivity.this, MapsActivity.class);
+        Intent intent = new Intent(RegisterActivity.this, CollectorActivity.class);
         startActivity(intent);
     }
 
@@ -111,7 +180,7 @@ public class RegisterActivity extends AppCompatActivity {
         db.close();
 
         // send to mapsActivity once registration is complete
-        Intent intent = new Intent(RegisterActivity.this, MapsActivity.class);
+        Intent intent = new Intent(RegisterActivity.this, UserJobActivity.class);
         startActivity(intent);
     }
 }

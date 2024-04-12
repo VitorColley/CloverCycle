@@ -1,14 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.clovercycle.app-mergeDebugResources-53:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.example.clovercycle.app-mergeDebugResources-71:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
-=======
                     "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

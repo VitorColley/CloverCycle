@@ -3,6 +3,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
+    <item name="addressLabelTv" type="id"/>
+    <item name="addressTv" type="id"/>
+    <item name="amountLabelTv" type="id"/>
+    <item name="amountTV" type="id"/>
+    <item name="button8" type="id"/>
+    <item name="idRVJobs" type="id"/>
+    <item name="nameLabelTv" type="id"/>
+    <item name="nameTv" type="id"/>
     <string name="app_name">CloverCycle</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="lorem_ipsum">
@@ -48,6 +56,9 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_payment">PaymentsActivity</string>
+    <string name="title_activity_payment_History">PaymentsHistoryActivity</string>
+    <string name="title_activity_payments"/>
     <string name="title_activity_register">Register</string>
     <style name="Base.Theme.CloverCycle" parent="Theme.Material3.DayNight.NoActionBar">
         

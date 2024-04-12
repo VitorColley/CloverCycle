@@ -59,7 +59,7 @@
         android:id="@+id/expiryNUM"
         android:layout_width="354dp"
         android:layout_height="48dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:background="#159B33"
         android:ems="10"
         android:hint="Enter expiry MM/YY"
@@ -73,7 +73,7 @@
         android:id="@+id/paymentBTN"
         android:layout_width="169dp"
         android:layout_height="57dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="64dp"
         android:backgroundTint="#0B2A1A"
         android:text="Collect Payment"
         android:textColor="#1CA83C"
@@ -86,26 +86,28 @@
         android:id="@+id/Button2"
         android:layout_width="169dp"
         android:layout_height="57dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="152dp"
         android:backgroundTint="#0B2A1A"
         android:text="Main Menu"
         android:textColor="#1CA83C"
         android:textColorHighlight="#0A291A"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/expiryNUM" />
 
     <Button
-        android:id="@+id/viewHistoryButton"
+        android:id="@+id/HistoryButton"
         android:layout_width="169dp"
         android:layout_height="57dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="152dp"
         android:backgroundTint="#0B2A1A"
         android:text="Payment History"
         android:textColor="#1CA83C"
         android:textColorHighlight="#0A291A"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Button2" />
+        app:layout_constraintTop_toBottomOf="@id/expiryNUM" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

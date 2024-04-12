@@ -29,7 +29,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String DB_NAME = "clovercycle_db";
     //database version
 
-    private static final int DATABASE_VERSION = 11;
+    private static final int DATABASE_VERSION = 12;
 
 
     private static final String TABLE_USERS = "users";
@@ -50,8 +50,9 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
     private static final String KEY_CARD_NUMBER = "cardNumber";
     private static final String KEY_EXPIRY_DATE = "expiryDate";
 
-    private static String TABLE_COMPLETE_JOBS;
-    private static String KEY_COMPLETE_JOB_ID;
+    private static final String TABLE_COMPLETE_JOBS = "complete_jobs";
+    private static final String KEY_COMPLETE_JOB_ID = "complete_job_id";
+
 
 
 
@@ -153,30 +154,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         db.close();
         return jobsList;
     }
-    // this method is use to add new course to our sqlite database.
-    public void addNewJob(String name, String address, String amount) {
 
-        // on below line we are creating a variable for
-        // our sqlite database and calling writable method
-        // as we are writing data in our database.
-        SQLiteDatabase db = this.getWritableDatabase();
-
-        // on below line we are creating a
-        // variable for content values.
-        ContentValues values = new ContentValues();
-
-        // on below line we are passing all values
-        // along with its key and value pair.
-        values.put(KEY_NAME, name);
-        values.put(KEY_ADDRESS, address);
-        values.put(KEY_AMOUNT, amount);
-        // after adding all values we are passing
-        // content values to our table.
-        db.insert(TABLE_JOBS, null, values);
-        // at last we are closing our
-        // database after adding database.
-        db.close();
-    }
     public ArrayList<JobsModal> readCourses()
     {
         // on below line we are creating a
@@ -256,7 +234,118 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         return paymentList;
     }
 
+    public void addNewJob(String name, String address, String amount) {
 
+        // on below line we are creating a variable for
+        // our sqlite database and calling writable method
+        // as we are writing data in our database.
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        // on below line we are creating a
+        // variable for content values.
+        ContentValues values = new ContentValues();
+
+        // on below line we are passing all values
+        // along with its key and value pair.
+        values.put(KEY_NAME, name);
+        values.put(KEY_ADDRESS, address);
+        values.put(KEY_AMOUNT, amount);
+        // after adding all values we are passing
+        // content values to our table.
+        db.insert(TABLE_JOBS, null, values);
+        // at last we are closing our
+        // database after adding database.
+        db.close();
+    }
+
+    public String acceptJob(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        String address;
+        Cursor cursor = db.rawQuery("SELECT " + KEY_ADDRESS + " FROM " + TABLE_JOBS, null);
+
+        if (cursor.moveToFirst()) {
+
+            @SuppressLint("Range") String newAddress = cursor.getString(cursor.getColumnIndex(KEY_ADDRESS));
+            address = newAddress;
+
+        }else{
+            address = null;
+        }
+        cursor.close();
+        db.close();
+        return address;
+    }
+    public ArrayList<JobsModal> readJobs()
+    {
+        // on below line we are creating a
+        // database for reading our database.
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        // on below line we are creating a cursor with query to
+        // read data from database.
+        Cursor cursorCourses
+                = db.rawQuery("SELECT * FROM " + TABLE_JOBS, null);
+
+        // on below line we are creating a new array list.
+        ArrayList<JobsModal> courseModalArrayList
+                = new ArrayList<>();
+
+        // moving our cursor to first position.
+        if (cursorCourses.moveToFirst()) {
+            do {
+                // on below line we are adding the data from
+                // cursor to our array list.
+                courseModalArrayList.add(new JobsModal(
+                        cursorCourses.getString(1),
+                        cursorCourses.getString(2),
+                        cursorCourses.getString(3)));
+
+            } while (cursorCourses.moveToNext());
+            // moving our cursor to next.
+        }
+        // at last closing our cursor
+        // and returning our array list.
+        cursorCourses.close();
+        return courseModalArrayList;
+    }
+
+    public ArrayList<JobsModal> getLastJob() {
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursorCourses = db.rawQuery("SELECT * FROM " + TABLE_JOBS, null);
+        ArrayList<JobsModal> myList = new ArrayList<>();
+
+        if (cursorCourses.moveToFirst()) {
+            myList.add(new JobsModal(
+                    cursorCourses.getString(1),
+                    cursorCourses.getString(2),
+                    cursorCourses.getString(3)));
+        }
+
+        String name = myList.get(0).getName();
+        db.delete(TABLE_JOBS, "name=?", new String[]{name});
+
+        db.close();
+        cursorCourses.close();
+        return myList;
+    }
+
+    public void endJob(ArrayList<JobsModal> myList) {
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+        String name = myList.get(0).getName();
+        String address =  myList.get(0).getAddress();
+        String amount =  myList.get(0).getAmount();
+
+        values.put(KEY_NAME, name);
+        values.put(KEY_ADDRESS, address);
+        values.put(KEY_AMOUNT, amount);
+
+        db.insert(TABLE_COMPLETE_JOBS, null, values);
+        db.close();
+    }
 
 
 }

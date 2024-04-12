@@ -1,126 +1,50 @@
 [
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        "merged": "com.example.clovercycle.app-mergeDebugResources-54:/layout/activity_maps.xml",
-        "source": "com.example.clovercycle.app-main-57:/layout/activity_maps.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\activity_collector.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\activity_collector.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-54:/layout/fragment_first.xml",
-        "source": "com.example.clovercycle.app-main-57:/layout/fragment_first.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-54:/layout/user_job.xml",
-        "source": "com.example.clovercycle.app-main-57:/layout/user_job.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\fragment_first.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-54:/layout/activity_register.xml",
-        "source": "com.example.clovercycle.app-main-57:/layout/activity_register.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\list_jobs.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\list_jobs.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-54:/layout/activity_main.xml",
-        "source": "com.example.clovercycle.app-main-57:/layout/activity_main.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\payment_history_item.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\payment_history_item.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-54:/layout/fragment_second.xml",
-        "source": "com.example.clovercycle.app-main-57:/layout/fragment_second.xml"
-=======
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_maps.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_maps.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_payment.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_payment.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\fragment_second.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/fragment_second.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/fragment_second.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-72:/layout/activity_payment.xml",
+        "source": "com.example.clovercycle.app-main-75:/layout/activity_payment.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/user_job.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/user_job.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\activity_maps.xml"
     },
     {
-=======
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_maps.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_maps.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\user_job.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\user_job.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_payment.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_payment.xml"
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\activity_payment.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\activity_payment.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/fragment_second.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/fragment_second.xml"
-    },
-    {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/user_job.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/user_job.xml"
-    },
-    {
->>>>>>> Stashed changes
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_main.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/fragment_first.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/fragment_first.xml"
-    },
-    {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_register.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_register.xml"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\activity_collector.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_collector.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\activity_maps.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_maps.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\payment_history_item.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\payment_history_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\fragment_first.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\list_jobs.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\list_jobs.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\activity_payment_history.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_payment_history.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\user_job.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\user_job.xml"
-    },
-    {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_payment_history.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_payment_history.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\fragment_second.xml"
-    },
-    {
-        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-76:\\layout\\activity_payment.xml",
-        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-79:\\layout\\activity_payment.xml"
->>>>>>> Stashed changes
+        "merged": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-mergeDebugResources-72:\\layout\\activity_payment_history.xml",
+        "source": "C:\\Users\\mcgil\\.gradle\\daemon\\8.2\\com.example.clovercycle.app-main-75:\\layout\\activity_payment_history.xml"
     }
 ]

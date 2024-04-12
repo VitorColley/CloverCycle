@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@id/expiryNUM" />
 
     <Button
-        android:id="@+id/viewHistoryButton"
+        android:id="@+id/HistoryButton"
         android:layout_width="169dp"
         android:layout_height="57dp"
         android:layout_marginTop="152dp"

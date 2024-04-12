@@ -7,43 +7,38 @@ drawable baseline_location_on_24
 drawable clovercycle
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id Button2
 id FirstFragment
+id HistoryButton
 id MainActivityComponent
 id MapsActivityComponent
-id RegisterActivityComponent
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id address
 id addressInputTf
-id addressLbl
+id addressLabelTv
+id addressTv
 id addressTxt
 id amount
 id amountInput
-<<<<<<< Updated upstream
-=======
 id amountLabelTv
 id amountTV
 id amountTextView
->>>>>>> Stashed changes
 id button
 id button3
+id button8
 id button_first
 id button_second
-<<<<<<< Updated upstream
-=======
 id cardNUM
 id cardNumTXT
->>>>>>> Stashed changes
+id collectBtn
 id collectorRb
 id emailInputTf
-<<<<<<< Updated upstream
-id emailLbl
-=======
 id endBtn
 id expiryNUM
->>>>>>> Stashed changes
 id focusLocation
+id idRVJobs
 id imageView
 id imageView2
 id invalidPassword
@@ -57,55 +52,40 @@ id job6
 id job7
 id job8
 id jobBtn
-<<<<<<< Updated upstream
-=======
 id jobIdTextView
 id jobList
 id jobNameTextView
->>>>>>> Stashed changes
 id logInBtn
 id mapView
 id menuBtn
+id monthTXT
+id myjobs
 id name
+id nameLabelTv
+id nameTv
 id nameTxt
 id nav_graph
 id passTf
 id password
 id passwordInputTf
-id passwordLbl
+id paymentBTN
 id paymentsBtn
 id recyclerViewPaymentHistory
 id registerBtn
 id registerButtonBtn
-id registerGroup
 id registerLbl
 id scrollView
 id scrollViewLayout
-id textView2
 id textview_first
 id textview_second
 id userName
 id userNameInputTf
-id userNameLbl
 id userNameTf
 id userRb
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-id verifyPasswordInputTf
-id verifyPasswordLbl
-=======
->>>>>>> Stashed changes
-=======
-id viewHistoryButton
->>>>>>> Stashed changes
 id welcome
+layout activity_collector
 layout activity_main
 layout activity_maps
-<<<<<<< Updated upstream
-layout activity_register
-layout fragment_first
-layout fragment_second
-=======
 layout activity_payment
 layout activity_payment_history
 layout activity_register
@@ -113,7 +93,6 @@ layout fragment_first
 layout fragment_second
 layout list_jobs
 layout payment_history_item
->>>>>>> Stashed changes
 layout user_job
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -128,6 +107,9 @@ string previous
 string second_fragment_label
 string title_activity_home
 string title_activity_maps
+string title_activity_payment
+string title_activity_payment_History
+string title_activity_payments
 string title_activity_register
 style Base.Theme.CloverCycle
 style Theme.CloverCycle

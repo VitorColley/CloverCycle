@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
         // this updated version use function cursor to check for both user and collectors columns
         SQLiteDatabase db = dbHelper.getReadableDatabase();
+        //checking the value from inside database
         Cursor userCursor = db.rawQuery("SELECT * FROM users WHERE user_name=? AND password=?", new String[]{userName, password});
         Cursor collectorCursor = db.rawQuery("SELECT * FROM collectors WHERE user_name=? AND password=?", new String[]{userName, password});
 
@@ -77,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, UserJobActivity.class);
             startActivity(intent);
         } else if (collectorCursor.moveToFirst()){
-            Intent intent = new Intent(MainActivity.this, MapsActivity.class);
+            Intent intent = new Intent(MainActivity.this, CollectorActivity.class);
             startActivity(intent);
         }else {
             // Username and password can't be found
