@@ -3435,6 +3435,13 @@ id all_glyphs_rasterized_locally
 id always
 id amount
 id amountInput
+<<<<<<< Updated upstream
+=======
+id amountLabelTv
+id amountTV
+id amountTextView
+id androidx_compose_ui_view_composition_context
+>>>>>>> Stashed changes
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
@@ -3620,6 +3627,12 @@ id job6
 id job7
 id job8
 id jobBtn
+<<<<<<< Updated upstream
+=======
+id jobIdTextView
+id jobList
+id jobNameTextView
+>>>>>>> Stashed changes
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3770,6 +3783,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewPaymentHistory
 id registerBtn
 id registerButtonBtn
 id registerGroup
@@ -3922,6 +3936,7 @@ id verifyPasswordLbl
 >>>>>>> Stashed changes
 id vertical
 id vertical_only
+id viewHistoryButton
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -4061,6 +4076,11 @@ layout abc_tooltip
 layout activity_dummy
 layout activity_main
 layout activity_maps
+<<<<<<< Updated upstream
+=======
+layout activity_payment
+layout activity_payment_history
+>>>>>>> Stashed changes
 layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -4138,6 +4158,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout payment_history_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

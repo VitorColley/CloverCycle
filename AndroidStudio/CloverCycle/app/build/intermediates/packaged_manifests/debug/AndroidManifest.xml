@@ -75,6 +75,17 @@
             android:exported="true"
             android:label="UserJobActicity" />
         <activity
+<<<<<<< Updated upstream
+=======
+            android:name="com.example.clovercycle.ViewJobs"
+            android:exported="true"
+            android:label="ViewJobs" />
+        <activity
+            android:name="com.example.clovercycle.PaymentHistoryActivity"
+            android:exported="true"
+            android:label="ViewJobs" />
+        <activity
+>>>>>>> Stashed changes
             android:name="com.example.clovercycle.MainActivity"
             android:exported="true" >
             <intent-filter>

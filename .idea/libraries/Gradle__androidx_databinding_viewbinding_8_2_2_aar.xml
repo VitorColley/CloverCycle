@@ -5,6 +5,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/686b5a51f57bdb2d6cebf440717b2d2e/transformed/viewbinding-8.2.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/8.2.2/a113c3e3e636c709323ea47b3b44e4f0b626f511/viewbinding-8.2.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

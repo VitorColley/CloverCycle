@@ -82,31 +82,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/expiryNUM" />
 
-    <Switch
-        android:id="@+id/saveDetailsSWITCH"
-        android:layout_width="193dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="24dp"
-        android:text="Save Details"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/paymentBTN" />
-
-    <TextView
-        android:id="@+id/errorTXT"
-        android:layout_width="68dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/saveDetailsSWITCH" />
-
     <Button
         android:id="@+id/Button2"
         android:layout_width="169dp"
         android:layout_height="57dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="108dp"
         android:backgroundTint="#0B2A1A"
         android:text="Main Menu"
         android:textColor="#1CA83C"
@@ -114,5 +94,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/expiryNUM" />
+
+    <Button
+        android:id="@+id/viewHistoryButton"
+        android:layout_width="169dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0B2A1A"
+        android:text="Payment History"
+        android:textColor="#1CA83C"
+        android:textColorHighlight="#0A291A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Button2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

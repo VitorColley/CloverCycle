@@ -20,6 +20,12 @@ id addressLbl
 id addressTxt
 id amount
 id amountInput
+<<<<<<< Updated upstream
+=======
+id amountLabelTv
+id amountTV
+id amountTextView
+>>>>>>> Stashed changes
 id button
 id button3
 id button_first
@@ -31,7 +37,12 @@ id cardNumTXT
 >>>>>>> Stashed changes
 id collectorRb
 id emailInputTf
+<<<<<<< Updated upstream
 id emailLbl
+=======
+id endBtn
+id expiryNUM
+>>>>>>> Stashed changes
 id focusLocation
 id imageView
 id imageView2
@@ -46,6 +57,12 @@ id job6
 id job7
 id job8
 id jobBtn
+<<<<<<< Updated upstream
+=======
+id jobIdTextView
+id jobList
+id jobNameTextView
+>>>>>>> Stashed changes
 id logInBtn
 id mapView
 id menuBtn
@@ -57,6 +74,7 @@ id password
 id passwordInputTf
 id passwordLbl
 id paymentsBtn
+id recyclerViewPaymentHistory
 id registerBtn
 id registerButtonBtn
 id registerGroup
@@ -72,16 +90,30 @@ id userNameLbl
 id userNameTf
 id userRb
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 id verifyPasswordInputTf
 id verifyPasswordLbl
 =======
 >>>>>>> Stashed changes
+=======
+id viewHistoryButton
+>>>>>>> Stashed changes
 id welcome
 layout activity_main
 layout activity_maps
+<<<<<<< Updated upstream
 layout activity_register
 layout fragment_first
 layout fragment_second
+=======
+layout activity_payment
+layout activity_payment_history
+layout activity_register
+layout fragment_first
+layout fragment_second
+layout list_jobs
+layout payment_history_item
+>>>>>>> Stashed changes
 layout user_job
 mipmap ic_launcher
 mipmap ic_launcher_round
