@@ -67,26 +67,28 @@ public class MainActivity extends AppCompatActivity {
         Cursor userCursor = db.rawQuery("SELECT * FROM users WHERE user_name=? AND password=?", new String[]{userName, password});
         Cursor collectorCursor = db.rawQuery("SELECT * FROM collectors WHERE user_name=? AND password=?", new String[]{userName, password});
 
-        if (userCursor.moveToFirst()) {
+        int userId = -1;
+        int collectorId = -1;
 
+        if (userCursor.moveToFirst()) {
             int userIdIndex = userCursor.getColumnIndex(DatabaseInterface.KEY_ID_USERS);
             if (userIdIndex != -1) {
                 // this variable \/ use this for any other class to be able to tailor user experience
-                int userId = userCursor.getInt(userIdIndex);
+                userId = userCursor.getInt(userIdIndex);
                 //simple log to be able to see if userID is being actually stored
                 Log.d("MainActivity", "User ID: " + userId);
-                // give the activity handler method the call to direct users
-                activityHandler(userId);
+                // give the activity handler method the call to direct user once authenticated
+                activityHandler(userId, collectorId);
             }
         } else if (collectorCursor.moveToFirst()) {
             int collectorIdIndex = collectorCursor.getColumnIndex(DatabaseInterface.KEY_ID_COLLECTORS);
             if (collectorIdIndex != -1) {
                 // this variable \/ use this for any other class to be able to tailor user experience
-                int collectorId = collectorCursor.getInt(collectorIdIndex);
+                collectorId = collectorCursor.getInt(collectorIdIndex);
                 //simple log to be able to see if collectorID is being actually stored
                 Log.d("MainActivity", "Collector ID: " + collectorId);
-                // give the activity handler method the call to direct users
-                activityHandler(collectorId);
+                // give the activity handler method the call to direct collector once authenticated
+                activityHandler(userId, collectorId);
             }
         } else {
             findViewById(R.id.invalidPassword).setVisibility(View.VISIBLE);
@@ -98,17 +100,21 @@ public class MainActivity extends AppCompatActivity {
 
     /*this method will handle the authentication of user/collector sending
     sending them to the correct activity  using shared-preferences */
-    private void activityHandler(int userId) {
+    private void activityHandler(int userId, int collectorId) {
         Intent intent;
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        // if userID from previous method is valid, execute the if statement
         if (userId != -1) {
-            SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putInt("tableID", userId);
+            editor.putInt("userTableID", userId);
             editor.apply();
             intent = new Intent(MainActivity.this, UserJobActivity.class);
-        } else {
+            startActivity(intent);
+        } else if (collectorId != -1) { // Add curly braces to enclose the else if block
+            editor.putInt("collectorTableID", collectorId);
+            editor.apply();
             intent = new Intent(MainActivity.this, CollectorActivity.class);
+            startActivity(intent);
         }
-        startActivity(intent);
     }
 
     public void Register(){
