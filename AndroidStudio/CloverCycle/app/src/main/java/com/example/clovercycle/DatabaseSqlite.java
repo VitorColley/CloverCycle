@@ -25,6 +25,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
             "(" + KEY_ID_PAYMENT_INFO + " INTEGER PRIMARY KEY AUTOINCREMENT," +
             KEY_CARD_NUMBER + " TEXT," +
             KEY_EXPIRY_DATE + " TEXT," +
+            "payment_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP," +
             "user_id INTEGER," +
             "collector_id INTEGER," +
             "FOREIGN KEY(user_id) REFERENCES " + TABLE_USERS + "(" + KEY_ID_USERS + ")," +
@@ -52,6 +53,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
             KEY_NAME + " TEXT," +
             KEY_ADDRESS + " TEXT," +
             KEY_AMOUNT + " TEXT," +
+            "job_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP," +
             "user_id INTEGER," +
             "collector_id INTEGER," +
             "FOREIGN KEY(user_id) REFERENCES " + TABLE_USERS + "(" + KEY_ID_USERS + ")," +

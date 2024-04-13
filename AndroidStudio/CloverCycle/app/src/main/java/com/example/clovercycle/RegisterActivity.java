@@ -161,7 +161,7 @@ public class RegisterActivity extends AppCompatActivity {
         db.close();
 
         // send to mapsActivity once registration is complete
-        Intent intent = new Intent(RegisterActivity.this, CollectorActivity.class);
+        Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
         startActivity(intent);
     }
 
@@ -180,7 +180,7 @@ public class RegisterActivity extends AppCompatActivity {
         db.close();
 
         // send to mapsActivity once registration is complete
-        Intent intent = new Intent(RegisterActivity.this, UserJobActivity.class);
+        Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
         startActivity(intent);
     }
 }

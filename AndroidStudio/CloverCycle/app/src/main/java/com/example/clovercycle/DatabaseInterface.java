@@ -20,4 +20,6 @@ public interface DatabaseInterface {
     String KEY_NAME = "name";
     String KEY_CARD_NUMBER = "card_number";
     String KEY_EXPIRY_DATE = "expiry_date";
+    String KEY_JOB_TIMESTAMP = "job_timestamp";
+    String KEY_PAYMENT_TIMESTAMP = "payment_timestamp";
 }
