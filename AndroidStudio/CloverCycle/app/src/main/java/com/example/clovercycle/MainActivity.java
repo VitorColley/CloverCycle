@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Call database to onCreate method
         dbHelper = new DatabaseSqlite(this);
-        sharedPreferences = getSharedPreferences("TablesID", MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences("userTableID", MODE_PRIVATE);
 
         //source reference for getting user input: https://www.youtube.com/watch?v=V0AETAjxqLI&ab_channel=John%27sAndroidStudioTutorials
         //link text fields to variables

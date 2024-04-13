@@ -32,6 +32,7 @@ public class UserJobActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_job);
+        sharedPreferences = getSharedPreferences("userTableID", MODE_PRIVATE);
         //initiate the database
         dbHelper = new DatabaseSqlite(this);
         //find nameTxt, addressTxt, and Button
@@ -70,8 +71,7 @@ public class UserJobActivity extends AppCompatActivity {
                 address = addressTxt.getText().toString();
                 amount = amountInput.getText().toString();
                 //explained in main activity
-                SharedPreferences sharedPreferences = getSharedPreferences("userTableID", MODE_PRIVATE);
-                int userId = sharedPreferences.getInt("userTableID", 0);
+                int userId = sharedPreferences.getInt("userTableID", -1);
                 String amountString = amountInput.getText().toString(); //get the text from EditText as a String
                 int amountInt = Integer.parseInt(amountString); //parse the String to an int
                 amount = String.valueOf(Integer.parseInt(String.valueOf(amountInt))); //convert the int back to a String
