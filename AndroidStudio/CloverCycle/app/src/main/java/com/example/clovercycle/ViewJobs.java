@@ -1,5 +1,6 @@
 package com.example.clovercycle;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,19 +20,23 @@ public class ViewJobs extends AppCompatActivity {
     private DatabaseSqlite dbHandler;
     private JobsRVAdapter jobsRVAdapter;
     private RecyclerView jobsRV;
+    SharedPreferences sharedPreferences;
+    Button menuBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_jobs);
-
+        setContentView(R.layout.jobs_view);
+        sharedPreferences = getSharedPreferences("userTableID", MODE_PRIVATE);
         // initializing our all variables.
         jobsModalArrayList = new ArrayList<>();
         dbHandler = new DatabaseSqlite(ViewJobs.this);
 
+        int userId = sharedPreferences.getInt("userTableID", -1);
+
         // getting our course array
         // list from db handler class.
-        jobsModalArrayList = dbHandler.readJobs();
+        jobsModalArrayList = dbHandler.readJobs(userId);
 
         // on below line passing our array list to our adapter class.
         jobsRVAdapter = new JobsRVAdapter(jobsModalArrayList, ViewJobs.this);
@@ -43,6 +48,16 @@ public class ViewJobs extends AppCompatActivity {
 
         // setting our adapter to recycler view.
         jobsRV.setAdapter(jobsRVAdapter);
+
+        menuBtn = (Button) findViewById(R.id.menuBtn);
+
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ViewJobs.this, UserJobActivity.class);
+                startActivity(i);
+            }
+        });
 
     }
 }

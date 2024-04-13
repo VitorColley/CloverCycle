@@ -17,7 +17,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
     // https://www.geeksforgeeks.org/how-to-create-and-add-data-to-sqlite-database-in-android/
     //https://androidknowledge.com/login-signup-sqlite-android-studio-java/
 
-    private static final int DATABASE_VERSION = 10;
+    private static final int DATABASE_VERSION = 18;
     private static final String DB_NAME = "clovercycle_db";
 
     // new table for simulated payment functions
@@ -59,6 +59,17 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
             "FOREIGN KEY(user_id) REFERENCES " + TABLE_USERS + "(" + KEY_ID_USERS + ")," +
             "FOREIGN KEY(collector_id) REFERENCES " + TABLE_COLLECTORS + "(" + KEY_ID_COLLECTORS + "))";
 
+    private static final String CREATE_TABLE_COMPLETED_JOBS = "CREATE TABLE " + TABLE_COMPLETED_JOBS +
+            "(" + KEY_ID_COMPLETED_JOBS + " INTEGER PRIMARY KEY AUTOINCREMENT," +
+            KEY_NAME + " TEXT," +
+            KEY_ADDRESS + " TEXT," +
+            KEY_AMOUNT + " TEXT," +
+            "job_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP," +
+            "user_id INTEGER," +
+            "collector_id INTEGER," +
+            "FOREIGN KEY(user_id) REFERENCES " + TABLE_USERS + "(" + KEY_ID_USERS + ")," +
+            "FOREIGN KEY(collector_id) REFERENCES " + TABLE_COLLECTORS + "(" + KEY_ID_COLLECTORS + "))";
+
 
     public DatabaseSqlite(Context context) {
         super(context, DB_NAME, null, DATABASE_VERSION);
@@ -71,6 +82,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
         db.execSQL(CREATE_TABLE_USERS);
         db.execSQL(CREATE_TABLE_COLLECTORS);
         db.execSQL(CREATE_TABLE_JOBS);
+        db.execSQL(CREATE_TABLE_COMPLETED_JOBS);
         db.execSQL(CREATE_TABLE_PAYMENT_INFO);
     }
 
@@ -80,6 +92,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_COLLECTORS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_JOBS);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_COMPLETED_JOBS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_PAYMENT_INFO);
 
         // create new tables
@@ -111,25 +124,57 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
         // database after adding database.
         db.close();
     }
+    public String readValue(String value, String table, int id){
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursorCourses = db.rawQuery("SELECT "+value+" FROM "+table+" WHERE user_id ="+ id, null);
+        cursorCourses.moveToFirst();
+        String returnValue = cursorCourses.getString(0);
 
-    public String acceptJob() {
-        SQLiteDatabase db = this.getWritableDatabase();
-        String address;
-        Cursor cursor = db.rawQuery("SELECT " + KEY_ADDRESS + " FROM " + TABLE_JOBS, null);
+        cursorCourses.close();
+        return returnValue;
+    }
+    public int readValue(String value, String table, String userName){
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursorCourses = db.rawQuery("SELECT "+value+" FROM "+table+" WHERE user_name ="+ userName, null);
+        cursorCourses.moveToFirst();
+        int returnValue = cursorCourses.getInt(0);
 
-        if (cursor.moveToFirst()) {
-
-            @SuppressLint("Range") String newAddress = cursor.getString(cursor.getColumnIndex(KEY_ADDRESS));
-            address = newAddress;
-
-        } else {
-            address = null;
-        }
-        cursor.close();
-        db.close();
-        return address;
+        cursorCourses.close();
+        return returnValue;
     }
 
+    public ArrayList<JobsModal> readJobs(int id) {
+        // on below line we are creating a
+        // database for reading our database.
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        // on below line we are creating a cursor with query to
+        // read data from database.
+        Cursor cursorJobs
+                = db.rawQuery("SELECT * FROM " + TABLE_JOBS+" WHERE user_id ="+ id, null);
+
+        // on below line we are creating a new array list.
+        ArrayList<JobsModal> jobModalArrayList
+                = new ArrayList<>();
+
+        // moving our cursor to first position.
+        if (cursorJobs.moveToFirst()) {
+            do {
+                // on below line we are adding the data from
+                // cursor to our array list.
+                jobModalArrayList.add(new JobsModal(
+                        cursorJobs.getString(1),
+                        cursorJobs.getString(2),
+                        cursorJobs.getString(3)));
+
+            } while (cursorJobs.moveToNext());
+            // moving our cursor to next.
+        }
+        // at last closing our cursor
+        // and returning our array list.
+        cursorJobs.close();
+        return jobModalArrayList;
+    }
     public ArrayList<JobsModal> readJobs() {
         // on below line we are creating a
         // database for reading our database.
@@ -137,30 +182,30 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
 
         // on below line we are creating a cursor with query to
         // read data from database.
-        Cursor cursorCourses
+        Cursor cursorJobs
                 = db.rawQuery("SELECT * FROM " + TABLE_JOBS, null);
 
         // on below line we are creating a new array list.
-        ArrayList<JobsModal> courseModalArrayList
+        ArrayList<JobsModal> jobModalArrayList
                 = new ArrayList<>();
 
         // moving our cursor to first position.
-        if (cursorCourses.moveToFirst()) {
+        if (cursorJobs.moveToFirst()) {
             do {
                 // on below line we are adding the data from
                 // cursor to our array list.
-                courseModalArrayList.add(new JobsModal(
-                        cursorCourses.getString(1),
-                        cursorCourses.getString(2),
-                        cursorCourses.getString(3)));
+                jobModalArrayList.add(new JobsModal(
+                        cursorJobs.getString(1),
+                        cursorJobs.getString(2),
+                        cursorJobs.getString(3)));
 
-            } while (cursorCourses.moveToNext());
+            } while (cursorJobs.moveToNext());
             // moving our cursor to next.
         }
         // at last closing our cursor
         // and returning our array list.
-        cursorCourses.close();
-        return courseModalArrayList;
+        cursorJobs.close();
+        return jobModalArrayList;
     }
 
     public ArrayList<JobsModal> getLastJob() {
@@ -176,15 +221,18 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
                     cursorCourses.getString(3)));
         }
 
-        String name = myList.get(0).getName();
-        db.delete(TABLE_JOBS, "name=?", new String[]{name});
-
         db.close();
         cursorCourses.close();
         return myList;
     }
 
-    public void endJob(ArrayList<JobsModal> myList) {
+    public void deleteJob(String name){
+        SQLiteDatabase db = this.getReadableDatabase();
+        db.delete(TABLE_JOBS, "name=?", new String[]{name});
+        db.close();
+    }
+
+    public void moveJob(ArrayList<JobsModal> myList, int collectorId) {
 
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -196,8 +244,9 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
         values.put(KEY_NAME, name);
         values.put(KEY_ADDRESS, address);
         values.put(KEY_AMOUNT, amount);
+        values.put(KEY_ID_COLLECTORS, collectorId);
 
-        db.insert(TABLE_JOBS, null, values);
+        db.insert(TABLE_COMPLETED_JOBS, null, values);
         db.close();
     }
 }

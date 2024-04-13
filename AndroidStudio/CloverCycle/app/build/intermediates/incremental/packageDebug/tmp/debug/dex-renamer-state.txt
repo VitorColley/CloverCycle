@@ -1,10 +1,10 @@
-#Sat Apr 13 12:55:06 BST 2024
-base.0=C\:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.3=C\:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.4=C\:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.5=C\:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Sat Apr 13 20:23:42 IST 2024
+base.0=C\:\\Users\\Vitor Colley\\Desktop\\CloverCycle-conor-fullVersion\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Vitor Colley\\Desktop\\CloverCycle-conor-fullVersion\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Vitor Colley\\Desktop\\CloverCycle-conor-fullVersion\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=C\:\\Users\\Vitor Colley\\Desktop\\CloverCycle-conor-fullVersion\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.4=C\:\\Users\\Vitor Colley\\Desktop\\CloverCycle-conor-fullVersion\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.5=C\:\\Users\\Vitor Colley\\Desktop\\CloverCycle-conor-fullVersion\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=12/classes.dex

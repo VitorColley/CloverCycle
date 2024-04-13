@@ -9,94 +9,94 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:6:5-81
-12-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:6:22-78
+12-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:7:5-79
-13-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:7:22-76
+13-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:7:22-76
 14
 15    <!-- Include required permissions for Google Maps API to run. -->
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+16-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
 17
 18    <queries>
-18-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+18-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
 19
 20        <!-- Needs to be explicitly declared on Android R+ -->
 21        <package android:name="com.google.android.apps.maps" />
-21-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
-21-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+21-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+21-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
 22    </queries>
 23
 24    <uses-feature
-24-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:10:5-12:35
+24-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:10:5-12:35
 25        android:glEsVersion="0x00030000"
-25-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:11:9-41
+25-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:11:9-41
 26        android:required="true" />
-26-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:12:9-32
+26-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:12:9-32
 27    <uses-feature
-27-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:13:5-15:36
+27-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:13:5-15:36
 28        android:name="android.hardware.wifi"
-28-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:14:9-45
+28-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:14:9-45
 29        android:required="false" />
-29-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:15:9-33
+29-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:15:9-33
 30
 31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-31-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:19:5-76
-31-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:19:22-73
+31-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:19:5-76
+31-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:19:22-73
 32
 33    <permission
-33-->[androidx.core:core:1.10.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+33-->[androidx.core:core:1.10.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
 34        android:name="com.example.clovercycle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-34-->[androidx.core:core:1.10.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+34-->[androidx.core:core:1.10.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
 35        android:protectionLevel="signature" />
-35-->[androidx.core:core:1.10.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+35-->[androidx.core:core:1.10.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
 36
 37    <uses-permission android:name="com.example.clovercycle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-37-->[androidx.core:core:1.10.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
-37-->[androidx.core:core:1.10.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+37-->[androidx.core:core:1.10.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.10.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
 38
 39    <application
-39-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:9:5-65:19
+39-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:9:5-65:19
 40        android:allowBackup="true"
-40-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:10:9-35
+40-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:10:9-35
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-41-->[androidx.core:core:1.10.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+41-->[androidx.core:core:1.10.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\bfcb9b21a43a098b05da512c8a202a49\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
 42        android:dataExtractionRules="@xml/data_extraction_rules"
-42-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:11:9-65
+42-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:11:9-65
 43        android:debuggable="true"
 44        android:extractNativeLibs="false"
 45        android:fullBackupContent="@xml/backup_rules"
-45-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:12:9-54
+45-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:12:9-54
 46        android:icon="@mipmap/ic_launcher"
-46-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:13:9-43
+46-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:13:9-43
 47        android:label="@string/app_name"
-47-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:14:9-41
+47-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:14:9-41
 48        android:supportsRtl="true"
-48-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:15:9-35
+48-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:15:9-35
 49        android:testOnly="true"
 50        android:theme="@style/Theme.CloverCycle" >
-50-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:16:9-49
+50-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:16:9-49
 51        <activity
-51-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:18:9-20:40
+51-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:18:9-20:40
 52            android:name="com.example.clovercycle.CollectorActivity"
-52-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:19:13-46
+52-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:19:13-46
 53            android:exported="false" />
-53-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:20:13-37
+53-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:20:13-37
 54        <activity
-54-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:21:9-25:56
+54-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:21:9-25:56
 55            android:name="com.example.clovercycle.PaymentActivity"
-55-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:22:13-44
+55-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:22:13-44
 56            android:exported="false"
-56-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:23:13-37
+56-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:23:13-37
 57            android:label="@string/title_activity_payments"
-57-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:24:13-60
+57-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:24:13-60
 58            android:theme="@style/Theme.CloverCycle" />
-58-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:25:13-53
+58-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:25:13-53
 59        <!--
 60             TODO: Before you run your application, you need a Google Maps API key.
 61
@@ -109,213 +109,213 @@
 68             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
 69        -->
 70        <meta-data
-70-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:37:9-39:59
+70-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:37:9-39:59
 71            android:name="com.mapbox.token"
-71-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:38:13-44
+71-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:38:13-44
 72            android:value="@string/mapbox_access_token" />
-72-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:39:13-56
+72-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:39:13-56
 73
 74        <activity
-74-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:41:9-44:59
+74-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:41:9-44:59
 75            android:name="com.example.clovercycle.MapsActivity"
-75-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:42:13-41
+75-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:42:13-41
 76            android:exported="false"
-76-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:43:13-37
+76-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:43:13-37
 77            android:label="@string/title_activity_maps" />
-77-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:44:13-56
+77-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:44:13-56
 78        <activity
-78-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:45:9-47:63
+78-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:45:9-47:63
 79            android:name="com.example.clovercycle.RegisterActivity"
-79-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:46:13-45
+79-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:46:13-45
 80            android:label="@string/title_activity_register" />
-80-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:47:13-60
+80-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:47:13-60
 81        <activity
-81-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:48:9-51:47
+81-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:48:9-51:47
 82            android:name="com.example.clovercycle.UserJobActivity"
-82-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:49:13-44
+82-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:49:13-44
 83            android:exported="true"
-83-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:50:13-36
+83-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:50:13-36
 84            android:label="UserJobActicity" />
-84-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:51:13-44
+84-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:51:13-44
 85        <activity
-85-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:52:9-55:40
+85-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:52:9-55:40
 86            android:name="com.example.clovercycle.ViewJobs"
-86-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:53:13-37
+86-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:53:13-37
 87            android:exported="true"
-87-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:54:13-36
+87-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:54:13-36
 88            android:label="ViewJobs" />
-88-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:55:13-37
+88-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:55:13-37
 89        <activity
-89-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:56:9-64:20
+89-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:56:9-64:20
 90            android:name="com.example.clovercycle.MainActivity"
-90-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:57:13-41
+90-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:57:13-41
 91            android:exported="true" >
-91-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:58:13-36
+91-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:58:13-36
 92            <intent-filter>
-92-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:59:13-63:29
+92-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:59:13-63:29
 93                <action android:name="android.intent.action.MAIN" />
-93-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:60:17-69
-93-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:60:25-66
+93-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:60:17-69
+93-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:60:25-66
 94
 95                <category android:name="android.intent.category.LAUNCHER" />
-95-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:62:17-77
-95-->C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:62:27-74
+95-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:62:17-77
+95-->C:\Users\Vitor Colley\Desktop\CloverCycle-conor-fullVersion\AndroidStudio\CloverCycle\app\src\main\AndroidManifest.xml:62:27-74
 96            </intent-filter>
 97        </activity>
 98        <!-- Needs to be explicitly declared on P+ -->
 99        <uses-library
-99-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+99-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
 100            android:name="org.apache.http.legacy"
-100-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+100-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
 101            android:required="false" />
-101-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+101-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\be81fad527d01bebe38111bfe47173ec\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
 102
 103        <activity
-103-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\10f981f2fb02474f55ea0d9b614f6920\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+103-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\10f981f2fb02474f55ea0d9b614f6920\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
 104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-104-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\10f981f2fb02474f55ea0d9b614f6920\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+104-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\10f981f2fb02474f55ea0d9b614f6920\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
 105            android:exported="false"
-105-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\10f981f2fb02474f55ea0d9b614f6920\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+105-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\10f981f2fb02474f55ea0d9b614f6920\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
 106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-106-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\10f981f2fb02474f55ea0d9b614f6920\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+106-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\10f981f2fb02474f55ea0d9b614f6920\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
 107
 108        <meta-data
-108-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\f9c4434e9d112c3ac21703cb2c695a43\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+108-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\f9c4434e9d112c3ac21703cb2c695a43\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
 109            android:name="com.google.android.gms.version"
-109-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\f9c4434e9d112c3ac21703cb2c695a43\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+109-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\f9c4434e9d112c3ac21703cb2c695a43\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
 110            android:value="@integer/google_play_services_version" />
-110-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\f9c4434e9d112c3ac21703cb2c695a43\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+110-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\f9c4434e9d112c3ac21703cb2c695a43\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
 111
 112        <activity
-112-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\0db333cbafc69ffa886697b01a5268c7\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+112-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\0db333cbafc69ffa886697b01a5268c7\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 113            android:name="androidx.compose.ui.tooling.PreviewActivity"
-113-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\0db333cbafc69ffa886697b01a5268c7\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+113-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\0db333cbafc69ffa886697b01a5268c7\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
 114            android:exported="true" />
-114-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\0db333cbafc69ffa886697b01a5268c7\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+114-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\0db333cbafc69ffa886697b01a5268c7\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 115        <activity
-115-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1bab4cdab7d43740dec610a42c44c88a\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:23:9-25:39
+115-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1bab4cdab7d43740dec610a42c44c88a\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:23:9-25:39
 116            android:name="androidx.activity.ComponentActivity"
-116-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1bab4cdab7d43740dec610a42c44c88a\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:24:13-63
+116-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1bab4cdab7d43740dec610a42c44c88a\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:24:13-63
 117            android:exported="true" />
-117-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1bab4cdab7d43740dec610a42c44c88a\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:25:13-36
+117-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1bab4cdab7d43740dec610a42c44c88a\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:25:13-36
 118
 119        <provider
-119-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+119-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
 120            android:name="androidx.startup.InitializationProvider"
-120-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+120-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
 121            android:authorities="com.example.clovercycle.androidx-startup"
-121-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+121-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
 122            android:exported="false" >
-122-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+122-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
 123            <meta-data
-123-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+123-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
 124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-124-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+124-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
 125                android:value="androidx.startup" />
-125-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+125-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\1ef220c13341435d0260bb2e13dc663c\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
 126            <meta-data
-126-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\69338957c3cb779651f1d2cb7df18b67\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+126-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\69338957c3cb779651f1d2cb7df18b67\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
 127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-127-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\69338957c3cb779651f1d2cb7df18b67\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+127-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\69338957c3cb779651f1d2cb7df18b67\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
 128                android:value="androidx.startup" />
-128-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\69338957c3cb779651f1d2cb7df18b67\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+128-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\69338957c3cb779651f1d2cb7df18b67\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
 129            <meta-data
-129-->[com.mapbox.maps:base:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\4ce5daafc925f479886122a0b834612a\transformed\base-11.2.1\AndroidManifest.xml:14:13-16:52
+129-->[com.mapbox.maps:base:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\4ce5daafc925f479886122a0b834612a\transformed\base-11.2.1\AndroidManifest.xml:14:13-16:52
 130                android:name="com.mapbox.maps.MapboxInitializer"
-130-->[com.mapbox.maps:base:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\4ce5daafc925f479886122a0b834612a\transformed\base-11.2.1\AndroidManifest.xml:15:17-65
+130-->[com.mapbox.maps:base:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\4ce5daafc925f479886122a0b834612a\transformed\base-11.2.1\AndroidManifest.xml:15:17-65
 131                android:value="androidx.startup" />
-131-->[com.mapbox.maps:base:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\4ce5daafc925f479886122a0b834612a\transformed\base-11.2.1\AndroidManifest.xml:16:17-49
+131-->[com.mapbox.maps:base:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\4ce5daafc925f479886122a0b834612a\transformed\base-11.2.1\AndroidManifest.xml:16:17-49
 132            <meta-data
-132-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:27:13-29:52
+132-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:27:13-29:52
 133                android:name="com.mapbox.maps.loader.MapboxMapsInitializer"
-133-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:28:17-76
+133-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:28:17-76
 134                android:value="androidx.startup" /> <!-- This entry makes MapboxSDKCommonInitializer discoverable. -->
-134-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:29:17-49
+134-->[com.mapbox.maps:android-core:11.2.1] C:\Users\Vitor Colley\.gradle\caches\transforms-3\d308c297ddbc1c708ddbf37583dd23f3\transformed\android-core-11.2.1\AndroidManifest.xml:29:17-49
 135            <meta-data
-135-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:19:13-21:52
+135-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:19:13-21:52
 136                android:name="com.mapbox.common.MapboxSDKCommonInitializer"
-136-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:20:17-76
+136-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:20:17-76
 137                android:value="androidx.startup" />
-137-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:21:17-49
+137-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:21:17-49
 138            <meta-data
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 139                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
 140                android:value="androidx.startup" />
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
 141        </provider>
 142
 143        <uses-library
-143-->[androidx.window:window:1.0.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+143-->[androidx.window:window:1.0.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 144            android:name="androidx.window.extensions"
-144-->[androidx.window:window:1.0.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+144-->[androidx.window:window:1.0.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 145            android:required="false" />
-145-->[androidx.window:window:1.0.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+145-->[androidx.window:window:1.0.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 146        <uses-library
-146-->[androidx.window:window:1.0.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+146-->[androidx.window:window:1.0.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 147            android:name="androidx.window.sidecar"
-147-->[androidx.window:window:1.0.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+147-->[androidx.window:window:1.0.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 148            android:required="false" />
-148-->[androidx.window:window:1.0.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+148-->[androidx.window:window:1.0.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\8147b63e226defc36139528cba294b94\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 149
 150        <receiver
-150-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:24:9-31:20
+150-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:24:9-31:20
 151            android:name="com.mapbox.common.location.LocationUpdatesReceiver"
-151-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:25:13-78
+151-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:25:13-78
 152            android:enabled="true"
-152-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:26:13-35
+152-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:26:13-35
 153            android:exported="false" >
-153-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:27:13-37
+153-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:27:13-37
 154            <intent-filter>
-154-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:28:13-30:29
+154-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:28:13-30:29
 155                <action android:name="com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES" />
-155-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:29:17-125
-155-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:29:25-122
+155-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:29:17-125
+155-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:29:25-122
 156            </intent-filter>
 157        </receiver>
 158
 159        <service
-159-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:33:9-35:40
+159-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:33:9-35:40
 160            android:name="com.mapbox.common.LifecycleService"
-160-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:34:13-62
+160-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:34:13-62
 161            android:exported="false" />
-161-->[com.mapbox.common:common:24.2.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:35:13-37
+161-->[com.mapbox.common:common:24.2.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\335baf0231574bac989c143128a80b72\transformed\common-24.2.0\AndroidManifest.xml:35:13-37
 162
 163        <receiver
-163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
 164            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 165            android:directBootAware="false"
-165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
 166            android:enabled="true"
-166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
 167            android:exported="true"
-167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
 168            android:permission="android.permission.DUMP" >
-168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 169            <intent-filter>
-169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 170                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 171            </intent-filter>
 172            <intent-filter>
-172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 173                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 174            </intent-filter>
 175            <intent-filter>
-175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 176                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 177            </intent-filter>
 178            <intent-filter>
-178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 179                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Gus\Documents\Projects For college\ValentinesSite-main\CloverCycle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Vitor Colley\.gradle\caches\transforms-3\7aed78b8996c1e30c3b804cf8792b76b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
 180            </intent-filter>
 181        </receiver>
 182    </application>

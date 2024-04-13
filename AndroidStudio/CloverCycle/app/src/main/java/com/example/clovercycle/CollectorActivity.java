@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,8 @@ public class CollectorActivity extends AppCompatActivity {
 
     Button menuBtn, jobBtn, collectBtn, endBtn;
 
+    SharedPreferences sharedPreferences;
+
     private ArrayList<JobsModal> jobsModalArrayList, myList;
     private DatabaseSqlite dbHandler;
     private JobsRVAdapter jobsRVAdapter;
@@ -26,13 +29,14 @@ public class CollectorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_collector);
+        sharedPreferences = getSharedPreferences("collectorTableID", MODE_PRIVATE);
 
         // initializing our all variables.
         jobsModalArrayList = new ArrayList<>();
         myList = new ArrayList<>();
         dbHandler = new DatabaseSqlite(CollectorActivity.this);
 
-        // getting our course array
+        // getting the job array
         // list from db handler class.
         jobsModalArrayList = dbHandler.readJobs();
 
@@ -62,11 +66,14 @@ public class CollectorActivity extends AppCompatActivity {
         jobBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String address = dbHandler.acceptJob();
-                if(address == null){
+                myList = dbHandler.getLastJob();
+                String address = myList.get(0).getAddress();
 
+                if(address == null){
+                    Toast.makeText(CollectorActivity.this, "Sorry, There are no jobs available!", Toast.LENGTH_SHORT).show();
                 }else{
-                    myList = dbHandler.getLastJob();
+
+                    dbHandler.deleteJob(myList.get(0).getName());
 
                     String map ="http://maps.google.com/maps?q="+address;
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(map));
@@ -98,6 +105,7 @@ public class CollectorActivity extends AppCompatActivity {
         endBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 jobsModalArrayList = dbHandler.readJobs();
                 jobsRVAdapter = new JobsRVAdapter(jobsModalArrayList, CollectorActivity.this);
                 jobsRV = findViewById(R.id.jobList);
@@ -105,7 +113,10 @@ public class CollectorActivity extends AppCompatActivity {
                 jobsRV.setLayoutManager(linearLayoutManager);
                 jobsRV.setAdapter(jobsRVAdapter);
 
-                dbHandler.endJob(myList);
+                int collectorId = sharedPreferences.getInt("collectorTableID", -1);
+
+                dbHandler.moveJob(myList, collectorId);
+
                 findViewById(R.id.endBtn).setVisibility(View.GONE);
                 findViewById(R.id.jobBtn).setVisibility(View.VISIBLE);
             }

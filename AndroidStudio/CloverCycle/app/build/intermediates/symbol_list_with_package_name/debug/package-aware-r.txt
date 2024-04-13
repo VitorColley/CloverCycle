@@ -3431,11 +3431,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id address
 id addressInputTf
 id addressLabelTv
 id addressTv
-id addressTxt
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3729,10 +3727,8 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myjobs
-id name
 id nameLabelTv
 id nameTv
-id nameTxt
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
@@ -4107,6 +4103,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
 layout fragment_second
+layout jobs_view
 layout list_jobs
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

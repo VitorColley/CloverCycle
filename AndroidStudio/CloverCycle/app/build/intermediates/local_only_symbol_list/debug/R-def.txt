@@ -14,11 +14,9 @@ id MapsActivityComponent
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
-id address
 id addressInputTf
 id addressLabelTv
 id addressTv
-id addressTxt
 id amount
 id amountInput
 id amountLabelTv
@@ -56,10 +54,8 @@ id mapView
 id menuBtn
 id monthTXT
 id myjobs
-id name
 id nameLabelTv
 id nameTv
-id nameTxt
 id nav_graph
 id passTf
 id password
@@ -86,6 +82,7 @@ layout activity_payment
 layout activity_register
 layout fragment_first
 layout fragment_second
+layout jobs_view
 layout list_jobs
 layout user_job
 mipmap ic_launcher

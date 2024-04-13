@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.navigation:navigation-ui:2.7.7@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/caches/transforms-3/d6866578a089bd11dc17ff5d031c672b/transformed/navigation-ui-2.7.7/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/caches/transforms-3/d6866578a089bd11dc17ff5d031c672b/transformed/navigation-ui-2.7.7/res" />
-      <root url="jar://$PROJECT_DIR$/caches/transforms-3/d6866578a089bd11dc17ff5d031c672b/transformed/navigation-ui-2.7.7/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d6866578a089bd11dc17ff5d031c672b/transformed/navigation-ui-2.7.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d6866578a089bd11dc17ff5d031c672b/transformed/navigation-ui-2.7.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d6866578a089bd11dc17ff5d031c672b/transformed/navigation-ui-2.7.7/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/androidx.navigation/navigation-ui/2.7.7/23473de85ea8510077e13d7f33fd0b107331afed/navigation-ui-2.7.7-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-ui/2.7.7/23473de85ea8510077e13d7f33fd0b107331afed/navigation-ui-2.7.7-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

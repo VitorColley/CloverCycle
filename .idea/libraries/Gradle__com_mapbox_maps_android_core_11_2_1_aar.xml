@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.maps:android-core:11.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/caches/transforms-3/d308c297ddbc1c708ddbf37583dd23f3/transformed/android-core-11.2.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/caches/transforms-3/d308c297ddbc1c708ddbf37583dd23f3/transformed/android-core-11.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d308c297ddbc1c708ddbf37583dd23f3/transformed/android-core-11.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d308c297ddbc1c708ddbf37583dd23f3/transformed/android-core-11.2.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.maps/android-core/11.2.1/aaa84de6242c66a9daf66cfe0e58112eed0998ba/android-core-11.2.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.maps/android-core/11.2.1/aaa84de6242c66a9daf66cfe0e58112eed0998ba/android-core-11.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.maps/android-core/11.2.1/38410012062c8db1f695d3f4bae82c56e73f0219/android-core-11.2.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.maps/android-core/11.2.1/38410012062c8db1f695d3f4bae82c56e73f0219/android-core-11.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

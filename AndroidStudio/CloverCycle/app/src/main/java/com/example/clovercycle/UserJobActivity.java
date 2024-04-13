@@ -1,6 +1,8 @@
 package com.example.clovercycle;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,9 +16,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class UserJobActivity extends AppCompatActivity {
 
-    TextView nameTxt;
-    TextView addressTxt;
     EditText amountInput;
+
+    TextView welcomeMessage;
     Button jobBtn;
     Button menuBtn;
     Button myjobs;
@@ -36,16 +38,26 @@ public class UserJobActivity extends AppCompatActivity {
         //initiate the database
         dbHelper = new DatabaseSqlite(this);
         //find nameTxt, addressTxt, and Button
-        nameTxt = findViewById(R.id.nameTxt);
-        addressTxt = findViewById(R.id.addressTxt);
         amountInput = findViewById(R.id.amountInput);
         jobBtn = findViewById(R.id.jobBtn);
         //create event listener
         menuBtn = (Button) findViewById(R.id.menuBtn);
         myjobs = (Button) findViewById(R.id.myjobs);
-
-
         dbHandler = new DatabaseSqlite(UserJobActivity.this);
+
+        int userId = sharedPreferences.getInt("userTableID", -1);
+        name = dbHandler.readValue("user_name","users", userId );
+
+        welcomeMessage = (TextView) findViewById(R.id.welcome);
+        String message = "Welcome "+name;
+
+        welcomeMessage.setText(message);
+
+
+
+
+
+
         //event listener for my jobs btn
         myjobs.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,18 +78,17 @@ public class UserJobActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 //https://www.geeksforgeeks.org/how-to-read-data-from-sqlite-database-in-android/
-                // Retrieve values from EditText fields
-                name = nameTxt.getText().toString();
-                address = addressTxt.getText().toString();
-                amount = amountInput.getText().toString();
-                //explained in main activity
+                // Retrieve values from EditText fields and database
                 int userId = sharedPreferences.getInt("userTableID", -1);
+                name = dbHandler.readValue("user_name","users", userId );
+                address = dbHandler.readValue("address", "users", userId );;
+                amount = amountInput.getText().toString();
                 String amountString = amountInput.getText().toString(); //get the text from EditText as a String
                 int amountInt = Integer.parseInt(amountString); //parse the String to an int
                 amount = String.valueOf(Integer.parseInt(String.valueOf(amountInt))); //convert the int back to a String
 
                 // validating if the text fields are empty or not.
-                if (name.isEmpty() || address.isEmpty() || amountString.isEmpty()) {
+                if (amountString.isEmpty()) {
                     Toast.makeText(UserJobActivity.this, "Please enter all the data..", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -90,8 +101,6 @@ public class UserJobActivity extends AppCompatActivity {
                 // after adding the data we are displaying a toast message.
                 Toast.makeText(UserJobActivity.this, "Jobs has been added.", Toast.LENGTH_SHORT).show();
                 Log.d("UserJobActivity", "New Job Added  " + name + ", Address  " + address + ", Amount" + amount + ", userID "+ userId);
-                nameTxt.setText("");
-                addressTxt.setText("");
                 amountInput.setText("");
             }
         });
