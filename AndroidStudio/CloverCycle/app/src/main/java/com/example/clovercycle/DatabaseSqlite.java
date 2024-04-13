@@ -87,7 +87,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
     }
 
     // this method is use to add new job to our sqlite database.
-    public void addNewJob(String name, String address, String amount) {
+    public void addNewJob(String name, String address, String amount, int userId) {
 
         // on below line we are creating a variable for
         // our sqlite database and calling writable method
@@ -103,6 +103,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
         values.put(KEY_NAME, name);
         values.put(KEY_ADDRESS, address);
         values.put(KEY_AMOUNT, amount);
+        values.put(KEY_ID_USERS, userId);
         // after adding all values we are passing
         // content values to our table.
         db.insert(TABLE_JOBS, null, values);

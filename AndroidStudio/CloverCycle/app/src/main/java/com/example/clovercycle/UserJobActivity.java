@@ -2,11 +2,13 @@ package com.example.clovercycle;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.SharedPreferences;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,10 +21,11 @@ public class UserJobActivity extends AppCompatActivity {
     Button menuBtn;
     Button myjobs;
     String name, address, amount;
-    int result;
 
     DatabaseSqlite dbHandler;
     DatabaseSqlite dbHelper;
+    SharedPreferences  sharedPreferences;
+
 
 
     @Override
@@ -60,13 +63,15 @@ public class UserJobActivity extends AppCompatActivity {
         jobBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 //https://www.geeksforgeeks.org/how-to-read-data-from-sqlite-database-in-android/
                 // Retrieve values from EditText fields
                 name = nameTxt.getText().toString();
                 address = addressTxt.getText().toString();
-
                 amount = amountInput.getText().toString();
-
+                //explained in main activity
+                SharedPreferences sharedPreferences = getSharedPreferences("userTableID", MODE_PRIVATE);
+                int userId = sharedPreferences.getInt("userTableID", 0);
                 String amountString = amountInput.getText().toString(); //get the text from EditText as a String
                 int amountInt = Integer.parseInt(amountString); //parse the String to an int
                 amount = String.valueOf(Integer.parseInt(String.valueOf(amountInt))); //convert the int back to a String
@@ -80,10 +85,11 @@ public class UserJobActivity extends AppCompatActivity {
 
                 // on below line we are calling a method to add new
                 // job to sqlite data and pass all our values to it.
-                dbHandler.addNewJob(name, address, amount);
+                dbHandler.addNewJob(name, address, amount, userId);
 
                 // after adding the data we are displaying a toast message.
                 Toast.makeText(UserJobActivity.this, "Jobs has been added.", Toast.LENGTH_SHORT).show();
+                Log.d("UserJobActivity", "New Job Added  " + name + ", Address  " + address + ", Amount" + amount + ", userID "+ userId);
                 nameTxt.setText("");
                 addressTxt.setText("");
                 amountInput.setText("");
