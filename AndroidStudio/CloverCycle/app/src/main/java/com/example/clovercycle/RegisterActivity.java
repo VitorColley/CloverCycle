@@ -34,17 +34,16 @@ public class RegisterActivity extends AppCompatActivity {
         // we initiate the database
         dbHelper = new DatabaseSqlite(getApplicationContext());
 
+        //get buttons reference
         userRb = findViewById(R.id.userRb);
         collectorRb = findViewById(R.id.collectorRb);
-
-        // well call those buttons and address their variables
         userNameInput = findViewById(R.id.userNameInputTf);
         passwordInput = findViewById(R.id.passwordInputTf);
         addressInput = findViewById(R.id.addressInputTf);
         emailInput = findViewById(R.id.emailInputTf);
         registerButton = findViewById(R.id.registerButtonBtn);
 
-        // set click listener for registration button (make sure to get all variables named properly for buttons)
+        // set click listener for registration button
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

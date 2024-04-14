@@ -73,14 +73,19 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //method to log in
     public void LogIn(String userName, String password) {
+        //get database
         SQLiteDatabase db = dbHelper.getReadableDatabase();
+        //select the tables and compare info with username and password
         Cursor userCursor = db.rawQuery("SELECT * FROM users WHERE user_name=? AND password=?", new String[]{userName, password});
         Cursor collectorCursor = db.rawQuery("SELECT * FROM collectors WHERE user_name=? AND password=?", new String[]{userName, password});
 
+        //check if they are not null
         int userId = -1;
         int collectorId = -1;
 
+        //check if it is a user or a collector
         if (userCursor.moveToFirst()) {
             int userIdIndex = userCursor.getColumnIndex(DatabaseInterface.KEY_ID_USERS);
             if (userIdIndex != -1) {
@@ -101,10 +106,12 @@ public class MainActivity extends AppCompatActivity {
                 // give the activity handler method the call to direct collector once authenticated
                 activityHandler(userId, collectorId);
             }
+            //display if password is wrong
         } else {
             findViewById(R.id.invalidPassword).setVisibility(View.VISIBLE);
         }
 
+        //close cursors
         userCursor.close();
         collectorCursor.close();
     }

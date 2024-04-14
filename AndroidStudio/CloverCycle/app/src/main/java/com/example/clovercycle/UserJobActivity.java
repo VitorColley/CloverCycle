@@ -33,6 +33,7 @@ public class UserJobActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_job);
+        //get user id
         sharedPreferences = getSharedPreferences("userTableID", MODE_PRIVATE);
         //initiate the database
         dbHelper = new DatabaseSqlite(this);
@@ -43,17 +44,17 @@ public class UserJobActivity extends AppCompatActivity {
         menuBtn = (Button) findViewById(R.id.menuBtn);
         myjobs = (Button) findViewById(R.id.myjobs);
         dbHandler = new DatabaseSqlite(UserJobActivity.this);
-
+        //put user id in a variable
         int userId = sharedPreferences.getInt("userTableID", -1);
         name = dbHandler.readValue("user_name", "users", userId);
-
+        //get message to display username
         welcomeMessage = (TextView) findViewById(R.id.welcome);
         String message = "Welcome " + name;
 
         welcomeMessage.setText(message);
 
 
-        //event listener for my jobs btn
+        //event listener to check your jobs
         myjobs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,12 +63,15 @@ public class UserJobActivity extends AppCompatActivity {
 
             }
         });
+        //button to go back to log in
         menuBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 logoutActivity();
             }
         });
+
+        //button to post job
         jobBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -100,7 +104,7 @@ public class UserJobActivity extends AppCompatActivity {
                 amountInput.setText("");
             }
         });
-
+        //button to go to payments
         Button paymentsBtn;
         paymentsBtn = findViewById(R.id.paymentsBtn);
         paymentsBtn.setOnClickListener(new View.OnClickListener() {
@@ -111,6 +115,7 @@ public class UserJobActivity extends AppCompatActivity {
         });
     }
 
+    //go to view jobs activity
     public void myJobActivity() {
         Intent intent2 = new Intent(this, ViewJobs.class);
         intent2.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -118,6 +123,7 @@ public class UserJobActivity extends AppCompatActivity {
         finish();
     }
 
+    //log out method
     public void logoutActivity() {
         Intent intent1 = new Intent(this, MainActivity.class);
         intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -125,6 +131,7 @@ public class UserJobActivity extends AppCompatActivity {
         finish();
     }
 
+    // go to payment activity
     private void goToPaymentsActivity() {
         Intent intent = new Intent(UserJobActivity.this, PaymentActivity.class);
         startActivity(intent);

@@ -66,7 +66,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e55e026-9141-4de6-a430-43a4c96c2b3c" name="Changes" comment="" />
+    <list default="true" id="9e55e026-9141-4de6-a430-43a4c96c2b3c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/CollectorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/CollectorActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +81,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\mcgil\.android\avd\Pixel_3a_XL_API_34.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Vitor Colley\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/AndroidStudio/CloverCycle">
       <ProjectState />
@@ -93,6 +99,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -101,19 +110,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;ScreenRecorder.SavePath&quot;: &quot;C:\\Users\\mcgil\\Videos&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mcgil/Videos&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "ScreenRecorder.SavePath": "C:\\Users\\mcgil\\Videos",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mcgil/Videos"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Android App.app">
     <configuration name="UserJobActivity" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
       <module name="CloverCycle.app.main" />
