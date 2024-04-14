@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.plugin:maps-logo:11.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/08b6fe1b8b6ce316c16f79f7136ab02b/transformed/maps-logo-11.2.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/08b6fe1b8b6ce316c16f79f7136ab02b/transformed/maps-logo-11.2.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/08b6fe1b8b6ce316c16f79f7136ab02b/transformed/maps-logo-11.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/08b6fe1b8b6ce316c16f79f7136ab02b/transformed/maps-logo-11.2.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-logo/11.2.1/5010eb54ee989d2590e0dfce25f89ec0bb888d0f/maps-logo-11.2.1-javadoc.jar!/" />

@@ -51,6 +51,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView registerLbl;
 
   @NonNull
+  public final TextView textView;
+
+  @NonNull
   public final TextView userName;
 
   @NonNull
@@ -63,7 +66,7 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull ConstraintLayout MainActivityComponent, @NonNull ImageView imageView,
       @NonNull TextView invalidPassword, @NonNull TextView invalidUser, @NonNull Button logInBtn,
       @NonNull EditText passTf, @NonNull TextView password, @NonNull Button registerBtn,
-      @NonNull TextView registerLbl, @NonNull TextView userName,
+      @NonNull TextView registerLbl, @NonNull TextView textView, @NonNull TextView userName,
       @NonNull TextInputEditText userNameTf, @NonNull TextView welcome) {
     this.rootView = rootView;
     this.MainActivityComponent = MainActivityComponent;
@@ -75,6 +78,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.password = password;
     this.registerBtn = registerBtn;
     this.registerLbl = registerLbl;
+    this.textView = textView;
     this.userName = userName;
     this.userNameTf = userNameTf;
     this.welcome = welcome;
@@ -157,6 +161,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
       id = R.id.userName;
       TextView userName = ViewBindings.findChildViewById(rootView, id);
       if (userName == null) {
@@ -177,7 +187,7 @@ public final class ActivityMainBinding implements ViewBinding {
 
       return new ActivityMainBinding((ConstraintLayout) rootView, MainActivityComponent, imageView,
           invalidPassword, invalidUser, logInBtn, passTf, password, registerBtn, registerLbl,
-          userName, userNameTf, welcome);
+          textView, userName, userNameTf, welcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -9,6 +9,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a9048cdabf04b1ee880789085b5e4977/transformed/transition-1.2.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.transition/transition/1.2.0/65d2a5dab39f120d3f584fdead252ce81ec7dbee/transition-1.2.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -41,13 +41,12 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
-    <string name="mapbox_access_token">sk.eyJ1IjoiY2xvdmVyY3ljbGUiLCJhIjoiY2x0eWZjeGVzMGZteDJtcWY5czJmeTQ5eCJ9.1aDkY5iVHsOxy0jfs4UETg</string>
     <string name="next">Next</string>
     <string name="pointer">pointer</string>
     <string name="previous">Previous</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_home">HomeActivity</string>
-    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_payments">PaymentsActivity</string>
     <string name="title_activity_register">Register</string>
     <style name="Base.Theme.CloverCycle" parent="Theme.Material3.DayNight.NoActionBar">
         

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.plugin:maps-annotation:11.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f465ec39504d2a7d5631ffcb429d8a0f/transformed/maps-annotation-11.2.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f465ec39504d2a7d5631ffcb429d8a0f/transformed/maps-annotation-11.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f465ec39504d2a7d5631ffcb429d8a0f/transformed/maps-annotation-11.2.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-annotation/11.2.1/1275bdc81d417537b5435291532af4af2b9cf41b/maps-annotation-11.2.1-javadoc.jar!/" />

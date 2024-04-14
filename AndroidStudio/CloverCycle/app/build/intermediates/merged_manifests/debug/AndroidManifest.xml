@@ -46,27 +46,16 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.CloverCycle" >
-
-        <!--
-             TODO: Before you run your application, you need a Google Maps API key.
-
-             To get one, follow the directions here:
-
-                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-
-             Once you have your API key (it starts with "AIza"), define a new property in your
-             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-        -->
-        <meta-data
-            android:name="com.mapbox.token"
-            android:value="@string/mapbox_access_token" />
-
         <activity
-            android:name="com.example.clovercycle.MapsActivity"
+            android:name="com.example.clovercycle.CollectorActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.clovercycle.PaymentActivity"
             android:exported="false"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_payments"
+            android:theme="@style/Theme.CloverCycle" />
         <activity
             android:name="com.example.clovercycle.RegisterActivity"
             android:label="@string/title_activity_register" />
@@ -74,6 +63,14 @@
             android:name="com.example.clovercycle.UserJobActivity"
             android:exported="true"
             android:label="UserJobActicity" />
+        <activity
+            android:name="com.example.clovercycle.ViewJobs"
+            android:exported="true"
+            android:label="ViewJobs" />
+        <activity
+            android:name="com.example.clovercycle.PaymentHistoryActivity"
+            android:exported="true"
+            android:label="PaymentHistoryActivity" />
         <activity
             android:name="com.example.clovercycle.MainActivity"
             android:exported="true" >
@@ -87,6 +84,22 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
+        <activity
+            android:name="androidx.activity.ComponentActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -111,15 +124,6 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
 
         <uses-library
             android:name="androidx.window.extensions"

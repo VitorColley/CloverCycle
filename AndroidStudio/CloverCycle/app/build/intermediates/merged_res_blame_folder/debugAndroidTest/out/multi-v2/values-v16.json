@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.clovercycle.test.app-mergeDebugAndroidTestResources-33:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\bfcb9b21a43a098b05da512c8a202a49\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

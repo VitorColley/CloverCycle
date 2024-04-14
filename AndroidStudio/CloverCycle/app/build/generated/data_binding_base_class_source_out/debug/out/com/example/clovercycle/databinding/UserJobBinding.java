@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -14,6 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.clovercycle.R;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -23,16 +23,10 @@ public final class UserJobBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView address;
-
-  @NonNull
-  public final EditText addressTxt;
-
-  @NonNull
   public final TextView amount;
 
   @NonNull
-  public final EditText amountInput;
+  public final TextInputEditText amountInput;
 
   @NonNull
   public final ImageView imageView2;
@@ -44,29 +38,27 @@ public final class UserJobBinding implements ViewBinding {
   public final Button menuBtn;
 
   @NonNull
-  public final TextView name;
-
-  @NonNull
-  public final EditText nameTxt;
+  public final Button myjobs;
 
   @NonNull
   public final Button paymentsBtn;
 
-  private UserJobBinding(@NonNull ConstraintLayout rootView, @NonNull TextView address,
-      @NonNull EditText addressTxt, @NonNull TextView amount, @NonNull EditText amountInput,
-      @NonNull ImageView imageView2, @NonNull Button jobBtn, @NonNull Button menuBtn,
-      @NonNull TextView name, @NonNull EditText nameTxt, @NonNull Button paymentsBtn) {
+  @NonNull
+  public final TextView welcome;
+
+  private UserJobBinding(@NonNull ConstraintLayout rootView, @NonNull TextView amount,
+      @NonNull TextInputEditText amountInput, @NonNull ImageView imageView2, @NonNull Button jobBtn,
+      @NonNull Button menuBtn, @NonNull Button myjobs, @NonNull Button paymentsBtn,
+      @NonNull TextView welcome) {
     this.rootView = rootView;
-    this.address = address;
-    this.addressTxt = addressTxt;
     this.amount = amount;
     this.amountInput = amountInput;
     this.imageView2 = imageView2;
     this.jobBtn = jobBtn;
     this.menuBtn = menuBtn;
-    this.name = name;
-    this.nameTxt = nameTxt;
+    this.myjobs = myjobs;
     this.paymentsBtn = paymentsBtn;
+    this.welcome = welcome;
   }
 
   @Override
@@ -96,18 +88,6 @@ public final class UserJobBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.address;
-      TextView address = ViewBindings.findChildViewById(rootView, id);
-      if (address == null) {
-        break missingId;
-      }
-
-      id = R.id.addressTxt;
-      EditText addressTxt = ViewBindings.findChildViewById(rootView, id);
-      if (addressTxt == null) {
-        break missingId;
-      }
-
       id = R.id.amount;
       TextView amount = ViewBindings.findChildViewById(rootView, id);
       if (amount == null) {
@@ -115,7 +95,7 @@ public final class UserJobBinding implements ViewBinding {
       }
 
       id = R.id.amountInput;
-      EditText amountInput = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText amountInput = ViewBindings.findChildViewById(rootView, id);
       if (amountInput == null) {
         break missingId;
       }
@@ -138,15 +118,9 @@ public final class UserJobBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.name;
-      TextView name = ViewBindings.findChildViewById(rootView, id);
-      if (name == null) {
-        break missingId;
-      }
-
-      id = R.id.nameTxt;
-      EditText nameTxt = ViewBindings.findChildViewById(rootView, id);
-      if (nameTxt == null) {
+      id = R.id.myjobs;
+      Button myjobs = ViewBindings.findChildViewById(rootView, id);
+      if (myjobs == null) {
         break missingId;
       }
 
@@ -156,8 +130,14 @@ public final class UserJobBinding implements ViewBinding {
         break missingId;
       }
 
-      return new UserJobBinding((ConstraintLayout) rootView, address, addressTxt, amount,
-          amountInput, imageView2, jobBtn, menuBtn, name, nameTxt, paymentsBtn);
+      id = R.id.welcome;
+      TextView welcome = ViewBindings.findChildViewById(rootView, id);
+      if (welcome == null) {
+        break missingId;
+      }
+
+      return new UserJobBinding((ConstraintLayout) rootView, amount, amountInput, imageView2,
+          jobBtn, menuBtn, myjobs, paymentsBtn, welcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
