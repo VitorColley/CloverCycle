@@ -67,11 +67,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e55e026-9141-4de6-a430-43a4c96c2b3c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/CollectorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/CollectorActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Vitor Colley\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\conor\.android\avd\Pixel_3a_XL_API_34_1.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/AndroidStudio/CloverCycle">
       <ProjectState />
@@ -105,6 +103,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2f44n4MdU4BoN8A6QbbdP8NnCSN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -119,7 +120,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Conor-TestingPhase",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/mcgil/Videos"
   }
