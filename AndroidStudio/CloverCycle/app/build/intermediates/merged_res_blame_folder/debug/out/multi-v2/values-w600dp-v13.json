@@ -4,13 +4,13 @@
             "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverCycle-master\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\conor\\Documents\\GitHub\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "41",
-                        "endOffsets": "53"
+                        "endOffsets": "54"
                     },
                     "to": {
                         "startLines": "2",

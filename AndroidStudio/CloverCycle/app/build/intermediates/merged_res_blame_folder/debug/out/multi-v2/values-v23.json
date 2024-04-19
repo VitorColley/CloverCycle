@@ -4,14 +4,14 @@
             "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverCycle-master\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "source": "C:\\Users\\conor\\Documents\\GitHub\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-v23\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "64",
+                        "startOffsets": "66",
                         "endLines": "7",
                         "endColumns": "12",
-                        "endOffsets": "436"
+                        "endOffsets": "443"
                     },
                     "to": {
                         "startLines": "53",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -53,7 +53,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mcgil\\.gradle\\caches\\transforms-3\\823ec798c60b38d71cf8d26a1b6e90a9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\823ec798c60b38d71cf8d26a1b6e90a9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
