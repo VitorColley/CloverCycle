@@ -70,7 +70,6 @@ public class UserJobActivity extends AppCompatActivity {
                 logoutActivity();
             }
         });
-
         //button to post job
         jobBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -135,6 +134,10 @@ public class UserJobActivity extends AppCompatActivity {
     private void goToPaymentsActivity() {
         Intent intent = new Intent(UserJobActivity.this, PaymentActivity.class);
         startActivity(intent);
+    }
+   //for testing purposes in UserJobActivityTest
+    public void simulateJobButtonClick() {
+        jobBtn.performClick();
     }
 
 

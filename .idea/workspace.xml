@@ -66,6 +66,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="9e55e026-9141-4de6-a430-43a4c96c2b3c" name="Changes" comment="">
 <<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/modules/app/CloverCycle.app.iml" afterDir="false" />
@@ -446,6 +447,33 @@
       <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/RegisterActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/local.properties" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+    <list default="true" id="9e55e026-9141-4de6-a430-43a4c96c2b3c" name="Changes" comment="ConorTestingPhase">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/CollectorActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/RegisterActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/RegisterActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/RegisterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/build/intermediates/javac/debug/classes/com/example/clovercycle/UserJobActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/main/java/com/example/clovercycle/UserJobActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/test/java/com/example/clovercycle/MockIntentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/test/java/com/example/clovercycle/MockIntentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/test/java/com/example/clovercycle/UserJobActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidStudio/CloverCycle/app/src/test/java/com/example/clovercycle/UserJobActivityTest.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -509,15 +537,23 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
+<<<<<<< Updated upstream
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "Oisín-Testing-Done",
+=======
+    "git-widget-placeholder": "main",
+>>>>>>> Stashed changes
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/mcgil/Videos"
   }
 }]]></component>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Gradle.MockIntentTest">
+=======
+  <component name="RunManager" selected="Gradle.UserJobActivityTest">
+>>>>>>> Stashed changes
     <configuration name="UserJobActivity" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
       <module name="CloverCycle.app.main" />
       <option name="DEPLOY" value="true" />
@@ -795,6 +831,54 @@
 >>>>>>> Stashed changes
       <method v="2" />
     </configuration>
+    <configuration name="UserJobActivityTest.testAddNewJob" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/AndroidStudio/CloverCycle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.clovercycle.UserJobActivityTest.testAddNewJob&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserJobActivityTest.testAddNewJob_ToastDisplayed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/AndroidStudio/CloverCycle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.clovercycle.UserJobActivityTest.testAddNewJob_ToastDisplayed&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="CloverCycle.app.androidTest" />
       <method v="2">
@@ -811,8 +895,14 @@
     <recent_temporary>
       <list>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <item itemvalue="Gradle.MockIntentTest" />
+=======
+>>>>>>> Stashed changes
         <item itemvalue="Gradle.UserJobActivityTest" />
+        <item itemvalue="Gradle.MockIntentTest" />
+        <item itemvalue="Gradle.UserJobActivityTest.testAddNewJob_ToastDisplayed" />
+        <item itemvalue="Gradle.UserJobActivityTest.testAddNewJob" />
         <item itemvalue="Android App.UserJobActivity" />
 =======
         <item itemvalue="Gradle.CollectorActivityTest" />
@@ -833,6 +923,19 @@
       <option name="presentableId" value="Default" />
       <updated>1713047179866</updated>
     </task>
+    <task id="LOCAL-00001" summary="ConorTestingPhase">
+      <option name="closed" value="true" />
+      <created>1713431190627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713431190627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ConorTestingPhase" />
+    <option name="LAST_COMMIT_MESSAGE" value="ConorTestingPhase" />
   </component>
 </project>

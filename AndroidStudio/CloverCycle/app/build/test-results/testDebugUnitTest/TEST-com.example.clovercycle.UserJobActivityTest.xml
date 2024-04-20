@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.clovercycle.UserJobActivityTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-04-20T12:35:51" hostname="DESKTOP-DC660D8" time="0.001">
+  <properties/>
+  <testcase name="amountValidator_NullAmount_ReturnsFalse" classname="com.example.clovercycle.UserJobActivityTest" time="0.001"/>
+  <testcase name="amountValidator_EmptyAmount_ReturnsFalse" classname="com.example.clovercycle.UserJobActivityTest" time="0.0"/>
+  <testcase name="amountValidator_CorrectAmountSimple_ReturnsTrue" classname="com.example.clovercycle.UserJobActivityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
