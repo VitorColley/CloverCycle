@@ -4,7 +4,11 @@
             "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-v26/values-v26.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+=======
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

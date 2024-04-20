@@ -22,7 +22,7 @@ public class CollectorActivity extends AppCompatActivity {
     //array list to display jobs
     private ArrayList<JobsModal> jobsModalArrayList, myList;
     //database
-    private DatabaseSqlite dbHandler;
+    protected DatabaseSqlite dbHandler;
     //adapter to extract the strings from the database
     private JobsRVAdapter jobsRVAdapter;
     //place to display teh jobs

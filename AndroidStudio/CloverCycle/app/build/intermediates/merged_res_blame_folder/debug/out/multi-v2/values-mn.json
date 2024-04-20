@@ -4,7 +4,45 @@
             "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-mn/values-mn.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-mn\\values-mn.xml",
+=======
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\f9c4434e9d112c3ac21703cb2c695a43\\transformed\\play-services-basement-18.3.0\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "145",
+                        "endOffsets": "340"
+                    },
+                    "to": {
+                        "startLines": "63",
+                        "startColumns": "4",
+                        "startOffsets": "6162",
+                        "endColumns": "149",
+                        "endOffsets": "6307"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\d6866578a089bd11dc17ff5d031c672b\\transformed\\navigation-ui-2.7.7\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,120",
+                        "endOffsets": "156,277"
+                    },
+                    "to": {
+                        "startLines": "170,171",
+                        "startColumns": "4,4",
+                        "startOffsets": "16218,16324",
+                        "endColumns": "105,120",
+                        "endOffsets": "16319,16440"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\44375abf9ab55232e2bfa216064813ab\\transformed\\material-1.11.0\\res\\values-mn\\values-mn.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +61,11 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\bfcb9b21a43a098b05da512c8a202a49\\transformed\\core-1.10.0\\res\\values-mn\\values-mn.xml",
+=======
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\bfcb9b21a43a098b05da512c8a202a49\\transformed\\core-1.10.0\\res\\values-mn\\values-mn.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,6 +82,7 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\d6866578a089bd11dc17ff5d031c672b\\transformed\\navigation-ui-2.7.7\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2,3",
@@ -58,6 +101,9 @@
                 },
                 {
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\59d680731b8a585d2a0b2b9bb7a23613\\transformed\\material3-1.1.1\\res\\values-mn\\values-mn.xml",
+=======
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\59d680731b8a585d2a0b2b9bb7a23613\\transformed\\material3-1.1.1\\res\\values-mn\\values-mn.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,6 +120,7 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\c4c7c71ac12554f5a8bcc0a3cbadcbf1\\transformed\\ui-release\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
@@ -92,6 +139,9 @@
                 },
                 {
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-mn\\values-mn.xml",
+=======
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-mn\\values-mn.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -108,7 +158,28 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\10f981f2fb02474f55ea0d9b614f6920\\transformed\\play-services-base-18.3.0\\res\\values-mn\\values.xml",
+=======
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\c4c7c71ac12554f5a8bcc0a3cbadcbf1\\transformed\\ui-release\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,283,375,471,554,640,734,821,902,975,1046,1129,1212,1285,1362,1428",
+                        "endColumns": "91,85,91,95,82,85,93,86,80,72,70,82,82,72,76,65,116",
+                        "endOffsets": "192,278,370,466,549,635,729,816,897,970,1041,1124,1207,1280,1357,1423,1540"
+                    },
+                    "to": {
+                        "startLines": "52,53,104,105,107,112,113,172,173,174,175,177,178,181,185,186,187",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4899,4991,10923,11015,11190,11593,11679,16445,16532,16613,16686,16841,16924,17169,17527,17604,17670",
+                        "endColumns": "91,85,91,95,82,85,93,86,80,72,70,82,82,72,76,65,116",
+                        "endOffsets": "4986,5072,11010,11106,11268,11674,11768,16527,16608,16681,16752,16919,17002,17237,17599,17665,17782"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\10f981f2fb02474f55ea0d9b614f6920\\transformed\\play-services-base-18.3.0\\res\\values-mn\\values.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -123,6 +194,7 @@
                         "endColumns": "109,156,131,106,136,125,128,109,143,106,167,128,140,167,60,61,76",
                         "endOffsets": "5259,5416,5548,5655,5792,5918,6047,6157,6451,6558,6726,6855,6996,7164,7225,7287,7364"
                     }
+<<<<<<< Updated upstream
                 },
                 {
                     "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\f9c4434e9d112c3ac21703cb2c695a43\\transformed\\play-services-basement-18.3.0\\res\\values-mn\\values.xml",
@@ -140,6 +212,8 @@
                         "endColumns": "149",
                         "endOffsets": "6307"
                     }
+=======
+>>>>>>> Stashed changes
                 }
             ]
         }

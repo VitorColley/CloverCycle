@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.clovercycle.CollectorActivityTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2024-04-20T08:25:58" hostname="HUE" time="3.542">
+  <properties/>
+  <testcase name="testReadValueWithId" classname="com.example.clovercycle.CollectorActivityTest" time="3.092"/>
+  <testcase name="testGetLastJob" classname="com.example.clovercycle.CollectorActivityTest" time="0.128"/>
+  <testcase name="testDeleteJob" classname="com.example.clovercycle.CollectorActivityTest" time="0.112"/>
+  <testcase name="testReadValueWithUsername" classname="com.example.clovercycle.CollectorActivityTest" time="0.105">
+    <failure message="android.database.sqlite.SQLiteException: DB[10] prepare() SELECT address FROM jobs WHERE user_name ='user' [no such column: user_name] (code 1 SQLITE_ERROR), base error code: 1" type="android.database.sqlite.SQLiteException">android.database.sqlite.SQLiteException: DB[10] prepare() SELECT address FROM jobs WHERE user_name ='user' [no such column: user_name] (code 1 SQLITE_ERROR), base error code: 1
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.getSqliteException(ShadowLegacySQLiteConnection.java:984)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.getFuture(ShadowLegacySQLiteConnection.java:848)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.lambda$execute$5(ShadowLegacySQLiteConnection.java:835)
+	at app//org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.execute(ShadowLegacySQLiteConnection.java:835)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.prepareStatement(ShadowLegacySQLiteConnection.java:480)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection.nativePrepareStatement(ShadowLegacySQLiteConnection.java:97)
+	at android.database.sqlite.SQLiteConnection.nativePrepareStatement(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.acquirePreparedStatement(SQLiteConnection.java:890)
+	at android.database.sqlite.SQLiteConnection.prepare(SQLiteConnection.java:501)
+	at android.database.sqlite.SQLiteSession.prepare(SQLiteSession.java:588)
+	at android.database.sqlite.SQLiteProgram.__constructor__(SQLiteProgram.java:58)
+	at android.database.sqlite.SQLiteProgram.&lt;init&gt;(SQLiteProgram.java:41)
+	at android.database.sqlite.SQLiteQuery.&lt;init&gt;(SQLiteQuery.java:37)
+	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:46)
+	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1392)
+	at android.database.sqlite.SQLiteDatabase.rawQuery(SQLiteDatabase.java:1331)
+	at com.example.clovercycle.DatabaseSqlite.readValue(DatabaseSqlite.java:141)
+	at com.example.clovercycle.CollectorActivityTest.testReadValueWithUsername(CollectorActivityTest.java:61)
+	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:489)
+	at app//org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:290)
+	at app//org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:104)
+	at java.base@17.0.7/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.concurrent.ExecutionException: com.almworks.sqlite4java.SQLiteException: [1] DB[10] prepare() SELECT address FROM jobs WHERE user_name ='user' [no such column: user_name]
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at com.google.common.util.concurrent.Uninterruptibles.getUninterruptibly(Uninterruptibles.java:240)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.getFuture(ShadowLegacySQLiteConnection.java:841)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.lambda$execute$5(ShadowLegacySQLiteConnection.java:835)
+	at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.execute(ShadowLegacySQLiteConnection.java:835)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections.prepareStatement(ShadowLegacySQLiteConnection.java:480)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection.nativePrepareStatement(ShadowLegacySQLiteConnection.java:97)
+	at android.database.sqlite.SQLiteConnection.nativePrepareStatement(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.$$robo$$android_database_sqlite_SQLiteConnection$acquirePreparedStatement(SQLiteConnection.java:890)
+	at android.database.sqlite.SQLiteConnection.acquirePreparedStatement(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.$$robo$$android_database_sqlite_SQLiteConnection$prepare(SQLiteConnection.java:501)
+	at android.database.sqlite.SQLiteConnection.prepare(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteSession.$$robo$$android_database_sqlite_SQLiteSession$prepare(SQLiteSession.java:588)
+	at android.database.sqlite.SQLiteSession.prepare(SQLiteSession.java)
+	at android.database.sqlite.SQLiteProgram.$$robo$$android_database_sqlite_SQLiteProgram$__constructor__(SQLiteProgram.java:58)
+	at android.database.sqlite.SQLiteProgram.&lt;init&gt;(SQLiteProgram.java:41)
+	at android.database.sqlite.SQLiteQuery.&lt;init&gt;(SQLiteQuery.java:37)
+	at android.database.sqlite.SQLiteDirectCursorDriver.$$robo$$android_database_sqlite_SQLiteDirectCursorDriver$query(SQLiteDirectCursorDriver.java:46)
+	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java)
+	at android.database.sqlite.SQLiteDatabase.$$robo$$android_database_sqlite_SQLiteDatabase$rawQueryWithFactory(SQLiteDatabase.java:1392)
+	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java)
+	at android.database.sqlite.SQLiteDatabase.$$robo$$android_database_sqlite_SQLiteDatabase$rawQuery(SQLiteDatabase.java:1331)
+	at android.database.sqlite.SQLiteDatabase.rawQuery(SQLiteDatabase.java)
+	at com.example.clovercycle.DatabaseSqlite.readValue(DatabaseSqlite.java:141)
+	at com.example.clovercycle.CollectorActivityTest.testReadValueWithUsername(CollectorActivityTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	... 13 more
+Caused by: com.almworks.sqlite4java.SQLiteException: [1] DB[10] prepare() SELECT address FROM jobs WHERE user_name ='user' [no such column: user_name]
+	at app//com.almworks.sqlite4java.SQLiteConnection.throwResult(SQLiteConnection.java:1436)
+	at app//com.almworks.sqlite4java.SQLiteConnection.prepare(SQLiteConnection.java:580)
+	at app//com.almworks.sqlite4java.SQLiteConnection.prepare(SQLiteConnection.java:635)
+	at app//com.almworks.sqlite4java.SQLiteConnection.prepare(SQLiteConnection.java:622)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections$2.call(ShadowLegacySQLiteConnection.java:484)
+	at org.robolectric.shadows.ShadowLegacySQLiteConnection$Connections$2.call(ShadowLegacySQLiteConnection.java:481)
+	... 4 more
+</failure>
+  </testcase>
+  <testcase name="testMoveJob" classname="com.example.clovercycle.CollectorActivityTest" time="0.105"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

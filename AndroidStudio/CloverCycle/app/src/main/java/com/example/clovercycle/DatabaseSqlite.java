@@ -136,11 +136,11 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
         return returnValue;
     }
 
-    public int readValue(String value, String table, String userName) {
+    public String readValue(String value, String table, String userName) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursorCourses = db.rawQuery("SELECT " + value + " FROM " + table + " WHERE user_name =" + userName, null);
         cursorCourses.moveToFirst();
-        int returnValue = cursorCourses.getInt(0);
+        String returnValue = cursorCourses.getString(0);
 
         cursorCourses.close();
         return returnValue;
@@ -276,5 +276,25 @@ public class DatabaseSqlite extends SQLiteOpenHelper implements DatabaseInterfac
         cursor.close();
         db.close();
         return paymentList;
+    }
+    public ArrayList<JobsModal> readCompleteJobs() {
+
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursorJobs = db.rawQuery("SELECT * FROM " + TABLE_COMPLETED_JOBS, null);
+
+        ArrayList<JobsModal> jobModalArrayList = new ArrayList<>();
+
+        if (cursorJobs.moveToFirst()) {
+            do {
+                jobModalArrayList.add(new JobsModal(
+                        cursorJobs.getString(1),
+                        cursorJobs.getString(2),
+                        cursorJobs.getString(3)));
+
+            } while (cursorJobs.moveToNext());
+        }
+        cursorJobs.close();
+        return jobModalArrayList;
     }
 }

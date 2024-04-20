@@ -4,13 +4,17 @@
             "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\conor\\Documents\\GitHub\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+=======
+                    "source": "C:\\Users\\Vitor Colley\\Desktop\\CloverCycle-conor-fullVersion\\AndroidStudio\\CloverCycle\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "17",
+                        "startOffsets": "16",
                         "endColumns": "42",
-                        "endOffsets": "55"
+                        "endOffsets": "54"
                     },
                     "to": {
                         "startLines": "2",

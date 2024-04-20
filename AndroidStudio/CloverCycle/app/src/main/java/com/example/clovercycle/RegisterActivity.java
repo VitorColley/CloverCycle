@@ -78,9 +78,9 @@ public class RegisterActivity extends AppCompatActivity {
 
                 // call method to handle registration
                 if (userRb.isChecked()) {
-                    registerUser();
+                    registerUser(userName, password, address, email);
                 } else if (collectorRb.isChecked()) {
-                    registerCollector();
+                    registerCollector(userName, password, address, email);
                 }
 
             }
@@ -149,7 +149,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     // method to handle collector registration
-    private void registerCollector() {
+    public void registerCollector(String userName, String password, String address, String email) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
 
@@ -168,7 +168,7 @@ public class RegisterActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void registerUser() {
+    public void registerUser(String userName, String password, String address, String email) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
 
