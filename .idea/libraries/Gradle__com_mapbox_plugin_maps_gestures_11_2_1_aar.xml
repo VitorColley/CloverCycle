@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.plugin:maps-gestures:11.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e7efc95882c26215e3644c7327bd95a8/transformed/maps-gestures-11.2.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e7efc95882c26215e3644c7327bd95a8/transformed/maps-gestures-11.2.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e7efc95882c26215e3644c7327bd95a8/transformed/maps-gestures-11.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/e7efc95882c26215e3644c7327bd95a8/transformed/maps-gestures-11.2.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/caches/transforms-3/e7efc95882c26215e3644c7327bd95a8/transformed/maps-gestures-11.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/e7efc95882c26215e3644c7327bd95a8/transformed/maps-gestures-11.2.1/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-gestures/11.2.1/c203cfb28f1a9a9308444a17e9ae39c9126d298a/maps-gestures-11.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.plugin/maps-gestures/11.2.1/c203cfb28f1a9a9308444a17e9ae39c9126d298a/maps-gestures-11.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-gestures/11.2.1/f5534aeab5339ed2416ed5a4598987b0f8d4f42b/maps-gestures-11.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.plugin/maps-gestures/11.2.1/f5534aeab5339ed2416ed5a4598987b0f8d4f42b/maps-gestures-11.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

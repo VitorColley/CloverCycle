@@ -1,13 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.clovercycle.app-mergeDebugResources-75:/values-v16/values-v16.xml",
+            "outputFile": "com.example.clovercycle.app-mergeDebugResources-2:/values-v16/values-v16.xml",
             "map": [
                 {
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
-=======
-                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\bfcb9b21a43a098b05da512c8a202a49\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\caches\\transforms-3\\bfcb9b21a43a098b05da512c8a202a49\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -17,8 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Vitor Colley\\.gradle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
->>>>>>> Stashed changes
+                    "source": "C:\\Users\\Gus\\Documents\\Projects For college\\ValentinesSite-main\\CloverCycle\\caches\\transforms-3\\b80d738d1f74cdc0176ae20d1cd041ef\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,19 +31,6 @@
                         "endColumns": "12",
                         "endOffsets": "289"
                     }
-<<<<<<< Updated upstream
-                },
-                {
-                    "source": "C:\\Users\\conor\\.gradle\\caches\\transforms-3\\bfcb9b21a43a098b05da512c8a202a49\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-=======
->>>>>>> Stashed changes
                 }
             ]
         }

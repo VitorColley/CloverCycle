@@ -1,46 +1,46 @@
 [
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/list_jobs.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/list_jobs.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/activity_payment_history.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/activity_payment_history.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_collector.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_collector.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/fragment_second.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/fragment_second.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_payment.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_payment.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_payment_history.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_payment_history.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/list_jobs.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/list_jobs.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/fragment_second.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/fragment_second.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/activity_collector.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/activity_collector.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/user_job.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/user_job.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/activity_payment.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/activity_payment.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/payment_history_item.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/payment_history_item.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/user_job.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/user_job.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_main.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_main.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/payment_history_item.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/payment_history_item.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/fragment_first.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/fragment_first.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/fragment_first.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/fragment_first.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/jobs_view.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/jobs_view.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/jobs_view.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/jobs_view.xml"
     },
     {
-        "merged": "com.example.clovercycle.app-mergeDebugResources-76:/layout/activity_register.xml",
-        "source": "com.example.clovercycle.app-main-79:/layout/activity_register.xml"
+        "merged": "com.example.clovercycle.app-mergeDebugResources-3:/layout/activity_register.xml",
+        "source": "com.example.clovercycle.app-main-6:/layout/activity_register.xml"
     }
 ]

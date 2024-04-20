@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.plugin:maps-compass:11.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/da5045f44811d6bf716170c00a52c5c5/transformed/maps-compass-11.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/da5045f44811d6bf716170c00a52c5c5/transformed/maps-compass-11.2.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/da5045f44811d6bf716170c00a52c5c5/transformed/maps-compass-11.2.1/res" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/da5045f44811d6bf716170c00a52c5c5/transformed/maps-compass-11.2.1/res" />
+      <root url="jar://$PROJECT_DIR$/caches/transforms-3/da5045f44811d6bf716170c00a52c5c5/transformed/maps-compass-11.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/caches/transforms-3/da5045f44811d6bf716170c00a52c5c5/transformed/maps-compass-11.2.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-compass/11.2.1/9a09f38c81ed2e1f01e3675cb435b3d621212a3b/maps-compass-11.2.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.plugin/maps-compass/11.2.1/9a09f38c81ed2e1f01e3675cb435b3d621212a3b/maps-compass-11.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-compass/11.2.1/df41b57e84123e6c36fa83b8fcc3c192cb67b8ed/maps-compass-11.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.mapbox.plugin/maps-compass/11.2.1/df41b57e84123e6c36fa83b8fcc3c192cb67b8ed/maps-compass-11.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
