@@ -18,6 +18,7 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
     }
 
     buildTypes {
@@ -26,10 +27,27 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
+
+    sourceSets {
+        getByName("main") {
+            resources.srcDirs("src/main/res")
+        }
+        getByName("test") {
+            resources.srcDirs("src/main/res", "src/test/res")
+        }
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    testOptions {
+        unitTests {
+            isIncludeAndroidResources = true
+        }
+    }
+
     buildFeatures {
         viewBinding = true
         compose = true
@@ -42,7 +60,9 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
 }
+
 
 dependencies {
 
@@ -61,6 +81,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+    implementation("androidx.test:monitor:1.6.1")
     // Required -- JUnit 4 framework
     testImplementation("junit:junit:4.13.2")
     //below are the dependencies for mockito
@@ -72,6 +93,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    //below are the dependencies for robolectric
+    testImplementation ("org.robolectric:robolectric:4.12")
     configurations.implementation {
         exclude("kotlin-stdlib-1.8.20", "org.jetbrains.kotlin:kotlin-stdlib:1.8.20");
         exclude("kotlin-stdlib-jdk7-1.6.21", "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21");

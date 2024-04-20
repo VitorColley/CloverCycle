@@ -1,10 +1,10 @@
-#Sun Apr 14 17:45:19 IST 2024
-base.0=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverCycle-master\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverCycle-master\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverCycle-master\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.3=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverCycle-master\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.4=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverCycle-master\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.5=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverCycle-master\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Sat Apr 20 00:28:19 IST 2024
+base.0=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverTest\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverTest\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverTest\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverTest\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.4=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverTest\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.5=C\:\\Users\\mcgil\\Desktop\\College\\Semester 4\\CloverTest\\CloverCycle\\AndroidStudio\\CloverCycle\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=12/classes.dex

@@ -20,6 +20,9 @@ public class PaymentHistoryActivity extends AppCompatActivity {
     private DatabaseSqlite databaseHelper;
     private Button mainMenuButton;
 
+    public PaymentHistoryActivity(DatabaseInterface dbMock) {
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

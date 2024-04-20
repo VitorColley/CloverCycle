@@ -11,12 +11,12 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import java.util.ArrayList;
 
 public class PaymentActivity extends AppCompatActivity {
+
+    public PaymentActivity() {
+
+    }
 
     //references
     //https://stackoverflow.com/questions/24610527/how-do-i-get-a-button-to-open-another-activity
@@ -62,18 +62,27 @@ public class PaymentActivity extends AppCompatActivity {
     }
 
 
-    private void processPayment(String cardNumber, String expiryDate) {
+    public boolean processPayment(String cardNumber, String expiryDate) {
+        if (cardNumber == null || cardNumber.length() != 16) {
+            Toast.makeText(PaymentActivity.this, "Invalid card number", Toast.LENGTH_LONG).show();
+            return false;
+        }
+        if (expiryDate == null || expiryDate.length() != 4) {
+            Toast.makeText(PaymentActivity.this, "Invalid expiry date", Toast.LENGTH_LONG).show();
+            return false;
+        }
         // simulate network delay
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // after payment is successful, save payment info to database
-                // TODO allow user to toggle this
+                //after payment is successful, save payment info to database
                 savePaymentInfoToDatabase(cardNumber, expiryDate);
                 Toast.makeText(PaymentActivity.this, "Payment Successful", Toast.LENGTH_LONG).show();
             }
         }, 2000); // 2 seconds delay, will adjust as needed
+        return true;
     }
+
 
     private void savePaymentInfoToDatabase(String cardNumber, String expiryDate) {
         DatabaseSqlite dbHelper = new DatabaseSqlite(PaymentActivity.this);
@@ -88,7 +97,7 @@ public class PaymentActivity extends AppCompatActivity {
         if (newRowId != -1) {
             Toast.makeText(PaymentActivity.this, "Payment Info Saved", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(PaymentActivity.this, "Error Saving Payment Info", Toast.LENGTH_SHORT).show();
+
         }
     }
 
